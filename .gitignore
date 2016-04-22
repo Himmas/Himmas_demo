@@ -20,10 +20,10 @@ coverage
 # node-waf configuration
 .lock-wscript
 
-# hbÅäÖÃ
+# hbé…ç½®
 /.project
 
-# webstormÎÄ¼ş¼ĞºöÂÔ
+# webstormæ–‡ä»¶å¤¹å¿½ç•¥
 .idea
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
