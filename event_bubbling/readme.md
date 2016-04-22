@@ -10,7 +10,14 @@ $outer.addEventListener("click", function (e) {
  
 ```
 addEventListener:可为元素添加事件监听处理程序,具体可参考[这里](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)
-第三个参数为布尔类型 true:在捕获阶段调用 false:在冒泡阶段调用事件处理程序
+
+第三个参数为布尔类型 
+
+true:在捕获阶段调用 
+
+false:在冒泡阶段调用事件处理程序
+
+
 ```javascript
 addEventListener语法：
 element.addEventListener(event,function,useCapture);
