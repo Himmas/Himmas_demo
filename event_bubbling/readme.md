@@ -1,6 +1,6 @@
-## ¹ØÓÚÊÂ¼şÃ°ÅİÓëÊÂ¼ş²¶»ñ
+## å…³äºäº‹ä»¶å†’æ³¡ä¸äº‹ä»¶æ•è·
  [Demo](http://himmas.github.io/Himmas_demo/event_bubbling/)
-## ¹ØÓÚdemo
+## å…³äºdemo
 
 ```javascript
 $outer.addEventListener("click", function (e) {
@@ -9,30 +9,30 @@ $outer.addEventListener("click", function (e) {
 }, false);
  
 ```
-addEventListener:¿ÉÎªÔªËØÌí¼ÓÊÂ¼ş¼àÌı´¦Àí³ÌĞò,¾ßÌå¿É²Î¿¼[ÕâÀï](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)
+addEventListener:å¯ä¸ºå…ƒç´ æ·»åŠ äº‹ä»¶ç›‘å¬å¤„ç†ç¨‹åº,å…·ä½“å¯å‚è€ƒ[è¿™é‡Œ](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)
 
-µÚÈı¸ö²ÎÊıÎª²¼¶ûÀàĞÍ 
+ç¬¬ä¸‰ä¸ªå‚æ•°ä¸ºå¸ƒå°”ç±»å‹ 
 
-true:ÔÚ²¶»ñ½×¶Îµ÷ÓÃ 
+true:åœ¨æ•è·é˜¶æ®µè°ƒç”¨ 
 
-false:ÔÚÃ°Åİ½×¶Îµ÷ÓÃÊÂ¼ş´¦Àí³ÌĞò
+false:åœ¨å†’æ³¡é˜¶æ®µè°ƒç”¨äº‹ä»¶å¤„ç†ç¨‹åº
 
 
 ```javascript
-addEventListenerÓï·¨£º
+addEventListenerè¯­æ³•ï¼š
 element.addEventListener(event,function,useCapture);
-addEventListener²ÎÊıÖµ£º
-event:±ØĞë¡£×Ö·û´®£¬Ö¸¶¨ÊÂ¼şÃû¡££¨×¢Òâ£º²»ÒªÊ¹ÓÃ"on"Ç°×º¡£ÀıÈç£ºÊ¹ÓÃ"click",¶ø²»ÊÇ"onclick"£©;
-function:±ØĞë¡£Ö¸¶¨ÊÂ¼ş´¥·¢ÊÂÖ´ĞĞµÄº¯Êı¡£
-useCapture:¿ÉÑ¡¡£²¼¶ûÖµ¡£
-    -true£ºÊÂ¼şÔÚ²¶»ñ½×¶ÎÖ´ĞĞ
-    -false£ºÄ¬ÈÏ¡£ÊÂ¼şÔÚÃ°Åİ½×¶ÎÖ´ĞĞ¡£
+addEventListenerå‚æ•°å€¼ï¼š
+event:å¿…é¡»ã€‚å­—ç¬¦ä¸²ï¼ŒæŒ‡å®šäº‹ä»¶åã€‚ï¼ˆæ³¨æ„ï¼šä¸è¦ä½¿ç”¨"on"å‰ç¼€ã€‚ä¾‹å¦‚ï¼šä½¿ç”¨"click",è€Œä¸æ˜¯"onclick"ï¼‰;
+function:å¿…é¡»ã€‚æŒ‡å®šäº‹ä»¶è§¦å‘äº‹æ‰§è¡Œçš„å‡½æ•°ã€‚
+useCapture:å¯é€‰ã€‚å¸ƒå°”å€¼ã€‚
+    -trueï¼šäº‹ä»¶åœ¨æ•è·é˜¶æ®µæ‰§è¡Œ
+    -falseï¼šé»˜è®¤ã€‚äº‹ä»¶åœ¨å†’æ³¡é˜¶æ®µæ‰§è¡Œã€‚
 ```
 ```javascript
 e.stopPropagation();
 ```
-stopPropagation:×èÖ¹ÊÂ¼şÃ°Åİ
-ÔÚdemoÖĞ´ò¿ª¿ØÖÆÌ¨¿ÉÒÔ¿´µ½´òÓ¡³öÏàÓ¦µÄtargetºÍcurrenttarget
+stopPropagation:é˜»æ­¢äº‹ä»¶å†’æ³¡
+åœ¨demoä¸­æ‰“å¼€æ§åˆ¶å°å¯ä»¥çœ‹åˆ°æ‰“å°å‡ºç›¸åº”çš„targetå’Œcurrenttarget
 
-## Ê¾ÀıÍ¼
+## ç¤ºä¾‹å›¾
 ![](http://7xrkml.com1.z0.glb.clouddn.com/20131028160201571.jpg)
