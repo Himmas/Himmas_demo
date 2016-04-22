@@ -33,7 +33,7 @@
 </head>
 <body onclick="alert('我是body')">
 <div class="item" id="outer" onclick="alert('我是蓝盒子')">
-    <div class="item" id="inner" onclick="alert('我是白盒子');stopbubble(arguments[0])">
+    <div class="item" id="inner" onclick="alert('我是白盒子');">
         <div class="item" id="core" onclick="alert('我是红盒子')">
             点我
         </div>
@@ -43,13 +43,17 @@
 </body>
 <!-- 应该放在body的下面 -->
 <script type="text/javascript">
-    var $core = document.getElementById("core");
-    $core.addEventListener("click", function () {
-        alert("我是监听事件")
-    }, true);
+    var $outer = document.getElementById("outer");
     //添加事件监听事件
-    function stopbubble(e) {
-        e.stopPropagation(); //阻止冒泡
-    }
+    $outer.addEventListener("click", function (e) {
+        e = e||window.event;
+        alert("我是蓝盒子的监听事件");
+        console.log("target:");
+        console.log(e.target);
+        console.log("currentTarget:");
+        console.log(e.currentTarget);
+//        e.stopPropagation();
+
+    }, false);
 </script>
 </html>
