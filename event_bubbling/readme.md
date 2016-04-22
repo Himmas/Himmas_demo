@@ -2,7 +2,7 @@
  [Demo](http://himmas.github.io/Himmas_demo/event_bubbling/)
 ## ¹ØÓÚdemo
 
-```html
+```javascript
 $outer.addEventListener("click", function (e) {
     //do something
  
