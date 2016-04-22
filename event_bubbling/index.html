@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>js事件冒泡</title>
+    <style type="text/css">
+     .item{
+         display: table;
+         margin: 100px;
+     }
+     #outer{
+         width:400px;
+         height:400px;
+         background-color: blue;         
+     } 
+     #inner{
+         vertical-align: middle;
+         width:200px;
+         height:200px;
+         background-color: white;         
+     }
+     #core{
+         width:80px;
+         height:80px;
+         background-color: red;
+         text-indent: 10px;
+         line-height: 50px;  
+         cursor: pointer;       
+     }
+  </style>
+</head>
+<body>
+  <div class="item" id="outer" onclick="alert('我是蓝盒子')">
+    <div class="item" id="inner" onclick="alert('我是白盒子');stopbubble(arguments[0])">
+      <div class="item" id="core" onclick="alert('我是红盒子')">
+        点击
+      </div>
+    </div>
+  </div>
+  <img src="http://files.jb51.net/file_images/article/201310/20131028160201571.jpg" alt="事件外卖原理图">
+</body>
+<!-- 应该放在body的下面 -->
+<script type="text/javascript">  
+        var core = document.getElementById("core");
+        core.addEventListener("click",function(){alert("我是监听事件")},true);
+        //添加事件监听事件 
+        function stopbubble(e){
+               e.stopPropagation(); //阻止冒泡 
+        }
+</script>
+</html>
