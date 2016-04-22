@@ -23,6 +23,9 @@ coverage
 # hbÅäÖÃ
 /.project
 
+# webstormÎÄ¼ş¼ĞºöÂÔ
+.idea
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
