@@ -1,3 +1,2 @@
-# °á×©³§demo²Ö¿â
->1.ÊÂ¼şÃ°ÅİºÍÊÂ¼ş²¶»ñ [Á´½Ó](https://github.com/Himmas/Himmas_demo/tree/gh-pages/event_bubbling)
-
+# æ¬ç –å‚demoä»“åº“
+>1.äº‹ä»¶å†’æ³¡å’Œäº‹ä»¶æ•è· [é“¾æ¥](https://github.com/Himmas/Himmas_demo/tree/gh-pages/event_bubbling)
