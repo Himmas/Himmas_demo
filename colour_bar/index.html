@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Making annoying rainbows in javascript</title>
+</head>
+<body>
+<script>
+    //将rgb转换成16进制
+    function RGB2Color(r,g,b)
+    {
+        return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+    }
+    //将rgb分量装换成对应的两位十六进制形式 170=>AA
+    function byte2Hex(n)
+    {
+        var nybHexString = "0123456789ABCDEF";
+        return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+    }
+    //4位二进制数对应一个十六进制数 170>>1 = 85 170>>3 = 21 m>>n = m/2^n 并取整
+    //n & 0x0F n%16
+    function RGBColor(r,g,b)
+    {
+        return 'rgb(' + Math.round(r) + ',' + Math.round(g) + ',' + Math.round(b) + ')';
+    }
+
+    var frequency = .3;
+    for (var i = 0; i < 32; ++i)
+    {
+        document.write( Math.sin(frequency * i)  );
+    }
+</script>
+</body>
+</html>
