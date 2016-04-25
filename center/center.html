@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+            /*方法一：line-height*/
+            
+            .methodOne-center {
+                margin: 10px auto;
+                width: 400px;
+                height: 400px;
+                text-align: center;
+                line-height: 400px;
+                background-color: gainsboro;
+            }
+            /*方法2：margin*/
+            
+            .methodTwo-f,
+            .methodThree-f,
+            .methodFour-f,
+            .methodFive-f {
+                margin: 10px auto;
+                width: 400px;
+                height: 400px;
+                border: 2px solid #42B983;
+                background-color: #57C684;
+            }
+            
+            .methodTwo-center {
+                width: 200px;
+                height: 200px;
+                margin-left: 100px;
+                margin-top: 100px;
+                background-color: #EBA158;
+            }
+            /*方法3：display:table*/
+            
+            .methodThree-f {
+                display: table;
+            }
+            
+            .methodThree-center {
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+            }
+            
+            .methodThree-contain {
+                width: 200px;
+                height: 200px;
+                background-color: #2C3E50;
+            }
+            /*方法4：position*/
+            
+            .methodFour-f {
+                position: relative;
+            }
+            
+            .methodFour-center {
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                width: 200px;
+                height: 200px;
+                margin: auto;
+                background-color: #EBA158;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <!-- 垂直居中的方法总结 -->
+        <!-- 方法一：line-height垂直居中 -->
+        <div class="methodOne-center">
+            方法一：文本居中
+        </div>
+        <div class="methodTwo-f">
+            <div class="methodTwo-center">
+                方法2：通过margin实现垂直居中
+            </div>
+        </div>
+        <div class="methodThree-f">
+            <div class="methodThree-center">
+                <div class="methodThree-contain">
+                    方法3：通过display:table实现垂直居中
+                </div>
+            </div>
+        </div>
+        <div class="methodFour-f">
+            <div class="methodFour-center">
+                   方法4：position居中
+            </div>
+        </div>
+    
+    </body>
+
+</html>
