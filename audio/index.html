@@ -10,9 +10,9 @@
     </audio>
     <script>
     var $audio = document.getElementById("audio");
-    	window.onload = function(){
-    		document.write($audio.duration);
-    	}
+    $audio.addEventListener("loadedmetadata", function (argument) {
+    	 document.write($audio.duration);
+    }) 
     </script>
 </body>
 </html>
