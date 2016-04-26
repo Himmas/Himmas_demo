@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>audio</title>
+</head>
+<body>
+	<audio id="audio" type="audio/mpeg"
+        src="http://7xs1hq.com1.z0.glb.clouddn.com/FmFc694r5-OrIML6VLbECY8Fzh2S">您的浏览器不支持HTML5播放器，请用支持浏览器打开。
+    </audio>
+    <script>
+    var $audio = document.getElementById("audio");
+    $audio.addEventListener("loadedmetadata", function (argument) {
+    	 document.write($audio.duration);
+    }) 
+    </script>
+</body>
+</html>
