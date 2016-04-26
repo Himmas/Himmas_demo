@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html onselectstart='return false' lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background-color: #000;
+	}
+	div.pic{
+         width:100px;
+         height:120px;
+       /*  border:1px solid #f00;*/
+         margin: 200px auto 0;
+         position: relative;
+         transform-style:preserve-3d;
+         transform: perspective(800px) rotatex(-10deg) rotatey(0deg);
+	}
+	div.pic img{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px #fff;
+		-webkit-box-reflect:below 10px -webkit-linear-gradient(top ,rgba(0,0,0,0)50%,rgba(0,0,0,0.5)100%) ;
+	}
+	</style>
+</head>
+<body>
+	<div class="pic">
+		<img src="images/1.jpg"/>
+		<img src="images/2.jpg"/>
+		<img src="images/3.jpg"/>
+		<img src="images/4.jpg"/>
+		<img src="images/5.jpg"/>
+		<img src="images/6.jpg"/>
+		<img src="images/7.jpg"/>
+		<img src="images/8.jpg"/>
+		<img src="images/9.jpg"/>
+		<img src="images/10.jpg"/>
+		<img src="images/11.jpg"/>
+	</div>
+	<script src="static/jquery.js"></script>
+	<script type="text/javascript">
+        $(function(){
+        	// -------------------获得图片数量-------------------------------
+           imgl=$('div.pic img').size();
+          
+           // -----------------计算每张图片比前一张旋转的角度----------------
+           deg=360/imgl;
+           var roy=0,rox=-10;
+           var xn=0,yn=0;
+           var play=null;
+           //------------------- 为每张图片设置旋转-------------------------
+           $('div.pic img').each(function(i){
+              $(this).css({
+              	'transform':'rotatey('+i*deg+'deg) translatez(350px)'
+              });
+              // ------------------禁止图片的拖拽功能------------------------
+              $(this).attr('ondragstart','return false');
+           });
+
+            //----------------- 根据鼠标的移动速度来转动图片-----------------
+           $(document).mousedown(function(ev) {
+           //----------------------获取鼠标按下的当前位置--------------------
+           	 var x_=ev.clientX;
+             var y_=ev.clientY;
+             console.log("鼠标按下了");
+             // 绑定鼠标移动函数
+             $(this).bind('mousemove',function(ev) {
+             console.log("鼠标移动了");
+                var x=ev.clientX;
+                var y=ev.clientY;
+
+             //--------------------- 记录两次的移动的点的差值--------------------
+                xn=x-x_;
+                yn=y-y_;
+                roy+=xn*0.2;
+                rox-=yn*0.1;
+                console.log(roy);
+                $('body').append("<div style='width:5px;height:5px;background-color:red;position:absolute;top:"+y+"px;left:"+x+"px;'></div>");
+              //--------------------- 记录图片的位置--------------------
+                $('div.pic').css({
+              	'transform':'perspective(800px) rotatex('+rox+'deg) rotatey('+roy+'deg) '
+              });
+
+             // ----------------------记录上次移动时的位置-------------------------
+                 x_=ev.clientX;
+                 y_=ev.clientY;
+             });
+           }).mouseup(function() {
+           	// 解绑鼠标移动
+           	  $(this).unbind('mousemove');
+           	  console.log("鼠标抬起了");
+              play=setInterval(function(){
+                  xn*=0.95;
+                  yn*=0.95;
+                  roy+=xn*0.2;
+                  rox-=yn*0.1;
+                  console.log(xn);
+                  if(xn<1){
+                    clearInterval(play);
+                  }
+                  $('div.pic').css({
+                   'transform':'perspective(800px) rotatex('+rox+'deg) rotatey('+roy+'deg) '
+                 });
+
+
+              },30);
+           });
+        })
+
+	</script>
+</body>
+</html>
