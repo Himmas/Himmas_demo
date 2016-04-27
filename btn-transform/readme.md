@@ -47,7 +47,7 @@
 ### 浏览器支持
 - Internet Explorer 10、Firefox、Opera 和 Chrome 支持 transition 属性。
 - Safari 支持替代的 -webkit-transition 属性。
-- 注释：Internet Explorer 9 以及更早版本的浏览器不支持 transition 属性。*/
+- 注释：Internet Explorer 9 以及更早版本的浏览器不支持 transition 属性。
 
 ## box-sizing
 ### 定义和用法
@@ -68,7 +68,7 @@
 
 ### 浏览器支持
 - Internet Explorer、Opera 以及 Chrome 支持 box-sizing 属性。
-- Firefox 支持替代的 -moz-box-sizing 属性。*/
+- Firefox 支持替代的 -moz-box-sizing 属性。
 
 ## border-radius
 
