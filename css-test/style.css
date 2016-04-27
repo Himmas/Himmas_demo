@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?6hijrk');
+    src:    url('fonts/icomoon.eot?6hijrk#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?6hijrk') format('truetype'),
+        url('fonts/icomoon.woff?6hijrk') format('woff'),
+        url('fonts/icomoon.svg?6hijrk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Wei_UI_location:before {
+    content: "\e901";
+}
+.icon-Wei_UI_record:before {
+    content: "\e902";
+}
+.icon-Wei_UI_app:before {
+    content: "\e903";
+}
+.icon-Wei_UI_user:before {
+    content: "\e904";
+}
+.icon-Wei_UI_clock_o:before {
+    content: "\e905";
+}
+.icon-Wei_UI_star_o:before {
+    content: "\e906";
+}
+.icon-Wei_UI_heart_o:before {
+    content: "\e907";
+}
+.icon-Wei_UI_right_arrow:before {
+    content: "\e908";
+}
+.icon-Wei_UI_down_arrow:before {
+    content: "\e909";
+}
+.icon-Wei_UI_download:before {
+    content: "\e90a";
+}
+.icon-Wei_UI_position:before {
+    content: "\e90b";
+}
+.icon-Wei_UI_check_o:before {
+    content: "\e90d";
+}
+.icon-Wei_UI_play_o:before {
+    content: "\e90e";
+}
+.icon-Wei_UI_suspend_o:before {
+    content: "\e90f";
+}
+.icon-Wei_UI_qrcord_search:before {
+    content: "\e900";
+}
+.icon-Wei_UI_wechat:before {
+    content: "\e90c";
+}
+.icon-Wei_UI_qq:before {
+    content: "\e911";
+}
+.icon-Wei_UI_phone:before {
+    content: "\e913";
+}
+.icon-Wei_UI_map-marker:before {
+    content: "\e914";
+}
+.icon-Wei_UI_mail-forward:before {
+    content: "\e915";
+}
+.icon-Wei_UI_envelope:before {
+    content: "\e916";
+}
+.icon-Wei_UI_ellipsis:before {
+    content: "\e917";
+}
+.icon-Wei_UI_two-download:before {
+    content: "\e918";
+}
+.icon-Wei_UI_play:before {
+    content: "\e910";
+}
+.icon-Wei_UI_suspend:before {
+    content: "\e912";
+}
+.icon-Wei_UI_call:before {
+    content: "\e919";
+}
+
