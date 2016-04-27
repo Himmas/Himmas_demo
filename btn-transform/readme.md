@@ -7,6 +7,7 @@
 - 具体的属性请自己查看
 
 ## Transform
+
 ### 定义和用法
 - transform 属性向元素应用 2D 或 3D 转换。该属性允许我们对元素进行旋转、缩放、移动或倾斜
 - rotate(angle )定义 2D 旋转，在参数中规定角度
@@ -26,19 +27,23 @@
 - Opera 只支持 2D 转换。
 
 ## Transition
+
 ### 定义和用法
 - transition 属性是一个简写属性，用于设置四个过渡属性：
  - transition-property
  - transition-duration
  - transition-timing-function
  - transition-delay
+ - 
 ### 语法
 - transition: property duration timing-function delay;
+- 
 ### 值描述
 - transition-property规定设置过渡效果的 CSS 属性的名称。
 - transition-duration规定完成过渡效果需要多少秒或毫秒。
 - transition-timing-function规定速度效果的速度曲线。
 - transition-delay定义过渡效果何时开始(延时执行时间)。
+- 
 ### 浏览器支持
 - Internet Explorer 10、Firefox、Opera 和 Chrome 支持 transition 属性。
 - Safari 支持替代的 -webkit-transition 属性。
