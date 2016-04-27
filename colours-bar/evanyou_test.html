@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas</title>
+	<style>
+		canvas{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;left: 0;
+		}
+	</style>
+</head>
+<body>
+	<canvas width="1920" height="979"></canvas>
+	<script>
+		var _c = document.getElementsByTagName('canvas')[0];
+		var _x = _c.getContext('2d');
+		var _pr = window.pixelRadioRadio || 1;//视网膜屏优化
+		var _w = window.innerWidth;
+		var _h = window.innerHeight;
+		var _q;
+		var _f = 90;
+		_c.width = _w;
+		_c.height = _h;
+		_x.globalAlpha = 0.6;
+		function point(){
+			_x.clearRect(0,0,_w,_h);
+			_q = [{_x:0,_y:_h*.7+_f},{_x:0,_y:_h*.7-_f}]
+		};
+		point();
+	</script>
+</body>
+</html>
