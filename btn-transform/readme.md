@@ -34,23 +34,22 @@
  - transition-duration
  - transition-timing-function
  - transition-delay
- - 
+
 ### 语法
 - transition: property duration timing-function delay;
-- 
+
 ### 值描述
 - transition-property规定设置过渡效果的 CSS 属性的名称。
 - transition-duration规定完成过渡效果需要多少秒或毫秒。
 - transition-timing-function规定速度效果的速度曲线。
-- transition-delay定义过渡效果何时开始(延时执行时间)。
-- 
+- transition-delay定义过渡效果何时开始(延时执行时间)。 
+
 ### 浏览器支持
 - Internet Explorer 10、Firefox、Opera 和 Chrome 支持 transition 属性。
 - Safari 支持替代的 -webkit-transition 属性。
 - 注释：Internet Explorer 9 以及更早版本的浏览器不支持 transition 属性。*/
 
 ## box-sizing
-
 ### 定义和用法
 - box-sizing 属性允许以特定的方式定义匹配某个区域的特定元素。
 
