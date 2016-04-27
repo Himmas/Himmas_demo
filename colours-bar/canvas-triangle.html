@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.
+</canvas>
+<script>
+    //画连续的三角形并填色
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.beginPath();
+    ctx.moveTo(0,0);
+    ctx.lineTo(150,70);
+    ctx.lineTo(80,120);
+    ctx.closePath();
+    ctx.fillStyle = "#89FE8F";
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(80,120);
+    ctx.lineTo(150,70);
+    ctx.lineTo(300,130);
+    ctx.closePath();
+    ctx.fillStyle = "#AEF673";
+    ctx.fill();
+</script>
+</body>
+</html>
