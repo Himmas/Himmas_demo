@@ -4,7 +4,7 @@
 ## 关于demo
 1.具体的用法在css文件也可看到，我这里只做简单声明
 - 主要知识点：transform；transition；box-sizing；border-radius
-- 打开控制台可以看到每次调用的事件
+- 具体的属性请自己查看
 
 ## Transform
 ### 定义和用法
