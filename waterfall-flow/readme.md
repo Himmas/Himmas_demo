@@ -1,5 +1,5 @@
 ## 关于瀑布流
- [Demo](http://himmas.github.io/Himmas_demo/JSWallper/)
+ [Demo](http://himmas.github.io/Himmas_demo/waterfall-flow/)
 ## 关于demo的几点注意事项
 1. demo是原生语法写的
 - Demo仅供学习
