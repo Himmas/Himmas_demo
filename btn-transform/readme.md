@@ -45,10 +45,13 @@
 - 注释：Internet Explorer 9 以及更早版本的浏览器不支持 transition 属性。*/
 
 ## box-sizing
+
 ### 定义和用法
 - box-sizing 属性允许以特定的方式定义匹配某个区域的特定元素。
+
 ### 语法
 - box-sizing: content-box|border-box|inherit
+
 ### 值描述
 - content-box
  - 宽度和高度分别应用到元素的内容框。
@@ -63,30 +66,14 @@
 - Internet Explorer、Opera 以及 Chrome 支持 box-sizing 属性。
 - Firefox 支持替代的 -moz-box-sizing 属性。*/
 
-## Transition
-### 定义和用法
-- transition 属性是一个简写属性，用于设置四个过渡属性：
- - transition-property
- - transition-duration
- - transition-timing-function
- - transition-delay
-### 语法
-- transition: property duration timing-function delay;
-### 值描述
-- transition-property规定设置过渡效果的 CSS 属性的名称。
-- transition-duration规定完成过渡效果需要多少秒或毫秒。
-- transition-timing-function规定速度效果的速度曲线。
-- transition-delay定义过渡效果何时开始(延时执行时间)。
-### 浏览器支持
-- Internet Explorer 10、Firefox、Opera 和 Chrome 支持 transition 属性。
-- Safari 支持替代的 -webkit-transition 属性。
-- 注释：Internet Explorer 9 以及更早版本的浏览器不支持 transition 属性。*/
-
 ## border-radius
+
 ### 定义和用法
 - border-radius 属性是一个简写属性，用于设置四个 border-*-radius 属性。
+
 ### 语法
 - border-radius: 1-4 length|% / 1-4 length|%;
+
 ### 值描述
 - length 定义圆角的形状。
 - border-box 以百分比定义圆角的形状。
