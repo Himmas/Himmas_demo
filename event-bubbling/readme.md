@@ -1,5 +1,5 @@
 ## 关于事件冒泡与事件捕获
- [Demo](http://himmas.github.io/Himmas_demo/event_bubbling/)
+ [Demo](http://himmas.github.io/Himmas_demo/event-bubbling/)
 ## 关于demo
 
 ```javascript

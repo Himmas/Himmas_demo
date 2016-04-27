@@ -1,5 +1,5 @@
 ## 关于3D的图片旋转
- [Demo](http://himmas.github.io/Himmas_demo/3Dpic/)
+ [Demo](http://himmas.github.io/Himmas_demo/3d-rotate/)
 ## 关于demo的几点注意事项
 1. demo是jquery语法写的
 - Demo仅供学习,兼容性不佳,建议谷歌浏览器打开
