@@ -3,15 +3,15 @@
 	        perspective: 1000;
 	        -webkit-perspective-origin: center;
 	                perspective-origin: center;
-}
+}/*该属性会设置查看者的位置*/
 .flip-container.turnFront .flipper{
     -webkit-animation: rollOver 1s linear 0s alternate forwards;
             animation: rollOver 1s linear 0s alternate forwards;
-}
+}/*添加前页点击动画*/
 .flip-container.turnBack .flipper{
     -webkit-animation: rollOverBack 1s linear 0s alternate forwards;
             animation: rollOverBack 1s linear 0s alternate forwards;
-}
+}/*添加背页点击动画*/
 
 .flip-container,
 .front,
@@ -19,14 +19,14 @@
   width: 320px;	
   height: 200px;
   border-radius: 3px;
-}
+}/*设置样式*/
 
 .flipper{
 	-webkit-transform-style: preserve-3d;
 	        transform-style: preserve-3d;
 	
 	position: relative;
-}
+}/*设置3D属性*/
 
 .front,.back{
 	-webkit-backface-visibility: hidden;
@@ -48,6 +48,7 @@
 	        transform: rotateY(180deg);
 }
 
+/*动画*/
 @-webkit-keyframes rollOver{
 	0%{
 		-webkit-transform: rotateY(0deg);
