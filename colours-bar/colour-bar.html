@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-size: 0;
+        }
+        font{
+            font-size: 30px;
+            margin-right: -3px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Making annoying rainbows in javascript</title>
+</head>
+<body>
+<script>
+    //将rgb转换成16进制
+    function RGB2Color(r,g,b)
+    {
+        return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+    }
+    //将rgb分量装换成对应的两位十六进制形式 170=>AA
+    function byte2Hex(n)
+    {
+        var nybHexString = "0123456789ABCDEF";
+        return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+    }
+    //4位二进制数对应一个十六进制数 170>>1 = 85 170>>3 = 21 m>>n = m/2^n 并取整
+    //n & 0x0F = n%16
+    function RGBColor(r,g,b)
+    {
+        return 'rgb(' + Math.round(r) + ',' + Math.round(g) + ',' + Math.round(b) + ')';
+    }
+
+
+//    var frequency = .3;
+//    for (var i = 0; i < 32; ++i)
+//    {
+//        console.log(Math.sin(frequency * i));
+//    }
+
+    //将正弦波转换为0-255的数值
+    //2*PI=6.4为一个周期 0.2*64 = 12.8 约为2个周期
+    var frequency = .2;
+//    var amplitude = 55;
+//    var center = 200;
+    //145-255区间
+    var amplitude = 128;
+    var center = 127;
+    //rgb分量相同时是灰色
+    for (var i = 0; i < 64; ++i)
+    {
+        v = Math.sin(frequency*i) * amplitude + center;
+
+        // Note that &#9608; is a unicode character that makes a solid block
+        document.write( '<font v='+v+' color="' + RGB2Color(v,v,v) + '">&#9608;</font>');
+    }
+    document.write( '<br/>');
+    //    120度彩带
+    for (var i = 0; i < 64; ++i)
+    {
+        red   = Math.sin(frequency*i + 0) * amplitude + center;
+        green = Math.sin(frequency*i +2) * amplitude + center;
+        blue  = Math.sin(frequency*i +4) * amplitude + center;
+
+        document.write( '<font color="' + RGB2Color(red,green,blue) + '">&#9608;</font>');
+    }
+    //    循环生成10度-120度不同偏移量的彩带
+    document.write( '<br/>');
+    var j= 1/6;
+    while(j<=2){
+        for (var i = 0; i < 64; ++i)
+        {
+            red   = Math.sin(frequency*i + 0) * amplitude + center;
+            green = Math.sin(frequency*i +j) * amplitude + center;
+            blue  = Math.sin(frequency*i +j*2) * amplitude + center;
+
+            document.write( '<font color="' + RGB2Color(red,green,blue) + '">&#9608;</font>');
+        }
+        document.write( '<br/>');
+        j+=1/6;
+    }
+//    for (var i = 0; i < 64; ++i)
+//    {
+//        red   = Math.sin(frequency*i + 0) * amplitude + center;
+//        green = Math.sin(frequency*i +1) * amplitude + center;
+//        blue  = Math.sin(frequency*i +2) * amplitude + center;
+//
+//        document.write( '<font color="' + RGB2Color(red,green,blue) + '">&#9608;</font>');
+//    }
+//    document.write( '<br/>');
+//
+//    for (var i = 0; i < 64; ++i)
+//    {
+//        red   = Math.sin(frequency*i + 0) * amplitude + center;
+//        green = Math.sin(frequency*i +1/6) * amplitude + center;
+//        blue  = Math.sin(frequency*i +2/6) * amplitude + center;
+//
+//        document.write( '<font color="' + RGB2Color(red,green,blue) + '">&#9608;</font>');
+//    }
+</script>
+</body>
+</html>
