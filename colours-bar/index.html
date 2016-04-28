@@ -44,6 +44,15 @@
             draw(_q[0], _q[1]);
         }
     }
+    function RGB2Color(r,g,b)
+    {
+        return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+    }
+    function byte2Hex(n)
+    {
+        var nybHexString = "0123456789ABCDEF";
+        return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+    }
     function draw(point_i,point_j){
         _x.beginPath();
         _x.moveTo(point_i.x,point_i.y);
@@ -55,7 +64,10 @@
         _x.lineTo(point_k.x,point_k.y);
         _x.closePath();
         r-=u/-50;
-        _x.fillStyle = '#'+(Math.cos(r)*127+128<<16 | Math.cos(r+u/3)*127+128<<8 | Math.cos(r+u/3*2)*127+128).toString(16);//色彩计算
+        var red = Math.cos(r)*127+128;
+        var green = Math.cos(r+u/3)*127+128;
+        var blue = Math.cos(r+u/3*2)*127+128;
+        _x.fillStyle = RGB2Color(red,green,blue);//色彩计算
         _x.fill();
         _q[0] = _q[1];
         _q[1] = {x:point_k.x,y:point_k.y};

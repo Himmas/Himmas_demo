@@ -13,8 +13,12 @@
 
 # 如何生成彩虹色
 彩虹色[Demo](http://himmas.github.io/Himmas_demo/colours-bar/colour-bar.html)
+首先，如何生成一条灰带？
+
+
 
 ——To Be Continued——
+
 
 
 
