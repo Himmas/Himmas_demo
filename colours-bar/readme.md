@@ -47,7 +47,7 @@ value = Math.sin(frequency*increment)*amplitude + center;
 `Math.sin(frequency*i)*128 + 127`也足够接近了
 
 ```javascript
- var amplitude = 128;
+    var amplitude = 128;
     var center = 127;
     //rgb分量相同时是灰色
     for (var i = 0; i < 64; ++i)
