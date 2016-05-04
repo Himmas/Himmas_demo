@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var Himma = function (name,sex) {
+        this.name = name;
+        this.sex = sex || '男'
+    }
+    Himma.prototype.get_name = function (){
+        return this.name;
+    }
+    Himma.prototype.says = function () {
+        return this.saying || '';
+    }
+    var yezi = new Himma('yezi','女');
+    console.log(yezi.get_name());
+    console.log(yezi);
+
+    var Doge = function(name,sex){
+        this.name = name;
+        this.saying = '对方不想和你说话并向你扔了两条狗';
+        this.sex = sex;
+    }
+
+    Doge.prototype = new Himma();
+
+    Doge.prototype.purr = function (n) {
+        var i,s ='';
+        for(i = 0;i<n;i += 1){
+            if(s){
+                s += '-';
+            }
+            s += 'r';
+        }
+        return s;
+    }//若在prototype之前定义,调用doge.purr(5)时会报错
+
+    var doge = new Doge('little-Doge','女');
+
+    console.log(doge);
+    console.log(doge.get_name());
+    console.log(doge.says());
+    console.log(doge.purr(5));
+    console.log(yezi.purr(6));//会报错
+</script>
+</body>
+</html>
