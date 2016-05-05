@@ -43,12 +43,16 @@
     }//若在prototype之前定义,调用doge.purr(5)时会报错
 
     var doge = new Doge('little-Doge','女');
+    console.log(Himma.prototype);
+    console.log(Doge.prototype);
     console.log(doge);
     console.log(doge.get_name());
     console.log(doge.says());
     console.log(doge.purr(5));
     console.log(doge.get_sex());
+    console.log(yezi);
     console.log(yezi.purr(6));//会报错
+
 </script>
 </body>
 </html>
