@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>图片轮播</title> 
+  <link type="text/css" rel="stylesheet" href="css/carousel.css" /> 
+  <script type="text/javascript" src="js/jquery.js"></script> 
+  <script type="text/javascript" src="js/carousel.js"></script> 
+ </head> 
+ <body style="padding:50px;"> 
+  <div class="J_Poster poster-main" data-setting="{
+    &quot;width&quot;:1000,
+    &quot;height&quot;:270,
+    &quot;posterWidth&quot;:640,
+    &quot;posterHeight&quot;:270,
+    &quot;scale&quot;:0.8,
+    &quot;autoPlay&quot;:true,
+    &quot;delay&quot;:2000,
+    &quot;speed&quot;:300
+                                                                            }"> 
+    <div class="poster-btn poster-prev-btn"></div> 
+    <ul class="poster-list"> 
+      <li class="poster-item">
+        <a href="#"><img src="images/1.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/2.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/3.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/4.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/5.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/2.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/3.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/4.jpg" width="100%" height="100%" /></a>
+      </li> 
+      <li class="poster-item">
+        <a href="#"><img src="images/5.jpg" width="100%" height="100%" /></a>
+      </li> 
+    </ul> 
+   <div class="poster-btn poster-next-btn"></div> 
+  </div> 
+  <script>
+
+$(function(){
+    Carousel.init($(".J_Poster"));
+});
+</script>   
+ </body>
+</html>
