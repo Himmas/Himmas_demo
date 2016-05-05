@@ -1,0 +1,188 @@
+.content1{ width: 80%;
+    margin: 120px auto 0;
+    position: relative;
+    display: block;
+}
+.content1_left{float: left;
+    width: 50%;
+    display: block;
+
+}
+.content1_left img{position: relative;text-align: right;}
+.content1_left .concept{
+    margin-top: 25px;
+    display: block;
+}
+.content1_left .concept h1{
+    font-size: 20px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    line-height: 67px;
+    letter-spacing: 0.25em;
+}
+.content1_left .concept .box{
+    width: 50px;
+    height: 4px;
+    background-color:#111 ;
+    display: block;
+    position: absolute;
+}
+.content1_left .concept p{
+    margin-top: 29px;
+    margin-bottom: 25px;
+    font-family: "微软雅黑 Light"!important;
+    font-size: 45px;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+}
+.content1_left .concept p .one{
+    display: block;
+}
+.content1_left .concept p .two{
+    font-weight: 200;
+}
+.content1_left .concept .box_1{
+    width: 50px;
+    height: 2px;
+    border: #111111 1px solid;
+    display: block;
+    margin-bottom: 25px;
+}
+.content1_left .about{
+    display: block;
+    position: relative;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.25em;
+    line-height: 2;
+    width: 80%;
+}
+.content1_left .about .btn{
+    margin: 25px;
+    width: 225px;
+    height: 70px;
+    background-color: #111;
+    color:#fff;
+    display: block;
+    position: absolute;
+    text-align: center;
+    line-height: 70px;
+    margin-left:0 ;
+    font-size: 14px;
+}
+.content1_right .welcome h1{
+    font-size: 20px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    line-height: 80px;
+    letter-spacing: 0.25em;
+}
+.content1_right .welcome .box_2{
+    width: 50px;
+    height: 4px;
+    background-color:#111 ;
+    display: block;
+    position: absolute;
+}
+.content1_right{float: right;
+    width: 40%;
+    display: block;
+}
+.content1_right .welcome p{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-family: "微软雅黑"!important;
+    font-size: 70px;
+    line-height: 1.6;
+    letter-spacing: 0.2em;
+}
+.content1_right .welcome p .one{
+    display: block;
+    font-weight:300;
+}
+.content1_right .welcome p .two{
+    display: block;
+    font-weight: 300;
+}
+.content1_right .welcome p .three{
+    display: block;
+    font-weight: 300;
+}
+.content1_right .welcome .box_3{
+    width: 50px;
+    height: 2px;
+    border: #111111 1px solid;
+    display: block;
+    margin-bottom: 35px;
+}
+.content1_right .product h1{
+    font-size: 20px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    line-height: 80px;
+    letter-spacing: 0.25em;
+}
+.content1_right .product .box_4{
+    width: 50px;
+    height: 4px;
+    background-color:#111 ;
+    display: block;
+    position: absolute;
+}
+.content1_right .product .play{
+    margin-top: 40px;
+    margin-bottom: 75px;
+    position: relative;
+    display: block;
+}
+.content1_right .product .picture{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.content1_right .product .right{
+    display: block;
+    width: 55px;
+    height:55px;
+    right:-27px;
+    margin-top: -27px;
+    background-color: #fff;
+    border: #000 1px solid;
+    cursor: pointer;
+    outline: none;
+    top:50%;
+    position: absolute;
+}
+.content1_right .product .page{
+    display: block;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    position: absolute;
+    outline: none;
+    margin-top: 10px;
+}
+.content1_right .product .page li{
+    position: relative;
+    display: inline-block;
+    border: #111111 1px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    outline: none;
+    line-height: 50px;
+}
+.content1_right .play .btn{
+    width: 225px;
+    height: 50px;
+    background-color: #ffffff;
+    border: #111111 2px solid;
+    color:#111;
+    display: block;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    margin-left:0 ;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    letter-spacing: 4px;
+    right:0;
+    margin-top: 10px;
+}

@@ -3,87 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>VINCENT</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="concent1.css">
     <style>
         *{margin: 0;padding: 0}
         a{text-decoration: none;
           color:#111;}
         body,div{margin: 0}
-/*nav*/
-        .nav{display: block;
-            width:100%;
-            height:70px;
-            top: 0;
-            left: 0;}
-        li{display:inline-block;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            line-height: 40px;
-
-        }
-        .nav_left{position: absolute;
-            left: 3.5%;
-            top: 0;
-            text-align: left;
-            display: block;
-            font-weight: 400;
-            }
-        .nav_right{position: absolute;
-            right: 3.5%;
-            top: 0;
-            text-align: left;
-            display: block;
-            font-weight: 400;
-        }
-        .nav_left li {margin-right: 25px;}
-        .nav_right li{margin-left: 25px;}
-        .nav_left ul li:before{display: block;
-            content: "";
-            background: url("heart.png") bottom center no-repeat;
-            padding-top:10px;
-            height: 12px;
-
-        }
-        .nav_right ul li:before{display: block;
-            content: "";
-            background: url("heart.png") bottom center no-repeat;
-            padding-top:10px;
-            height: 12px;
-
-        }
-        .nav_left ul li a:after{
-            display: block;
-            content: "";
-            height: 2px;
-            border: #ccc 1px solid;
-        }
-        .nav_right ul li a:after{
-            display: block;
-            content: "";
-            height: 2px;
-            border: #ccc 1px solid;
-        }
-        .nav_middle{left: auto;
-            right: auto;
-            width: 300px;
-            height: 70px;
-        }
-        .nav_middle{position: absolute;
-            top:0;
-            left:50%;
-            margin-left: -150px;
-            width: 300px;
-            display: block;
-            text-align: center;
-        }
-        .nav_middle a{background: url("logoHeaderBW300.png") top center no-repeat;
-            width: 300px;
-            height: 70px;
-            display: block;
-            text-indent: -999px;
-            display: block;
-            position: relative;
-            z-index: 1003;
-        }
+        .clearfix{clear: both}
 /*banner*/
         .banner{overflow: hidden;
             width: 92%;
@@ -97,141 +24,76 @@
             margin-left: -960px;
             top: 10px;
         }
-/*content1*/
-        .content1{ width: 78%;
-            margin: 120px auto 0;
+/*content2*/
+        .content2{
             position: relative;
+            width: 80%;
+            margin: 50px auto 0;
+            display: block;
+            padding: 80px;
+            background-color:#fff;
+
         }
-        .content1_left{float: left;
-            width: 52%;
+            .content2 .journal{
+            position: absolute;
+            float: left;
+            width: 50%;
             display: block;
 
         }
-        .content1_left img{position: relative;height: 900px;text-align: right;}
-        .content1_left .concept{
-            margin-top: 25px;
-            display: block;
-        }
-        .content1_left .concept h1{
+        .content2 .journal h1{
             font-size: 20px;
             font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            line-height: 67px;
+            line-height: 80px;
             letter-spacing: 0.25em;
         }
-        .content1_left .concept .box{
+            .content2 .journal .box_5{
             width: 50px;
             height: 4px;
             background-color:#111 ;
             display: block;
             position: absolute;
         }
-        .content1_left .concept p{
-            margin-top: 29px;
-            margin-bottom: 25px;
-            font-family: Hiragino Sans GB;
-            font-size: 50px;
-            line-height: 1.4;
-            letter-spacing: 0.2em;
-        }
-        .content1_left .concept p .one{
-            display: block;
-            font-weight: 300;
-        }
-        .content1_left .concept p .two{
-            font-weight: 200;
-        }
-        .content1_left .concept .box_1{
-            width: 50px;
-            height: 2px;
-            border: #111111 1px solid;
-            display: block;
-            margin-bottom: 25px;
-        }
-        .content1_left .about{
+        .content2 .journal .photo1{
             display: block;
             position: relative;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            letter-spacing: 0.25em;
-            line-height: 2;
-            width: 80%;
+            margin-top: 40px;
         }
-        .content1_left .about .btn{
+        .content2 .journal .photo1 img{
+            float: left;
+            width: 40%;
+            margin-right: 4%;
+        }
+        .content2 .journal .photo1 .right{
+            padding-top: 2%;
+            line-height: 1.7;
+            font-family: "微软雅黑";
+            color: #111111;
+            font-size: 14px;
+        }
+        .content2 .journal .photo1 .right a{
+            cursor: pointer;
+            color: #666;
+            border-bottom: #666 1px dashed;
+        }
+        .content2 .about{
+            display: block;
+            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+            width: 80%;
+            position: relative;
+            margin-top: 20px;
+        }
+        .content2 .about .btn{
             margin: 25px;
             width: 225px;
             height: 70px;
-            background-color: #111;
-            color:#fff;
+            border: #111 2px solid;
+            color:#111;
             display: block;
-            position: absolute;
             text-align: center;
             line-height: 70px;
             margin-left:0 ;
             font-size: 14px;
-        }
-        .content1_right .welcome h1{
-            font-size: 20px;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            line-height: 67px;
-            letter-spacing: 0.25em;
-        }
-        .content1_right .welcome .box_2{
-            width: 50px;
-            height: 4px;
-            background-color:#111 ;
-            display: block;
-            position: absolute;
-        }
-        .content1_right{float: right;
-            width: 40%;
-            display: block;
-        }
-        .content1_right .welcome p{
-            margin-top: 29px;
-            margin-bottom: 25px;
-            font-family: Hiragino Sans GB;
-            font-size: 74px;
-            line-height: 1.4;
-            letter-spacing: 0.2em;
-        }
-        .content1_right .welcome p .one{
-            display: block;
-            font-weight: 300;
-        }
-        .content1_right .welcome p .two{
-            font-weight: 200;
-        }
-        .content1_right .welcome .box_3{
-            width: 50px;
-            height: 2px;
-            border: #111111 1px solid;
-            display: block;
-            margin-bottom: 25px;
-        }
-        .content1_right .product h1{
-            font-size: 20px;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            line-height: 67px;
-            letter-spacing: 0.25em;
-        }
-        .content1_right .product .box_4{
-            width: 50px;
-            height: 4px;
-            background-color:#111 ;
-            display: block;
-            position: absolute;
-        }
-        .content1_right .product .play{
-            margin-top: 40px;
-            margin-bottom: 75px;
-            position: relative;
-            display: block;
-        }
-        .content1_right .product .picture{
-            display: block;
-            position: relative;
-            overflow: hidden;
-            width: 100%;
         }
     </style>
 </head>
@@ -302,30 +164,28 @@
                 <div class="box_4"></div>
             </div>
             <div class="play">
-                <div class="picture"><img src="product1.jpg"> </div>
+                <div class="picture" ><img src="product1.jpg" style="width: 100%"> </div>
                 <button class="right"><img src="btn_black.png"> </button>
                 <ul class="page">
                     <li class="">
-                        <button>1</button>
+                        <a>1</a>
                     </li>
                     <li class="">
-                        <button>2</button>
+                        <a>2</a>
                     </li>
                     <li class="">
-                        <button>3</button>
+                        <a>3</a>
                     </li>
                     <li class="">
-                        <button>4</button>
-                    </li>
-                    <li class="">
-                        <button>5</button>
+                        <a>4</a>
                     </li>
                 </ul>
+                <a href="vincent_home.html" class="btn">View All</a>
             </div>
         </div>
     </div>
     <div class="content1_left">
-    <div class="left_top"><img src="vincent.png"> </div>
+    <div class="left_top"><img src="vincent.png" style="width: 100%"> </div>
     <div class="concept">
         <div class="name">
             <h1 >CONCEPT</h1>
@@ -344,13 +204,51 @@
     </div>
     <div class="about">
         <p class="content">
-            VINCENT（文森特），本意可理解为浪漫的一心一意的“制造品牌”。<br>
+            VINCENT（文森特），浪漫的一心一意的“制造品牌”。<br>
             日常平凡的日常浪漫地演出，以自然的亲密的亲密的生活变得丰富了人生。我想提案有那样的优点的设计和产品的建议。
         </p>
         <a href="vincent_home.html" class="btn">View About</a>
     </div>
 
 </div>
+    <div class="clearfix"></div>
 </div>
+<div class="content2">
+    <div class="journal">
+    <div class="name">
+        <h1>JOURNAL</h1>
+        <div class="box_5"></div>
+    </div>
+        <div class="photo1">
+            <div class="left"><img src="journal1.jpg"> </div>
+            <div class="right">
+                <div class="date">2016.4.1</div>
+                <a href="vincent_home.html" class="word">"2016春天的脚步"主题展会</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="photo1">
+            <div class="left"><img src="journal2.jpg"> </div>
+            <div class="right">
+                <div class="date">2016.3.6</div>
+                <a href="vincent_home.html" class="word">灵感赋予生活鲜活与富裕</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="photo1">
+            <div class="left"><img src="journal3.jpg"> </div>
+            <div class="right">
+                <div class="date">2016.3.1</div>
+                <a href="vincent_home.html" class="word">注入生命的“丝网屏幕印刷”</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="about">
+            <a href="vincent_home.html" class="btn">View All</a>
+        </div>
+    </div>
+
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,75 @@
+.nav{display: block;
+	width:100%;
+	height:70px;
+	top: 0;
+	left: 0;}
+li{display:inline-block;
+	font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+
+}
+.nav_left{position: absolute;
+	left: 3.5%;
+	top: 0;
+	text-align: left;
+	display: block;
+	font-weight: 400;
+}
+.nav_right{position: absolute;
+	right: 3.5%;
+	top: 0;
+	text-align: left;
+	display: block;
+	font-weight: 400;
+}
+.nav_left li {margin-right: 25px;}
+.nav_right li{margin-left: 25px;}
+.nav_left ul li:before{display: block;
+	content: "";
+	background: url("heart.png") bottom center no-repeat;
+	padding-top:10px;
+	height: 12px;
+
+}
+.nav_right ul li:before{display: block;
+	content: "";
+	background: url("heart.png") bottom center no-repeat;
+	padding-top:10px;
+	height: 12px;
+
+}
+.nav_left ul li a:after{
+	display: block;
+	content: "";
+	height: 2px;
+	border: #ccc 1px solid;
+}
+.nav_right ul li a:after{
+	display: block;
+	content: "";
+	height: 2px;
+	border: #ccc 1px solid;
+}
+.nav_middle{left: auto;
+	right: auto;
+	width: 300px;
+	height: 70px;
+}
+.nav_middle{position: absolute;
+	top:0;
+	left:50%;
+	margin-left: -150px;
+	width: 300px;
+	display: block;
+	text-align: center;
+}
+.nav_middle a{background: url("logoHeaderBW300.png") top center no-repeat;
+	width: 300px;
+	height: 70px;
+	display: block;
+	text-indent: -999px;
+	display: block;
+	position: relative;
+	z-index: 1003;
+}
