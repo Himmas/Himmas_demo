@@ -19,3 +19,4 @@
 - 垂直方向和水平方向一个原理
 - 大图片的移动：鼠标移动多少，大图片移动相应的比例就OK，即`(fd/min=img/max)`.注意大图片移动方向是和放大镜移动方向相反的.注意负号.
 
+#### 关于`client`,`offset`属性的具体用法 [参考这里](http://www.cnblogs.com/panjun-Donet/articles/1294033.html)
