@@ -6,3 +6,4 @@
 - canvas彩带 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/colours-bar)
 - clip-path与动画 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/clip-path)
 - 纯css实现的优惠券样式 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/discount)
+- 仿京东放大镜效果 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/magnifying)
