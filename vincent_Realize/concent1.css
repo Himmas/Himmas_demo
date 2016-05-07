@@ -1,10 +1,10 @@
-.content1{ width: 80%;
+.content1{ width: 70%;
     margin: 120px auto 0;
     position: relative;
     display: block;
 }
 .content1_left{float: left;
-    width: 50%;
+    width: 48%;
     display: block;
 
 }
@@ -54,7 +54,7 @@
     font-size: 16px;
     letter-spacing: 0.25em;
     line-height: 2;
-    width: 80%;
+    width: 78%;
 }
 .content1_left .about .btn{
     margin: 25px;
@@ -83,7 +83,7 @@
     position: absolute;
 }
 .content1_right{float: right;
-    width: 40%;
+    width: 48%;
     display: block;
 }
 .content1_right .welcome p{
@@ -91,7 +91,7 @@
     margin-bottom: 35px;
     font-family: "微软雅黑"!important;
     font-size: 70px;
-    line-height: 1.6;
+    line-height: 1.4;
     letter-spacing: 0.2em;
 }
 .content1_right .welcome p .one{

@@ -5,6 +5,7 @@
     <title>VINCENT</title>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="concent1.css">
+    <link rel="stylesheet" href="concent2.css">
     <style>
         *{margin: 0;padding: 0}
         a{text-decoration: none;
@@ -24,79 +25,121 @@
             margin-left: -960px;
             top: 10px;
         }
-/*content2*/
-        .content2{
-            position: relative;
-            width: 80%;
+/*footer*/
+        .footer{
+            background-color: #111111;
+        }
+        .footer .big_box{
+            width: 74%;
             margin: 50px auto 0;
+            padding: 100px;
+            position: relative;
             display: block;
-            padding: 80px;
-            background-color:#fe;
         }
-        .content2:after{
-            background-color:#111;
+        .footer .top{
+            position: relative;
         }
-            .content2 .journal{
-            position: absolute;
-            float: left;
-            width: 50%;
-            display: block;
-
+        .footer h3{
+            font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 10px;
         }
-        .content2 .journal h1{
-            font-size: 20px;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            line-height: 80px;
-            letter-spacing: 0.25em;
-        }
-            .content2 .journal .box_5{
-            width: 50px;
-            height: 4px;
-            background-color:#111 ;
-            display: block;
-            position: absolute;
-        }
-        .content2 .journal .photo1{
+        .footer .left,.footer .middle{
             display: block;
             position: relative;
-            margin-top: 40px;
-        }
-        .content2 .journal .photo1 img{
             float: left;
-            width: 40%;
-            margin-right: 4%;
+            width: 20%;
         }
-        .content2 .journal .photo1 .right{
-            padding-top: 2%;
-            line-height: 1.7;
-            font-family: "微软雅黑";
-            color: #111111;
-            font-size: 14px;
+        .footer ul a{
+            color: #ffffff;
+            font-size: 12px;
+            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+            display: block;
+            letter-spacing: 0.2em;
         }
-        .content2 .journal .photo1 .right a{
+        .footer .middle .middle_top{
+            margin-bottom: 20px;
+        }
+        .footer .right{
+            position: relative;
+            float: left;
+            display: block;
+            width: 60%;
+        }
+        .footer .right .photo2 {
+            float: left;
+            width: 25%;
+            display: block;
+            margin-top: 10px;
+            background-color: #000000;
+            opacity: 0.6;
+        }
+        .footer .right .photo2 img{
+            display: block;
+            position: relative;
+        }
+        .footer .right .page{
+            display: inline-block;
             cursor: pointer;
-            color: #666;
-            border-bottom: #666 1px dashed;
-        }
-        .content2 .about{
-            display: block;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            width: 80%;
+            left: 0;
             position: relative;
-            margin-top: 20px;
+            outline: none;
+            margin-top: 10px;
         }
-        .content2 .about .btn{
-            margin: 25px;
-            width: 225px;
-            height: 70px;
-            border: #111 2px solid;
-            color:#111;
-            display: block;
+        .footer .right .page li{
+            position: relative;
+            display: inline-block;
+            border: #111111 1px solid;
+            width: 50px;
+            height: 50px;
             text-align: center;
-            line-height: 70px;
-            margin-left:0 ;
-            font-size: 14px;
+            outline: none;
+            line-height: 50px;
         }
+        .footer .right .page .current{
+            background-color: #ffffff;
+        }
+        .footer .right .page .current a{
+            color: #111111;
+        }
+        .footer .play .btn{
+            width: 225px;
+            height: 50px;
+            background-color: #111;
+            border: #ffffff 2px solid;
+            color:#ffffff;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            line-height: 50px;
+            font-size: 12px;
+            font-family: "微软雅黑";
+            letter-spacing: 4px;
+            margin-top:10px;
+            float: right;
+        }
+        .footer .down{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:80px ;
+            text-align: center;
+        }
+        .footer h4{
+            margin-top: 30px;
+            color: #cccccc;
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            line-height: 40px;
+            font-family: "微软雅黑";
+        }
+        .footer .down p{
+            color: #cccccc;
+            font-size: 12px;
+            font-family: "微软雅黑";
+            letter-spacing: 0.2em
+        }
+
     </style>
 </head>
 <body>
@@ -248,9 +291,95 @@
         <div class="about">
             <a href="vincent_home.html" class="btn">View All</a>
         </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="social">
+        <div class="name">
+            <h1>SOCIAL</h1>
+            <div class="box_6"></div>
+        </div>
+        <div class="massege">
+            <p class="word">
+                日常平凡的日常浪漫地演出，<br>以自然的亲密的亲密的生活变得丰富了人生。
+            </p>
+            <div class="bwbtn">
+                <a href="vincent_home.html" class="btn_left">Instagram</a>
+                <a href="vincent_home.html" class="btn_right">Facebook</a>
+            </div>
+        </div>
     </div>
     <div class="clearfix"></div>
 </div>
+<div class="footer">
+    <div class="big_box">
+        <div class="top">
+            <div class="left">
+                <h3>SITE MENU</h3>
+                <ul>
+                    <li><a href="vincent_home.html">HOME</a> </li><br>
+                    <li><a href="vincent_home.html">ABOUT</a> </li><br>
+                    <li><a href="vincent_home.html">PRODUCT</a> </li><br>
+                    <li><a href="vincent_home.html">JOURNAL</a> </li><br>
+                    <li><a href="vincent_home.html">SHOPLIST</a> </li><br>
+                    <li><a href="vincent_home.html">CONTANT</a> </li>
 
+                </ul>
+            </div>
+            <div class="middle">
+                <div class="middle_top">
+                    <h3>SOCIAL</h3>
+                    <ul>
+                        <li><a href="vincent_home.html">Instagram</a> </li><br>
+                        <li><a href="vincent_home.html">Facebook</a> </li>
+
+                    </ul>
+                </div>
+                <div class="middle_top">
+                    <h3>WEB SHOP</h3>
+                    <ul>
+                        <li><a>Coming Soon</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="right">
+                <h3>RECOMMEND</h3>
+                <div class="play">
+                    <div class="picture" >
+                        <div class="photo2"><img src="product1.jpg" style="width: 100%"></div>
+                        <div class="photo2"><img src="product2.jpg" style="width: 100%"></div>
+                        <div class="photo2"><img src="product3.jpg" style="width: 100%"></div>
+                        <div class="photo2"><img src="product4.jpg" style="width: 100%"></div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <ul class="page">
+                        <li class="current">
+                            <a>1</a>
+                        </li>
+                        <li>
+                            <a>2</a>
+                        </li>
+                        <li>
+                            <a>3</a>
+                        </li>
+                        <li>
+                            <a>4</a>
+                        </li>
+                    </ul>
+                    <a href="vincent_home.html" class="btn">View All</a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="down">
+            <img src="footer.png" >
+            <h4>© 2016 VINCENT</h4>
+            <p>Graphika inc.</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</div>
 </body>
 </html>
