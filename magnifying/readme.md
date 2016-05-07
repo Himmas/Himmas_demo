@@ -4,8 +4,7 @@
 
 ## 关于DEMO
 #### html部分
-- 
-- `min`是小图片，`max`是放大图片,`fd`是放大镜
+- 样式`min`是小图片，`max`是放大图片,`fd`是放大镜
 - 
 #### css样式
 - max的`overflow：hidden`是把大图片超出的部分隐藏
