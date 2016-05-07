@@ -1,0 +1,32 @@
+.min{
+	width: 350px;
+	height: 350px;
+	border: 1px solid forestgreen;
+	position: relative;
+	float: left;
+}
+.max{
+	width: 350px;
+	height: 350px;
+	border: 1px solid black;
+	display: none;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.max img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fd{
+	width: 50px;
+	height: 50px;
+	box-shadow: 0px 0px 10px black;
+	background-color: skyblue;
+	opacity: .3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
