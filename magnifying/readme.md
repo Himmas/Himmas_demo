@@ -5,6 +5,7 @@
 ## 关于DEMO
 #### html部分
 - `min`是小图片，`max`是放大图片,`fd`是放大镜
+- 
 #### css样式
 - max的`overflow：hidden`是把大图片超出的部分隐藏
 - 放大镜最后要随鼠标移动而移动，是通过改变左边的距离为实现的，所以要设置定位`position:absolute`,且`left:0`
