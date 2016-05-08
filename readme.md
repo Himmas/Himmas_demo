@@ -16,4 +16,4 @@
 
 ##js
 
--数组的合并与去重 [连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/array-concat)
+- 数组的合并与去重 [连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/array-concat)
