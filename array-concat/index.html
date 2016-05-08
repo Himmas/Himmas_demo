@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组合并去重</title>
+    <h1>使用chrome打开控制台</h1>
+</head>
+<body>
+<script>
+    function uniteUnique(...lsts) {
+        let args = [].concat(...lsts);
+        return args.filter((arg, i) => args.indexOf(arg) == i);
+    }
+    var arr2 = uniteUnique([1,2],[3,4],['a',2,3]);
+    console.log(arr2);
+</script>
+</body>
+</html>

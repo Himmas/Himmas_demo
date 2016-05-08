@@ -57,6 +57,7 @@
     width: 78%;
 }
 .content1_left .about .btn{
+    transition: all .3s;
     margin: 25px;
     width: 225px;
     height: 70px;
@@ -68,7 +69,30 @@
     line-height: 70px;
     margin-left:0 ;
     font-size: 14px;
+    box-sizing: border-box;
 }
+.content1_left .about .btn:hover{
+    padding-right: 20px;
+}
+
+.content1_left .about .btn:hover .btn-icon{
+    right: 0;
+    opacity: 1;
+}
+
+.btn-icon{
+    transition: all .3s;
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    background: url("btn_white.png") no-repeat;
+    right: 20px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
 .btn_box{
     position: relative;
 }
