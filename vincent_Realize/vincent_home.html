@@ -51,25 +51,29 @@
             float: left;
             width: 20%;
         }
+        .footer ul li{
+            position: relative;
+        }
+        .footer ul .bottom-line{
+            position: absolute;
+            width: 0;
+            border-bottom: #eeeeee 1px solid;
+        }
+        .footer ul li:hover .bottom-line{
+            width: 100%;
+            transition:all 0.3s;
+        }
         .footer ul a{
             color: #ffffff;
             font-size: 12px;
             font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            display: block;
+            display:block;
             letter-spacing: 0.2em;
-            position: relative;
+            position:relative;
         }
-        .footer ul li a：hover{
-            border: #eeeeee 1px solid;
-            position: absolute;
-            height: 1px;
-            display：block;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            transform: all 0.3s;
+        .footer .middle_top{
+            margin-bottom: 25px;
         }
-
         .footer .right{
             position: relative;
             float: left;
@@ -261,7 +265,7 @@
             VINCENT（文森特），浪漫的一心一意的“制造品牌”。<br>
             日常平凡的日常浪漫地演出，以自然的亲密的亲密的生活变得丰富了人生。我想提案有那样的优点的设计和产品的建议。
         </p>
-        <a href="vincent_home.html" class="btn">View About</a>
+        <div class="btn_box"><a href="vincent_home.html" class="btn">View About</a><div class="next"></div></div>
     </div>
 
 </div>
@@ -325,12 +329,12 @@
             <div class="left">
                 <h3>SITE MENU</h3>
                 <ul>
-                    <li><a href="vincent_home.html">HOME</a> </li><br>
-                    <li><a href="vincent_home.html">ABOUT</a> </li><br>
-                    <li><a href="vincent_home.html">PRODUCT</a> </li><br>
-                    <li><a href="vincent_home.html">JOURNAL</a> </li><br>
-                    <li><a href="vincent_home.html">SHOPLIST</a> </li><br>
-                    <li><a href="vincent_home.html">CONTANT</a> </li>
+                    <li><a href="vincent_home.html">HOME</a><span class="bottom-line"></span></li><br>
+                    <li><a href="vincent_home.html">ABOUT</a><span class="bottom-line"></span></li><br>
+                    <li><a href="vincent_home.html">PRODUCT</a><span class="bottom-line"></span></li><br>
+                    <li><a href="vincent_home.html">JOURNAL</a><span class="bottom-line"></span></li><br>
+                    <li><a href="vincent_home.html">SHOPLIST</a><span class="bottom-line"></span></li><br>
+                    <li><a href="vincent_home.html">CONTANT</a><span class="bottom-line"></span></li>
 
                 </ul>
             </div>
@@ -338,8 +342,8 @@
                 <div class="middle_top">
                     <h3>SOCIAL</h3>
                     <ul>
-                        <li><a href="vincent_home.html">Instagram</a> </li><br>
-                        <li><a href="vincent_home.html">Facebook</a> </li>
+                        <li><a href="vincent_home.html">Instagram</a> <span class="bottom-line"></span></li><br>
+                        <li><a href="vincent_home.html">Facebook</a> <span class="bottom-line"></span></li>
 
                     </ul>
                 </div>

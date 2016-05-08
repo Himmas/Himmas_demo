@@ -69,6 +69,19 @@
     margin-left:0 ;
     font-size: 14px;
 }
+.btn_box{
+    position: relative;
+}
+.btn_box .next{
+    position: absolute;
+    display: block;
+    background: url("btn_white.png") no-repeat;
+    right: 20px;
+}
+.content1_left .about .btn:hover .next{
+    display: block;
+    transition: all 0.3s;
+}
 .content1_right .welcome h1{
     font-size: 20px;
     font-family: "微软雅黑", Arial, Helvetica, sans-serif;
@@ -176,7 +189,7 @@
     border: #111111 2px solid;
     color:#111;
     display: block;
-    position: absolute;
+    position:absolute;
     text-align: center;
     line-height: 50px;
     margin-left:0 ;
@@ -185,11 +198,4 @@
     letter-spacing: 4px;
     right:0;
     margin-top: 10px;
-}
-.content1_right .play .btn:after{
-    display: block;
-    position: absolute;
-    right: 20px;
-    transform: all 0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95);
-
 }
