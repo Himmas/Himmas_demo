@@ -1,0 +1,177 @@
+@keyframes progress {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.health-container {
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    top: 0.45rem;
+    bottom: 0rem;
+    width: 100%;
+    .health-row{
+        box-sizing: border-box;
+        width: 100%;
+        .health-box{
+            border-top: .1rem solid #EEEEEE;
+            background-color: #fff;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .health-icon-box{
+                margin-left: .1rem;
+                width: .5rem;
+                height: .5rem;
+                text-align: center;
+                font-size: .3rem;
+                border-radius: 50%;
+                color: #fff;
+                line-height: .5rem;
+                margin-right: .2rem;
+            }
+            .percents-bar{
+                width: 2.5rem;
+                position: relative;
+                .bar-bg,{
+                    position: absolute;
+                    width: 100%;
+                }
+                .bar-on{
+                    position: relative;
+                    overflow: hidden;
+                    width: 0;
+                }
+                .percent-box{
+                    width: 2.5rem;
+                    height: .15rem;
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    .percent-circle{
+                        width: .15rem;
+                        height: .15rem;
+                        border-radius: 50%;
+                        background-color: #d7d7d7;
+                    }
+                    .percent-circle-in{
+                        //flex: 1;
+                        width: .15rem;
+                        height: .15rem;
+                        border: .05rem solid #d7d7d7;
+                        border-radius: 50%;
+                        background-color: #fff;
+                    }
+                }
+                .percent-line{
+                    position: absolute;
+                    width: 2.5rem;
+                    height: .05rem;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    background-color: #d7d7d7;
+                }
+            }
+            .percent{
+                flex: 1;
+                width: .3rem;
+            }
+        }
+    }
+    .health-index{
+        height: 30%;
+    }
+    .health-circle{
+        height: 20%;
+    }
+    .health-vaccine,.health-parasite,.health-beauty{
+        height: 16.667%;
+    }
+    .health-vaccine{
+        .health-icon-box{
+            background: #75b6e5;
+        }
+        .percent{
+            color: #75b6e5;
+        }
+        .percents-bar {
+            .bar-on {
+                .percent-line {
+                    background: #75b6e5;
+                }
+                .percent-box {
+                    .percent-circle {
+                        background-color: #75b6e5;
+                    }
+                    .percent-circle-in {
+                        border: .05rem solid #75b6e5;
+                    }
+                }
+            }
+        }
+    }
+    .health-parasite{
+        .health-icon-box{
+            background: #cfb88c;
+        }
+        .percent{
+            color: #cfb88c;
+        }
+        .percents-bar{
+            .bar-on{
+                .percent-line{
+                    background: #cfb88c;
+                }
+                .percent-box {
+                    .percent-circle {
+                        background-color: #cfb88c;
+                    }
+                    .percent-circle-in {
+                        border: .05rem solid #cfb88c;
+                    }
+                }
+            }
+        }
+    }
+    .health-beauty{
+        .health-icon-box{
+            background: #f48c77;
+        }
+        .percent{
+            color: #f48c77;
+        }
+        .percents-bar {
+            .bar-on {
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                animation-delay: .2s;
+                -webkit-animation-name: progress;
+                animation-name: progress;
+                .percent-line {
+                    background: #f48c77;
+                }
+                .percent-box {
+                    .percent-circle {
+                        background-color: #f48c77;
+                    }
+                    .percent-circle-in {
+                        border: .05rem solid #f48c77;
+                    }
+                }
+            }
+        }
+    }
+    .health-row:first-child{
+        .health-box{
+            border-top: none;
+        }
+    }
+}
