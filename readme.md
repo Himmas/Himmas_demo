@@ -15,5 +15,5 @@
 - 事件冒泡和事件捕获demo [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/event-bubbling)
 
 ##js
-
+- 原型链与继承[连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/prototype-chain)
 - 数组的合并与去重 [连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/array-concat)
