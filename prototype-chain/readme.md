@@ -1,4 +1,4 @@
-#Ô­ÐÍÁ´Óë¼Ì³Ð
+#åŽŸåž‹é“¾ä¸Žç»§æ‰¿
 
 [Demo](http://himmas.github.io/Himmas_demo/prototype-chain/)
 
