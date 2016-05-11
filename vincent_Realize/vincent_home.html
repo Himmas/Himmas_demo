@@ -7,19 +7,9 @@
     <link rel="stylesheet" href="concent1.css">
     <link rel="stylesheet" href="concent2.css">
     <link rel="stylesheet" href="footer.css">
-    <script src="jquery.js"></script>
 
     <script>
-$(function () {
-    var n=1;
-    $(".nav ul li").click(
-            function () {
-                n=$(".nav ul li").index(this);
-                $(".nav ul li").removeClass("nav_current");
-                $(".nav ul li").eq(n).addClass("nav_current");
-            }
-    )
-})
+
     </script>
     <style>
         *{margin: 0;padding: 0}
@@ -71,16 +61,16 @@ $(function () {
 <div class="nav">
     <div class="nav_left">
         <ul >
-            <li class="nav_current">
-                <a href="" >HOME</a>
+            <li class="home">
+                <a href="vincent_home.html">HOME</a>
             </li>
-            <li >
-                <a href="">ABOUT</a>
+            <li class="about">
+                <a href="vincent_home.html">ABOUT</a>
             </li>
-            <li >
+            <li class="product">
                 <a href="">PRODUCT</a>
             </li>
-            <li >
+            <li class="journal">
                 <a href="">JOURNAL</a>
             </li>
         </ul>
@@ -91,16 +81,16 @@ $(function () {
     </div>
     <div class="nav_right">
         <ul >
-            <li >
+            <li class="social">
                 <a href="">SOCIAL</a>
             </li>
-            <li >
+            <li class="web_shop">
                 <a href="">WEB SHOP</a>
             </li>
-            <li>
+            <li class="contact">
                 <a href="">CONTACT</a>
             </li>
-            <li>
+            <li class="shoplist">
                 <a href="">SHOPLIST</a>
             </li>
         </ul>
@@ -108,7 +98,7 @@ $(function () {
 </div>
 <div class="largebox">
     <div class="banner">
-        <div class="word"><img src="word.png" style="width: 100%"> </div>
+        <div class="word"><img src="word.png"> </div>
         <div class="slideInDown" data-wow-delay="2s" style="visibility: visible;-webkit-animation-delay: 2s; -moz-animation-delay: 2s; animation-delay: 2s;">
             <img src="arrow.png" style="width: 100%">
 
@@ -140,12 +130,8 @@ $(function () {
                 </div>
                 <div class="play">
                     <div class="picture" >
-                        <ul>
-                            <li class="open"><img src="product1.jpg" style="width: 100%"></li>
-                            <li ><img src="product2.jpg" style="width: 100%"></li>
-                            <li ><img src="product3.jpg" style="width: 100%"></li>
-                            <li ><img src="product4.jpg" style="width: 100%"></li>
-                        </ul>
+                        <img src="product1.jpg" style="width: 100%">
+
                     </div>
                     <button class="right"><img src="btn_black.png"> </button>
                     <ul class="page">
