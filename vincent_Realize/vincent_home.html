@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="concent1.css">
     <link rel="stylesheet" href="concent2.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <script>
+
+    </script>
     <style>
         *{margin: 0;padding: 0}
         a{text-decoration: none;
@@ -13,145 +18,42 @@
         body,div{margin: 0}
         .clearfix{clear: both}
 /*banner*/
+
         .banner{overflow: hidden;
             width: 92%;
             position: relative;
-            margin: 0 auto;}
-        .banner a{
-            width: 100%;
-            display: block;
-            position:relative;
-            left: 50%;
-            margin-left: -960px;
-            top: 10px;
-        }
-/*footer*/
-        .footer{
-            background-color: #111111;
-        }
-        .footer .big_box{
-            width: 74%;
-            margin: 50px auto 0;
-            padding: 100px;
-            position: relative;
-            display: block;
-        }
-        .footer .top{
-            position: relative;
-        }
-        .footer h3{
-            font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            color: #999;
-            margin-bottom: 10px;
-        }
-        .footer .left,.footer .middle{
-            display: block;
-            position: relative;
-            float: left;
-            width: 20%;
-        }
-        .footer ul li{
-            position: relative;
-        }
-        .footer ul .bottom-line{
+            margin: 70px auto 0;
+            height: 1000px;
+            background-image: url("spring.jpg");
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-position: center;
+            }
+        .banner .word{
             position: absolute;
-            width: 0;
-            border-bottom: #eeeeee 1px solid;
-        }
-        .footer ul li:hover .bottom-line{
-            width: 100%;
-            transition:all 0.3s;
-        }
-        .footer ul a{
-            color: #ffffff;
-            font-size: 12px;
-            font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-            display:block;
-            letter-spacing: 0.2em;
-            position:relative;
-        }
-        .footer .middle_top{
-            margin-bottom: 25px;
-        }
-        .footer .right{
-            position: relative;
-            float: left;
-            display: block;
-            width: 60%;
-        }
-        .footer .right .photo2 {
-            float: left;
-            width: 25%;
-            display: block;
-            margin-top: 10px;
-            background-color: #000000;
-            opacity: 0.6;
-        }
-        .footer .right .photo2 img{
-            display: block;
-            position: relative;
-        }
-        .footer .right .page{
-            display: inline-block;
-            cursor: pointer;
+            width: 80%;
+            top: 100px;
             left: 0;
-            position: relative;
-            outline: none;
-            margin-top: 10px;
+            right: 0;
+            margin: 0 auto;
         }
-        .footer .right .page li{
-            position: relative;
-            display: inline-block;
-            border: #111111 1px solid;
+        .banner .slideInDown{
+            display: block;
+            position: absolute;
+            opacity: 0.8;
+            animation: scroll-next 2s infinite linear;
             width: 50px;
             height: 50px;
-            text-align: center;
-            outline: none;
-            line-height: 50px;
+            top: 870px;
+            left: 50%;
+            margin-left: -25px;
         }
-        .footer .right .page .current{
-            background-color: #ffffff;
+        @-webkit-keyframes scroll-next{
+            from{top:870px}
+            to{
+                top:900px;}
         }
-        .footer .right .page .current a{
-            color: #111111;
-        }
-        .footer .play .btn{
-            width: 225px;
-            height: 50px;
-            background-color: #111;
-            border: #ffffff 2px solid;
-            color:#ffffff;
-            display: inline-block;
-            position: relative;
-            text-align: center;
-            line-height: 50px;
-            font-size: 12px;
-            font-family: "微软雅黑";
-            letter-spacing: 4px;
-            margin-top:10px;
-            float: right;
-        }
-        .footer .down{
-            margin-left: auto;
-            margin-right: auto;
-            margin-top:80px ;
-            text-align: center;
-        }
-        .footer h4{
-            margin-top: 30px;
-            color: #cccccc;
-            font-size: 12px;
-            letter-spacing: 0.2em;
-            line-height: 40px;
-            font-family: "微软雅黑";
-        }
-        .footer .down p{
-            color: #cccccc;
-            font-size: 12px;
-            font-family: "微软雅黑";
-            letter-spacing: 0.2em
-        }
+
 
     </style>
 </head>
@@ -160,10 +62,10 @@
     <div class="nav_left">
         <ul >
             <li class="home">
-                <a href="">HOME</a>
+                <a href="vincent_home.html">HOME</a>
             </li>
             <li class="about">
-                <a href="">ABOUT</a>
+                <a href="vincent_home.html">ABOUT</a>
             </li>
             <li class="product">
                 <a href="">PRODUCT</a>
@@ -194,205 +96,217 @@
         </ul>
     </div>
 </div>
-<div class="banner">
-    <a href="vincent_home.html"><img src="spring.jpg"> </a>
-</div>
-<div class="content1">
+<div class="largebox">
+    <div class="banner">
+        <div class="word"><img src="word.png"> </div>
+        <div class="slideInDown" data-wow-delay="2s" style="visibility: visible;-webkit-animation-delay: 2s; -moz-animation-delay: 2s; animation-delay: 2s;">
+            <img src="arrow.png" style="width: 100%">
 
-    <div class="content1_right">
-        <div class="welcome">
-            <div class="name">
-                <h1 >WELCOME</h1>
-                <div class="box_2"></div>
-            </div>
+        </div>
+    </div>
+    <div class="content1">
 
-            <p class="welcome">
+        <div class="content1_right">
+            <div class="welcome">
+                <div class="name">
+                    <h1 >WELCOME</h1>
+                    <div class="box_2"></div>
+                </div>
+
+                <p class="welcome">
                 <span class="one">WE ONLY <br>
                     LIVE ONCE.</span>
                 <span class="two">ALL <br>
                     WE NEED IS</span>
                 <span class="three">A LITTLE<br>
                     ROMANCE.</span>
-            </p>
-            <div class="box_3"></div>
-        </div>
-        <div class="product">
-            <div class="name">
-                <h1>PRODUCT</h1>
-                <div class="box_4"></div>
+                </p>
+                <div class="box_3"></div>
             </div>
-            <div class="play">
-                <div class="picture" ><img src="product1.jpg" style="width: 100%"> </div>
-                <button class="right"><img src="btn_black.png"> </button>
-                <ul class="page">
-                    <li class="">
-                        <a>1</a>
-                    </li>
-                    <li class="">
-                        <a>2</a>
-                    </li>
-                    <li class="">
-                        <a>3</a>
-                    </li>
-                    <li class="">
-                        <a>4</a>
-                    </li>
-                </ul>
-                <a href="vincent_home.html" class="btn">View All</a>
-            </div>
-        </div>
-    </div>
-    <div class="content1_left">
-    <div class="left_top"><img src="vincent.png" style="width: 100%"> </div>
-    <div class="concept">
-        <div class="name">
-            <h1 >CONCEPT</h1>
-            <div class="box"></div>
-        </div>
+            <div class="product">
+                <div class="name">
+                    <h1>PRODUCT</h1>
+                    <div class="box_4"></div>
+                </div>
+                <div class="play">
+                    <div class="picture" >
+                        <img src="product1.jpg" style="width: 100%">
 
-        <p class="concent">
+                    </div>
+                    <button class="right"><img src="btn_black.png"> </button>
+                    <ul class="page">
+                        <li class="">
+                            <a>1</a>
+                        </li>
+                        <li class="">
+                            <a>2</a>
+                        </li>
+                        <li class="">
+                            <a>3</a>
+                        </li>
+                        <li class="">
+                            <a>4</a>
+                        </li>
+                    </ul>
+                    <div class="btn_box"><a href="vincent_home.html" class="btn">View All<span class="next"></span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="content1_left">
+            <div class="left_top"><img src="vincent.png" style="width: 100%"> </div>
+            <div class="concept">
+                <div class="name">
+                    <h1 >CONCEPT</h1>
+                    <div class="box"></div>
+                </div>
+
+                <p class="concent">
                 <span class="one">"VINCENT" IS A <br>
                     SINGLE-MINDED<br>
                     BRAND</span>
                 <span class="two">FOR MAKING <br>
                     ROMANTIC <br>
                     THINGS.</span>
-        </p>
-        <div class="box_1"></div>
-    </div>
-    <div class="about">
-        <p class="content">
-            VINCENT（文森特），浪漫的一心一意的“制造品牌”。<br>
-            日常平凡的日常浪漫地演出，以自然的亲密的亲密的生活变得丰富了人生。我想提案有那样的优点的设计和产品的建议。
-        </p>
-        <div class="btn_box"><a href="vincent_home.html" class="btn">View About<span class="btn-icon"></span></a></div>
-    </div>
+                </p>
+                <div class="box_1"></div>
+            </div>
+            <div class="about">
+                <p class="content">
+                    VINCENT（文森特），浪漫的一心一意的“制造品牌”。<br>
+                    日常平凡的日常浪漫地演出，以自然的亲密的亲密的生活变得丰富了人生。我想提案有那样的优点的设计和产品的建议。
+                </p>
 
-</div>
-    <div class="clearfix"></div>
-</div>
-<div class="content2">
-    <div class="journal">
-    <div class="name">
-        <h1>JOURNAL</h1>
-        <div class="box_5"></div>
-    </div>
-        <div class="photo1">
-            <div class="left"><img src="journal1.jpg"> </div>
-            <div class="right">
-                <div class="date">2016.4.1</div>
-                <a href="vincent_home.html" class="word">"2016春天的脚步"主题展会</a>
+                <div class="btn_box"><a href="vincent_home.html" class="btn">View About<span class="btn-icon"></span></a></div>
+
+                <div class="btn_box">
+                    <a href="vincent_home.html" class="btn">View About<div class="next"></div></a></div>
+
             </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="photo1">
-            <div class="left"><img src="journal2.jpg"> </div>
-            <div class="right">
-                <div class="date">2016.3.6</div>
-                <a href="vincent_home.html" class="word">灵感赋予生活鲜活与富裕</a>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="photo1">
-            <div class="left"><img src="journal3.jpg"> </div>
-            <div class="right">
-                <div class="date">2016.3.1</div>
-                <a href="vincent_home.html" class="word">注入生命的“丝网屏幕印刷”</a>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="about">
-            <a href="vincent_home.html" class="btn">View All</a>
+
         </div>
         <div class="clearfix"></div>
     </div>
-    <div class="social">
-        <div class="name">
-            <h1>SOCIAL</h1>
-            <div class="box_6"></div>
+    <div class="content2">
+        <div class="journal">
+            <div class="name">
+                <h1>JOURNAL</h1>
+                <div class="box_5"></div>
+            </div>
+            <div class="photo1">
+                <div class="left"><img src="journal1.jpg"> </div>
+                <div class="right">
+                    <div class="date">2016.4.1</div>
+                    <a href="vincent_home.html" class="word">"2016春天的脚步"主题展会</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="photo1">
+                <div class="left"><img src="journal2.jpg"> </div>
+                <div class="right">
+                    <div class="date">2016.3.6</div>
+                    <a href="vincent_home.html" class="word">灵感赋予生活鲜活与富裕</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="photo1">
+                <div class="left"><img src="journal3.jpg"> </div>
+                <div class="right">
+                    <div class="date">2016.3.1</div>
+                    <div class="word_box">
+                        <a href="vincent_home.html" class="word">注入生命的“丝网屏幕印刷”</a>
+                        <div class="black"></div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="btn_box">
+                <a href="vincent_home.html" class="btn">View All<div class="next"></div></a>
+            </div>
+            <div class="clearfix"></div>
         </div>
-        <div class="massege">
-            <p class="word">
-                日常平凡的日常浪漫地演出，<br>以自然的亲密的亲密的生活变得丰富了人生。
-            </p>
-            <div class="bwbtn">
-                <a href="vincent_home.html" class="btn_left">Instagram</a>
-                <a href="vincent_home.html" class="btn_right">Facebook</a>
+        <div class="social">
+            <div class="name">
+                <h1>SOCIAL</h1>
+                <div class="box_6"></div>
+            </div>
+            <div class="massege">
+                <p class="word">
+                    日常平凡的日常浪漫地演出，<br>以自然的亲密的亲密的生活变得丰富了人生。
+                </p>
+                <div class="bwbtn">
+                    <div class="btn_box_black">
+                        <a href="vincent_home.html" class="btn_left">Instagram<div class="next"></div></a>
+                    </div>
+                    <div class="btn_box_white">
+                        <a href="vincent_home.html" class="btn_right">Facebook<div class="next"></div></a>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="clearfix"></div>
     </div>
-    <div class="clearfix"></div>
-</div>
-<div class="footer">
-    <div class="big_box">
-        <div class="top">
-            <div class="left">
-                <h3>SITE MENU</h3>
-                <ul>
-                    <li><a href="vincent_home.html">HOME</a><span class="bottom-line"></span></li><br>
-                    <li><a href="vincent_home.html">ABOUT</a><span class="bottom-line"></span></li><br>
-                    <li><a href="vincent_home.html">PRODUCT</a><span class="bottom-line"></span></li><br>
-                    <li><a href="vincent_home.html">JOURNAL</a><span class="bottom-line"></span></li><br>
-                    <li><a href="vincent_home.html">SHOPLIST</a><span class="bottom-line"></span></li><br>
-                    <li><a href="vincent_home.html">CONTANT</a><span class="bottom-line"></span></li>
-
-                </ul>
-            </div>
-            <div class="middle">
-                <div class="middle_top">
-                    <h3>SOCIAL</h3>
+    <div class="footer">
+        <div class="big_box">
+            <div class="top">
+                <div class="left">
+                    <h3>SITE MENU</h3>
                     <ul>
-                        <li><a href="vincent_home.html">Instagram</a> <span class="bottom-line"></span></li><br>
-                        <li><a href="vincent_home.html">Facebook</a> <span class="bottom-line"></span></li>
+                        <li><a href="vincent_home.html">HOME</a><span class="bottom-line"></span></li><br>
+                        <li><a href="vincent_home.html">ABOUT</a><span class="bottom-line"></span></li><br>
+                        <li><a href="vincent_home.html">PRODUCT</a><span class="bottom-line"></span></li><br>
+                        <li><a href="vincent_home.html">JOURNAL</a><span class="bottom-line"></span></li><br>
+                        <li><a href="vincent_home.html">SHOPLIST</a><span class="bottom-line"></span></li><br>
+                        <li><a href="vincent_home.html">CONTANT</a><span class="bottom-line"></span></li>
 
                     </ul>
                 </div>
-                <div class="middle_top">
-                    <h3>WEB SHOP</h3>
-                    <ul>
-                        <li><a>Coming Soon</a></li>
-                    </ul>
-                </div>
+                <div class="middle">
+                    <div class="middle_top">
+                        <h3>SOCIAL</h3>
+                        <ul>
+                            <li><a href="vincent_home.html">Instagram</a> <span class="bottom-line"></span></li><br>
+                            <li><a href="vincent_home.html">Facebook</a> <span class="bottom-line"></span></li>
 
-            </div>
-            <div class="right">
-                <h3>RECOMMEND</h3>
-                <div class="play">
-                    <div class="picture" >
-                        <div class="photo2"><img src="product1.jpg" style="width: 100%"></div>
-                        <div class="photo2"><img src="product2.jpg" style="width: 100%"></div>
-                        <div class="photo2"><img src="product3.jpg" style="width: 100%"></div>
-                        <div class="photo2"><img src="product4.jpg" style="width: 100%"></div>
+                        </ul>
+                    </div>
+                    <div class="middle_top">
+                        <h3>WEB SHOP</h3>
+                        <ul>
+                            <li><a>Coming Soon</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <h3>RECOMMEND</h3>
+                    <div class="play">
+                        <div class="picture" >
+                            <div class="photo2"><img src="product1.jpg" style="width: 100%"></div>
+                            <div class="photo2"><img src="product2.jpg" style="width: 100%"></div>
+                            <div class="photo2"><img src="product3.jpg" style="width: 100%"></div>
+                            <div class="photo2"><img src="product4.jpg" style="width: 100%"></div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="btn_box">
+                            <a href="vincent_home.html" class="btn">View All<div class="next"></div></a>
+
+                        </div>
                         <div class="clearfix"></div>
                     </div>
-                    <ul class="page">
-                        <li class="current">
-                            <a>1</a>
-                        </li>
-                        <li>
-                            <a>2</a>
-                        </li>
-                        <li>
-                            <a>3</a>
-                        </li>
-                        <li>
-                            <a>4</a>
-                        </li>
-                    </ul>
-                    <a href="vincent_home.html" class="btn">View All</a>
-                    <div class="clearfix"></div>
                 </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="down">
+                <img src="footer.png" >
+                <h4>© 2016 VINCENT</h4>
+                <p>Graphika inc.</p>
             </div>
             <div class="clearfix"></div>
         </div>
-        <div class="down">
-            <img src="footer.png" >
-            <h4>© 2016 VINCENT</h4>
-            <p>Graphika inc.</p>
-        </div>
-        <div class="clearfix"></div>
-    </div>
 
+    </div>
 </div>
+
 </body>
 </html>
