@@ -7,9 +7,19 @@
     <link rel="stylesheet" href="concent1.css">
     <link rel="stylesheet" href="concent2.css">
     <link rel="stylesheet" href="footer.css">
+    <script src="jquery.js"></script>
 
     <script>
-
+$(function () {
+    var n=1;
+    $(".nav ul li").click(
+            function () {
+                n=$(".nav ul li").index(this);
+                $(".nav ul li").removeClass("nav_current");
+                $(".nav ul li").eq(n).addClass("nav_current");
+            }
+    )
+})
     </script>
     <style>
         *{margin: 0;padding: 0}
@@ -61,16 +71,16 @@
 <div class="nav">
     <div class="nav_left">
         <ul >
-            <li class="home">
-                <a href="vincent_home.html">HOME</a>
+            <li class="nav_current">
+                <a href="" >HOME</a>
             </li>
-            <li class="about">
-                <a href="vincent_home.html">ABOUT</a>
+            <li >
+                <a href="">ABOUT</a>
             </li>
-            <li class="product">
+            <li >
                 <a href="">PRODUCT</a>
             </li>
-            <li class="journal">
+            <li >
                 <a href="">JOURNAL</a>
             </li>
         </ul>
@@ -81,16 +91,16 @@
     </div>
     <div class="nav_right">
         <ul >
-            <li class="social">
+            <li >
                 <a href="">SOCIAL</a>
             </li>
-            <li class="web_shop">
+            <li >
                 <a href="">WEB SHOP</a>
             </li>
-            <li class="contact">
+            <li>
                 <a href="">CONTACT</a>
             </li>
-            <li class="shoplist">
+            <li>
                 <a href="">SHOPLIST</a>
             </li>
         </ul>
@@ -98,7 +108,7 @@
 </div>
 <div class="largebox">
     <div class="banner">
-        <div class="word"><img src="word.png"> </div>
+        <div class="word"><img src="word.png" style="width: 100%"> </div>
         <div class="slideInDown" data-wow-delay="2s" style="visibility: visible;-webkit-animation-delay: 2s; -moz-animation-delay: 2s; animation-delay: 2s;">
             <img src="arrow.png" style="width: 100%">
 
@@ -131,6 +141,10 @@
                 <div class="play">
                     <div class="picture" >
                         <img src="product1.jpg" style="width: 100%">
+                        <img src="product2.jpg" style="width: 100%">
+                        <img src="product3.jpg" style="width: 100%">
+                        <img src="product4.jpg" style="width: 100%">
+
 
                     </div>
                     <button class="right"><img src="btn_black.png"> </button>
