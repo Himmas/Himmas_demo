@@ -169,11 +169,23 @@
     position: relative;
     display: block;
 }
+
+/*轮播父级-宽高自定*/
 .content1_right .product .picture{
     display: block;
-    position: relative;
     overflow: hidden;
+    width: 20%;
+    height:20%;
 }
+/*轮播子级(0)-高不写自适应子级图片高度,宽度大于子级总宽度*/
+.content1_right .product .picture ul{
+	width:10000px;
+}
+/*轮播子级(1)*/
+.content1_right .product .picture ul li{
+	float: left;
+}
+
 .content1_right .product .right{
     display: block;
     width: 55px;
