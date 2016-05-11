@@ -173,20 +173,19 @@
 }
 .content1_right .product .picture{
     display: block;
-    position: relative;
     overflow: hidden;
-    width:100%;
-    height: 700px;
+    width: 20%;
+    height: 20%;
+}
+.content1_right .product .picture ul{
 
+}
+.content1_right .product .picture ul li{
+    float: left;
 }
 .content1_right .product a{
-    font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
-}
-.content1_right .product .picture img{
-    position: relative;
-    float: left;
-
-}
+     font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
+ }
 .content1_right .product .right{
     display: block;
     width: 55px;
