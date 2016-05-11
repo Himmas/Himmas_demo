@@ -1,0 +1,457 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 625%;
+}
+@media screen and (max-width: 319px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 399px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 413px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 639px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 1079px) {
+  html {
+    font-size: 150px;
+  }
+}
+@media screen and (min-height: 1800px) {
+  html {
+    font-size: 280px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  html {
+    font-size: 280px;
+  }
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, STHeiTi, Arial, "Microsoft YaHei";
+  font-size: 0.14rem;
+  line-height: 1.5;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  color: #333;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+a {
+  color: #333;
+  background: transparent;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+a:active {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+input {
+  outline: none;
+  border: none;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+  border: none;
+  resize: none;
+  outline: none;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none outside none;
+}
+h1,
+h2,
+h3 {
+  line-height: 2;
+  font-weight: normal;
+}
+h1 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 14px;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+.header {
+  height: 0.45rem;
+  background-color: #fec85c;
+  padding: 0 0.1rem;
+  line-height: 0.45rem;
+  color: #fff;
+  font-size: 0.28rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.i-left {
+  float: left;
+  position: relative;
+  top: -0.03rem;
+}
+.i-plus {
+  float: right;
+  font-size: 0.2rem;
+}
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.health-container {
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 0.45rem;
+  bottom: 0rem;
+  width: 100%;
+}
+.health-container .health-row {
+  box-sizing: border-box;
+  width: 100%;
+}
+.health-container .health-row .health-box {
+  border-top: .1rem solid #EEEEEE;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.health-container .health-row .health-box .health-icon-box {
+  margin-left: .1rem;
+  width: .5rem;
+  height: .5rem;
+  text-align: center;
+  font-size: .3rem;
+  border-radius: 50%;
+  color: #fff;
+  line-height: .5rem;
+  margin-right: .2rem;
+}
+.health-container .health-row .health-box .percents-bar {
+  width: 2.5rem;
+  position: relative;
+}
+.health-container .health-row .health-box .percents-bar .bar-bg {
+  position: absolute;
+  width: 100%;
+}
+.health-container .health-row .health-box .percents-bar .bar-on {
+  position: relative;
+  overflow: hidden;
+  width: 0;
+}
+.health-container .health-row .health-box .percents-bar .percent-box {
+  width: 2.5rem;
+  height: .15rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.health-container .health-row .health-box .percents-bar .percent-box .percent-circle {
+  width: .15rem;
+  height: .15rem;
+  border-radius: 50%;
+  background-color: #d7d7d7;
+}
+.health-container .health-row .health-box .percents-bar .percent-box .percent-circle-in {
+  width: .15rem;
+  height: .15rem;
+  border: .05rem solid #d7d7d7;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.health-container .health-row .health-box .percents-bar .percent-line {
+  position: absolute;
+  width: 2.5rem;
+  height: .05rem;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  background-color: #d7d7d7;
+}
+.health-container .health-row .health-box .percent {
+  flex: 1;
+  width: .3rem;
+}
+.health-container .health-index {
+  height: 30%;
+}
+.health-container .health-circle {
+  height: 20%;
+}
+.health-container .health-vaccine,
+.health-container .health-parasite,
+.health-container .health-beauty {
+  height: 16.667%;
+}
+.health-container .health-vaccine .health-icon-box {
+  background: #75b6e5;
+}
+.health-container .health-vaccine .percent {
+  color: #75b6e5;
+}
+.health-container .health-vaccine .percents-bar .bar-on .percent-line {
+  background: #75b6e5;
+}
+.health-container .health-vaccine .percents-bar .bar-on .percent-box .percent-circle {
+  background-color: #75b6e5;
+}
+.health-container .health-vaccine .percents-bar .bar-on .percent-box .percent-circle-in {
+  border: .05rem solid #75b6e5;
+}
+.health-container .health-parasite .health-icon-box {
+  background: #cfb88c;
+}
+.health-container .health-parasite .percent {
+  color: #cfb88c;
+}
+.health-container .health-parasite .percents-bar .bar-on .percent-line {
+  background: #cfb88c;
+}
+.health-container .health-parasite .percents-bar .bar-on .percent-box .percent-circle {
+  background-color: #cfb88c;
+}
+.health-container .health-parasite .percents-bar .bar-on .percent-box .percent-circle-in {
+  border: .05rem solid #cfb88c;
+}
+.health-container .health-beauty .health-icon-box {
+  background: #f48c77;
+}
+.health-container .health-beauty .percent {
+  color: #f48c77;
+}
+.health-container .health-beauty .percents-bar .bar-on {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: .2s;
+  -webkit-animation-name: progress;
+  animation-name: progress;
+}
+.health-container .health-beauty .percents-bar .bar-on .percent-line {
+  background: #f48c77;
+}
+.health-container .health-beauty .percents-bar .bar-on .percent-box .percent-circle {
+  background-color: #f48c77;
+}
+.health-container .health-beauty .percents-bar .bar-on .percent-box .percent-circle-in {
+  border: .05rem solid #f48c77;
+}
+.health-container .health-row:first-child .health-box {
+  border-top: none;
+}
+body {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container {
+  box-sizing: border-box;
+}

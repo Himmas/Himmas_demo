@@ -9,11 +9,12 @@
 - clip-path与动画 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/clip-path)
 - 纯css实现的优惠券样式 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/discount)
 - 仿京东放大镜效果 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/magnifying)
+- 纯css进度条 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/progress-bar)
 
 ##DOM相关
 
 - 事件冒泡和事件捕获demo [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/event-bubbling)
 
 ##js
-
+- 原型链与继承[连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/prototype-chain)
 - 数组的合并与去重 [连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/array-concat)
