@@ -222,4 +222,25 @@
     letter-spacing: 4px;
     right:0;
     margin-top: 10px;
+    box-sizing: border-box;
+}
+.content1_right .play .btn:hover{
+    padding-right: 20px;
+    transition: all 0.5s;
+}
+.content1_right .play .btn .next{
+    background: url("btn_black.png") no-repeat;
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    z-index: 100;
+}
+.content1_right .play .btn:hover .next{
+    opacity: 1;
+    transition: all 0.5s;
 }

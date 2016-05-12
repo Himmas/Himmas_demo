@@ -1,6 +1,6 @@
 .content2{
     position: relative;
-    width: 70%;
+    width: 80%;
     margin: 50px auto 0;
     display: block;
     padding: 30px 120px;
@@ -43,30 +43,57 @@
     color: #111111;
     font-size: 14px;
 }
+.content2 .journal .photo1 .right .date{
+    margin-bottom: 10px;
+}
 .content2 .journal .photo1 .right a{
     cursor: pointer;
     color: #666;
     border-bottom: #666 1px dashed;
+    letter-spacing: 0.1em;
 }
-.content2 .about{
-    display: block;
-    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
-    width: 80%;
-    position: relative;
-    margin-top: 20px;
+.content2 .journal .photo1 .right a:hover{
+    color: #ffffff;
+    background-color: #111111;
+    border: none;
 }
-.content2 .about .btn{
-    margin: 25px;
+.content2 .journal .btn{
+    margin-top: 25px;
     width: 225px;
     height: 70px;
-    border: #111 2px solid;
-    color:#111;
+    border: #111111 2px solid;
+    background-color: #ffffff;
+    color:#111111;
     display: block;
+    position: relative;
     text-align: center;
     line-height: 70px;
     margin-left:0 ;
     font-size: 14px;
+    box-sizing:border-box;
+    transition: all 0.5s;
+    font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
+    letter-spacing: 0.25em;
 }
+.journal .btn .next{
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    background: url("btn_black.png") no-repeat;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.content2 .journal .btn:hover{
+    padding-right:20px;
+}
+.content2t .journal .btn:hover .next{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
 .content2 .social{
     float: right;
     display: block;
@@ -107,32 +134,78 @@
 }
 
 .content2 .massege .btn_right{
-    width: 35%;
-    height: 8%;
     border: #111 2px solid;
     background-color: #fff;
     color:#111;
-    display: inline-block;
+    display: block;
     text-align: center;
     line-height: 70px;
     font-size: 14px;
-    margin-left: 3.5%;
     z-index: 20;
     position: relative;
+    box-sizing: border-box;
+    width:221px;
+    height: 70px;
+    margin-left: 3.5%;
+    float: right;
+}
+.content2 .massege .btn_right:hover{
+    padding-right: 20px;
+    transition: all 0.5s;
+}
+.content2 .massege .btn_box_white .next{
+    background: url("btn_black.png") no-repeat;
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    z-index: 100;
+}
+.content2 .massege .btn_box_white:hover .next{
+    opacity: 1;
+    transition: all 0.5s;
 }
 .content2 .massege .btn_left{
-    width: 35%;
-    height: 8%;
-    background-color: #111;
-    color:#fff;
-    display: inline-block;
+    background-color: #111111;
+    color: #ffffff;;
+    display: block;
     text-align: center;
     line-height: 70px;
     font-size: 14px;
     z-index: 20;
     position: relative;
-    margin-top: 20px;
+    box-sizing: border-box;
+    width:221px;
+    height: 70px;
+    margin-left: 3.5%;
+    float: right;
 }
+.content2 .massege .btn_left:hover{
+    padding-right: 20px;
+    transition: all 0.5s;
+}
+.content2 .massege .btn_box_black .next{
+    background: url("btn_white.png") no-repeat;
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    z-index: 100;
+}
+.content2 .massege .btn_box_black:hover .next{
+    opacity: 0.87;
+    transition: all 0.5s;
+}
+
+
 .content2 .social .massege:after {
     content: "";
     position: absolute;

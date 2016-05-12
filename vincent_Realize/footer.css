@@ -1,0 +1,172 @@
+.footer{
+    background-color: #111111;
+}
+.footer .big_box{
+    width: 74%;
+    margin: 50px auto 0;
+    padding: 100px;
+    position: relative;
+    display: block;
+}
+.footer .top{
+    position: relative;
+}
+.footer h3{
+    font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.footer .left,.footer .middle{
+    display: block;
+    position: relative;
+    float: left;
+    width: 20%;
+}
+.footer ul li{
+    position: relative;
+}
+.footer ul .bottom-line{
+    position: absolute;
+    width: 0;
+    border-bottom: #eeeeee 1px solid;
+}
+.footer ul li:hover .bottom-line{
+    width: 100%;
+    transition:all 0.3s;
+}
+.footer ul a{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+    display:block;
+    letter-spacing: 0.2em;
+    position:relative;
+}
+.footer .middle_top{
+    margin-bottom: 25px;
+}
+.footer .right{
+    position: relative;
+    float: left;
+    display: block;
+    width: 60%;
+}
+.footer .right .picture{
+    width: 100%;
+}
+.footer .right .photo2 {
+    width: 25%;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.footer .right  .photo2 img:hover{
+    -webkit-filter:grayscale(0);
+    transform:scale(0.95,0.95);
+    transition: all 0.5s;
+    display:block;
+    width: 25%;
+}
+.footer .right .photo2 img {
+    display: block;
+    -webkit-filter: grayscale(100%);
+    float: left;
+    margin-top: 10px;
+    width: 25%;
+    position: relative;
+}
+.footer .right .page{
+    display: inline-block;
+    cursor: pointer;
+    left: 0;
+    position: relative;
+    outline: none;
+    margin-top: 10px;
+}
+.footer .right .page li{
+    position: relative;
+    display: inline-block;
+    border: #111111 1px solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    outline: none;
+    line-height: 50px;
+}
+.footer .right .page .current{
+    background-color: #ffffff;
+
+}
+.footer .right .page .current a{
+    color: #111111;
+}
+.footer .right .page li:hover{
+    background: #e1e1e1;
+
+}
+.footer .right .page li a:hover{
+    color: #111111;
+}
+.footer .play .btn{
+    color:#ffffff;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width: 225px;
+    line-height: 50px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    letter-spacing: 4px;
+    box-sizing:border-box;
+    transition: all 0.5s;
+}
+.footer .btn_box{
+    position: relative;
+    float: right;
+    margin-top:10px;
+    width: 225px;
+    height: 50px;
+    background-color: #111;
+    border: #ffffff 2px solid;
+}
+.footer .btn_box .next{
+    position: absolute;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    background: url("btn_white.png") no-repeat;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    z-index: 100;
+}
+.footer .btn:hover{
+    padding-right:20px;
+}
+.footer .btn:hover .next{
+    opacity: 0.87;
+    transition: all 0.5s;
+}
+.footer .down{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px ;
+    text-align: center;
+}
+.footer h4{
+    margin-top: 30px;
+    color: #cccccc;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    line-height: 40px;
+    font-family: "微软雅黑";
+}
+.footer .down p{
+    color: #cccccc;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    letter-spacing: 0.2em
+}
