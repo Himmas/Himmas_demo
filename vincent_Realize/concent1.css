@@ -2,6 +2,7 @@
     margin: 120px auto 0;
     position: relative;
     display: block;
+    height: 1600px;
 }
 .content1_left{float: left;
     width: 48%;
@@ -57,7 +58,7 @@
     width: 78%;
 }
 .content1_left .about .btn{
-    transition: all .3s;
+    transition: all .6s;
     margin: 25px;
     width: 225px;
     height: 70px;
@@ -76,12 +77,12 @@
 }
 
 .content1_left .about .btn:hover .btn-icon{
-    right: 0;
     opacity: 1;
+    right:10px;
 }
 
 .btn-icon{
-    transition: all .3s;
+    transition: all .6s;
     position: absolute;
     opacity: 0;
     width: 40px;
@@ -96,16 +97,8 @@
 .btn_box{
     position: relative;
 }
-.btn_box .next{
-    position: absolute;
-    display: block;
-    background: url("btn_white.png") no-repeat;
-    right: 20px;
-}
-.content1_left .about .btn:hover .next{
-    display: block;
-    transition: all 0.3s;
-}
+
+
 .content1_right .welcome h1{
     font-size: 20px;
     font-family: "微软雅黑", Arial, Helvetica, sans-serif;
@@ -171,15 +164,40 @@
 }
 .content1_right .product .picture{
     display: block;
-    position: relative;
     overflow: hidden;
+    width: 100%;
+
+}
+.content1_right .product .picture .white_box{
+    width: 0;
+    height: 90%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.6s;
+}
+
+.content1_right .product .picture ul li:hover{
+    transform:scale(0.98,0.98);
+    background-color:#cccccc;
+}
+.content1_right .product .picture ul li{
+    float: left;
+    background-color: #cccccc;
+    transition: all 0.5s;
+}
+
+.content1_right .product .picture li a{
+    font-family: "微软雅黑 ", Arial, Helvetica, sans-serif;
 }
 .content1_right .product .right{
     display: block;
     width: 55px;
     height:55px;
     right:-27px;
-    margin-top: -27px;
     background-color: #fff;
     border: #000 1px solid;
     cursor: pointer;
@@ -223,10 +241,11 @@
     right:0;
     margin-top: 10px;
     box-sizing: border-box;
+    transition: all 0.5s;
 }
 .content1_right .play .btn:hover{
     padding-right: 20px;
-    transition: all 0.5s;
+
 }
 .content1_right .play .btn .next{
     background: url("btn_black.png") no-repeat;
@@ -237,10 +256,12 @@
     top:0;
     bottom: 0;
     margin: auto;
-    right: 0;
+    right: 20px;
     z-index: 100;
+    transition: all 0.5s;
 }
 .content1_right .play .btn:hover .next{
     opacity: 1;
-    transition: all 0.5s;
+
+    right: 10px;
 }
