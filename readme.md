@@ -12,6 +12,7 @@
 - 纯css进度条 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/progress-bar)
 - 纯css选择框 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/selectBox)
 - canvas时钟 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/particle-clock)
+- 轮播 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/slider)
 
 ##DOM相关
 

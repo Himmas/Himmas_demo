@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/slide.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/slide.plugin.js"></script>
+</head>
+<body>
+    <div class="pa-slide">
+        <div class="slide-box">
+            <div class="slide-img" style="left: 0%">
+                <img src="images/slide1.jpg">
+            </div>
+            <div class="slide-img" style="left: 100%">
+                <img src="images/slide2.jpg">
+            </div>
+            <div class="slide-img" style="left: 200%">
+                <img src="images/slide3.jpg">
+            </div>
+        </div>
+        <div class="control-box">
+            <ul class="circle-box">
+                <li class="on"></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="control-btn left-btn"></div>
+            <div class="control-btn right-btn"></div>
+        </div>
+    </div>
+<script>
+    $(document).ready(function () {
+        $('.pa-slide').slider({
+            left_btn:'.left-btn',
+            right_btn:'.right-btn',
+            control_li:'.circle-box li',
+            li_on_class:'on',
+            img_element:'.slide-img',
+            auto_play:'true',
+            time:'2000'
+        });
+    })
+</script>
+</body>
+</html>
