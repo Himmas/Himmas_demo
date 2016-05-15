@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.pa-slide {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.slide-box {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  z-index: -1;
+}
+.slide-box .slide-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.slide-box .slide-img img {
+  width: 100%;
+  height: 100%;
+}
+.control-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+.control-box .circle-box {
+  display: inline-block;
+  position: relative;
+  top: 325px;
+  margin: auto;
+}
+.control-box .circle-box li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #cccccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.control-box .circle-box li.on,
+.control-box .circle-box li:hover {
+  background-color: #bc0001;
+}
+.control-box .control-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  cursor: pointer;
+}
+.control-box .left-btn {
+  background-image: url('../images/left-btn.png');
+}
+.control-box .right-btn {
+  right: 0;
+  background-image: url('../images/right-btn.png');
+}
