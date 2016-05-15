@@ -76,22 +76,24 @@
     letter-spacing: 0.25em;
 }
 .journal .btn .next{
+    background: url("btn_black.png") no-repeat;
     position: absolute;
     opacity: 0;
     width: 40px;
     height: 40px;
-    background: url("btn_black.png") no-repeat;
-    right: 0;
     top:0;
     bottom: 0;
     margin: auto;
+    right: 20px;
+    z-index: 100;
+    transition: all 0.5s;
 }
 .content2 .journal .btn:hover{
     padding-right:20px;
 }
 .content2t .journal .btn:hover .next{
     opacity: 1;
-    transition: all 0.5s;
+    right: 10px;
 }
 
 .content2 .social{
@@ -148,10 +150,11 @@
     height: 70px;
     margin-left: 3.5%;
     float: right;
+    transition: all 0.5s;
 }
 .content2 .massege .btn_right:hover{
     padding-right: 20px;
-    transition: all 0.5s;
+
 }
 .content2 .massege .btn_box_white .next{
     background: url("btn_black.png") no-repeat;
@@ -162,12 +165,14 @@
     top:0;
     bottom: 0;
     margin: auto;
-    right: 0;
+    right: 20px;
     z-index: 100;
+    transition: all 0.5s;
 }
 .content2 .massege .btn_box_white:hover .next{
     opacity: 1;
-    transition: all 0.5s;
+
+    right: 10px;
 }
 .content2 .massege .btn_left{
     background-color: #111111;
@@ -183,10 +188,11 @@
     height: 70px;
     margin-left: 3.5%;
     float: right;
+    transition: all 0.5s;
 }
 .content2 .massege .btn_left:hover{
     padding-right: 20px;
-    transition: all 0.5s;
+
 }
 .content2 .massege .btn_box_black .next{
     background: url("btn_white.png") no-repeat;
@@ -197,12 +203,14 @@
     top:0;
     bottom: 0;
     margin: auto;
-    right: 0;
+    right: 20px;
     z-index: 100;
+    transition: all 0.5s;
 }
 .content2 .massege .btn_box_black:hover .next{
     opacity: 0.87;
-    transition: all 0.5s;
+
+    right: 10px;
 }
 
 

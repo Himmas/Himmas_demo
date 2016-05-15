@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="concent1.css">
     <link rel="stylesheet" href="concent2.css">
     <link rel="stylesheet" href="footer.css">
-
+    <script src="jquery.js"></script>
     <script>
-
+        $(".white_box").hide();
+        $(".product .picture").mouseenter(
+                function(){
+                    $(".white_box").show();
+                }
+        )
     </script>
     <style>
         *{margin: 0;padding: 0}
@@ -61,16 +66,16 @@
 <div class="nav">
     <div class="nav_left">
         <ul >
-            <li class="home">
+            <li class="nav_current">
                 <a href="vincent_home.html">HOME</a>
             </li>
-            <li class="about">
+            <li >
                 <a href="vincent_home.html">ABOUT</a>
             </li>
-            <li class="product">
+            <li >
                 <a href="">PRODUCT</a>
             </li>
-            <li class="journal">
+            <li >
                 <a href="">JOURNAL</a>
             </li>
         </ul>
@@ -81,16 +86,16 @@
     </div>
     <div class="nav_right">
         <ul >
-            <li class="social">
+            <li >
                 <a href="">SOCIAL</a>
             </li>
-            <li class="web_shop">
+            <li>
                 <a href="">WEB SHOP</a>
             </li>
-            <li class="contact">
+            <li >
                 <a href="">CONTACT</a>
             </li>
-            <li class="shoplist">
+            <li >
                 <a href="">SHOPLIST</a>
             </li>
         </ul>
@@ -130,30 +135,15 @@
                 </div>
                 <div class="play">
                     <div class="picture" >
+
+
                         <ul>
+
                            <li><img src="product1.jpg" style="width: 100%"></li>
-                            <li><img src="product2.jpg" style="width: 100%"></li>
-                            <li><img src="product3.jpg" style="width: 100%"></li>
-                            <li><img src="product4.jpg" style="width: 100%"></li>
+
                         </ul>
-
-
                     </div>
-                    <button class="right"><img src="btn_black.png"> </button>
-                    <ul class="page">
-                        <li class="">
-                            <a>1</a>
-                        </li>
-                        <li class="">
-                            <a>2</a>
-                        </li>
-                        <li class="">
-                            <a>3</a>
-                        </li>
-                        <li class="">
-                            <a>4</a>
-                        </li>
-                    </ul>
+
                     <div class="btn_box"><a href="vincent_home.html" class="btn">View All<span class="next"></span></a></div>
                 </div>
             </div>
@@ -184,8 +174,7 @@
 
                 <div class="btn_box"><a href="vincent_home.html" class="btn">View About<span class="btn-icon"></span></a></div>
 
-                <div class="btn_box">
-                    <a href="vincent_home.html" class="btn">View About<div class="next"></div></a></div>
+
 
             </div>
 
