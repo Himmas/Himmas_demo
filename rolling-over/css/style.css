@@ -1,4 +1,7 @@
 .flip-container{
+	position: fixed;
+	top: 20px;
+	left: 100px;
 	-webkit-perspective: 1000;
 	        perspective: 1000;
 	        -webkit-perspective-origin: center;

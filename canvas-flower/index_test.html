@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        canvas{
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+<canvas width="1920" height="900"></canvas>
+<script>
+    var centerPoint = {
+        x:500,
+        y:400
+    };
+    var thisCanvas = document.getElementsByTagName('canvas')[0];
+    var x = thisCanvas.getContext('2d');;
+    var R = 200, r = 30;
+    var baseIncrement = Math.PI/18;
+    var _w = window.innerWidth;
+    var _h = window.innerHeight;
+    var startAngle = 0;
+    var xr = 0.707*(R-r);
+    x.globalAlpha = 0.4;
+    var u = Math.PI*2;
+    var rr = 0;
+    function RGB2Color(r,g,b){
+        return '#' + byte2Hex(r) + byte2Hex(g) + byte2Hex(b);
+    }
+    function byte2Hex(n){
+        var nybHexString = "0123456789ABCDEF";
+        return String(nybHexString.substr((n >> 4) & 0x0F,1)) + nybHexString.substr(n & 0x0F,1);
+    }
+
+    function draw(i){
+    	x.clearRect(0,0,_w,_h)
+        var count = 0;
+        for( var i;count<36;i++){
+            x.beginPath();
+	        var pointr = {
+	            x:r*Math.cos(baseIncrement*i)+centerPoint.x,
+	            y:r*Math.sin(baseIncrement*i)+centerPoint.y
+	        };
+	        var pointR = {
+	            x:R*Math.cos(baseIncrement*i)+centerPoint.x,
+	            y:R*Math.sin(baseIncrement*i)+centerPoint.y
+	        }
+	        x.moveTo(pointr.x, pointr.y);
+	        var y1 = xr*Math.sin(baseIncrement*i-Math.PI/4)+r*Math.sin(baseIncrement*i)+centerPoint.y;
+	        var x1 = xr*Math.cos(baseIncrement*i-Math.PI/4)+r*Math.cos(baseIncrement*i)+centerPoint.x;
+	        var y2 =  xr*Math.sin(baseIncrement*i+Math.PI/4)+r*Math.sin(baseIncrement*i)+centerPoint.y;
+	        var x2 = xr*Math.cos(baseIncrement*i+Math.PI/4)+r*Math.cos(baseIncrement*i)+centerPoint.x;
+	        x.arcTo(x1, y1, pointR.x, pointR.y, xr);
+	        x.arcTo(x2, y2,pointr.x,pointr.y, xr);
+            x.closePath();
+            rr-=u/-36;
+//		rr=1;
+            var red = Math.cos(rr)*127+128;
+            var green = Math.cos(rr+u/3)*127+128;
+            var blue = Math.cos(rr+u/3*2)*127+128;
+            x.fillStyle = RGB2Color(red,green,blue);//色彩计算
+
+//        x.fillStyle = "#dadada"//色彩计算
+            x.fill();
+            count ++;
+        }
+    }
+   	var j=0;
+    setInterval(function(){
+    	sor=j;
+    	j+=0.5;
+       	draw(sor);
+    },100);
+//    draw();
+</script>
+</body>
+</html>

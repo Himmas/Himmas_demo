@@ -9,6 +9,7 @@
         var on_class = obj.li_on_class;
         var img_arr = $(obj.img_element);
         var img_count = img_arr.length;
+        var $slide_body = $(obj.slide_box);
         var nowIndex = 0;
         var $slide_box = $(this);
         var t;
@@ -27,7 +28,7 @@
             nowIndex = index;
         }
         function setStyle(index){
-            $('.slide-box').animate({'left':-index*100+'%'},500);
+            $slide_body.animate({'left':-index*100+'%'},500);
             control_arr.each(function () {
                 if($(this).index() == index)
                     $(this).addClass(on_class);
