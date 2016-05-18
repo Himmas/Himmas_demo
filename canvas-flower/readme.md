@@ -65,7 +65,7 @@ C.y = R*Math.sin(Math.PI/18*i)
 假设将点H移到G这个位置
 
 ```javascript
-var xr = Math.0.707(R-r) //OG的长度
+var xr = 0.707(R-r) //OG的长度
 G.x = xr*Math.cos(Math.PI/18*i+Math.PI/4) //45度+当前角度
 G.y = xr*Math.sin(Math.PI/18*i+Math.PI/4)
 H.x = G.x + (R-r)/2
