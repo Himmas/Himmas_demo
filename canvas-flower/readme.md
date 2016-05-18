@@ -53,3 +53,74 @@
 
 假设我们要花第i片花瓣(假设以图上的EC为端点),我们需要的数值有 点O,E,H,D,C的坐标，以及圆弧半径ED
 
+```javascript
+E.x = r*Math.cos(Math.PI/18*i)
+E.y = r*Math.sin(Math.PI/18*i)
+C.x = R*Math.cos(Math.PI/18*i)
+C.y = R*Math.sin(Math.PI/18*i)
+```
+
+接下来要求点H,D的坐标
+以点H为例子
+假设将点H移到G这个位置
+
+```javascript
+var xr = Math.0.707(R-r) //OG的长度
+G.x = xr*Math.cos(Math.PI/18*i+Math.PI/4) //45度+当前角度
+G.y = xr*Math.sin(Math.PI/18*i+Math.PI/4)
+H.x = G.x + (R-r)/2
+H.y = G.y + (R-r)/2
+```
+由此可推点D坐标
+
+以上就是我们所需的全部数据了,需要注意的是，当年计算所得是相对于圆心的坐标，还要装换成相对于canvas左上角的坐标
+
+最终代码如下:
+
+```javascript
+    function draw(i){
+        x.beginPath();
+        var pointr = {
+            x:r*Math.cos(baseIncrement*i)+centerPoint.x,
+            y:r*Math.sin(baseIncrement*i)+centerPoint.y
+        };
+        var pointR = {
+            x:R*Math.cos(baseIncrement*i)+centerPoint.x,
+            y:R*Math.sin(baseIncrement*i)+centerPoint.y
+        }
+        x.moveTo(pointr.x, pointr.y);
+        var y1 = xr*Math.sin(baseIncrement*i-Math.PI/4)+r*Math.sin(baseIncrement*i)+centerPoint.y;
+        var x1 = xr*Math.cos(baseIncrement*i-Math.PI/4)+r*Math.cos(baseIncrement*i)+centerPoint.x;
+        var y2 =  xr*Math.sin(baseIncrement*i+Math.PI/4)+r*Math.sin(baseIncrement*i)+centerPoint.y;
+        var x2 = xr*Math.cos(baseIncrement*i+Math.PI/4)+r*Math.cos(baseIncrement*i)+centerPoint.x;
+        x.arcTo(x1, y1, pointR.x, pointR.y, xr);
+        x.arcTo(x2, y2,pointr.x,pointr.y, xr);
+        x.closePath();
+        rr-=u/-36;
+        var red = Math.cos(rr)*127+128;
+        var green = Math.cos(rr+u/3)*127+128;
+        var blue = Math.cos(rr+u/3*2)*127+128;
+        x.fillStyle = "#dadada"//色彩计算
+        x.fill();
+    }
+```
+
+再用一个循环来生成36个花瓣
+
+```javascript
+    for(var i=0;i<36;i++){
+        draw(i);
+    }
+```
+
+#如何实现色环
+
+色环的生成原理可以参考[这里](https://github.com/Himmas/Himmas_demo/tree/gh-pages/colours-bar)
+
+#最后
+
+然后就能生成小花拉~
+
+这里还实现了一个滚动版本[Demo](http://himmas.github.io/Himmas_demo/canvas-flower/index_test.html)
+
+完毕(～￣▽￣)～
