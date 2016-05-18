@@ -23,7 +23,7 @@
         y:400
     };
     var thisCanvas = document.getElementsByTagName('canvas')[0];
-    var x = thisCanvas.getContext('2d');;
+    var x = thisCanvas.getContext('2d');
     var R = 200, r = 30;
     var baseIncrement = Math.PI/18;
     var _w = window.innerWidth;
@@ -44,7 +44,7 @@
     function draw(i){
     	x.clearRect(0,0,_w,_h)
         var count = 0;
-        for( var i;count<36;i++){
+        for( i;count<36;i++){
             x.beginPath();
 	        var pointr = {
 	            x:r*Math.cos(baseIncrement*i)+centerPoint.x,
@@ -78,6 +78,9 @@
     setInterval(function(){
     	sor=j;
     	j+=0.1;
+        if(centerPoint.x<_w-200){
+            centerPoint.x +=2;
+        }
        	draw(sor);
     },50);
 //    draw();
