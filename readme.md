@@ -5,14 +5,18 @@
 - 瀑布流demo [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/waterfall-flow)
 - 图片3D旋转demo [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/3d-rotate)
 - 点击卡片翻转 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/rolling-over)
-- canvas彩带 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/colours-bar)
 - clip-path与动画 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/clip-path)
 - 纯css实现的优惠券样式 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/discount)
 - 仿京东放大镜效果 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/magnifying)
 - 纯css进度条 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/progress-bar)
 - 纯css选择框 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/selectBox)
-- canvas时钟 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/particle-clock)
 - 轮播 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/slider)
+
+
+##canvas相关
+- canvas时钟 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/particle-clock)
+- canvas彩带 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/colours-bar)
+- canvas彩色小花 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/canvas-flower)
 
 ##DOM相关
 
