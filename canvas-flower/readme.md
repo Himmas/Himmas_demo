@@ -122,5 +122,5 @@ H.y = G.y + (R-r)/2
 然后就能生成小花拉~
 
 这里还实现了一个滚动版本[Demo](http://himmas.github.io/Himmas_demo/canvas-flower/index_test.html)
-
+一个变异版本[Demo](http://himmas.github.io/Himmas_demo/canvas-flower/index_y.html)
 完毕(～￣▽￣)～
