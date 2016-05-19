@@ -34,36 +34,42 @@
 	<div class="abc">图片说明</div>
 </div> 
 <script>
-var x=50,y=60;
-var xin=true,yin=true;
-var step=1;
-var delay=20;
-var obj=document.getElementById("wid");
+var x=50,y=60; //起始位置
+var xin=true,yin=true; //是否正向移动
+var step=1; //每次移动的距离
+var delay=20; //飘窗的速度，用于计时器
+var obj=document.getElementById("wid"); //获取了飘窗的div
 function float(){
 	var L=T=0;
-	var R=document.body.clientWidth-obj.offsetWidth;
-	var B=document.body.clientHeight-obj.offsetHeight;obj.style.left=x+document.body.scrollLeft+"px";
-	    obj.style.top=y+document.body.scrollTop+"px";x=x+step*(xin?1:-1);
-	   if(x<L){
+	var R=document.body.clientWidth-obj.offsetWidth;  //可以运动的宽度
+	var B=document.body.clientHeight-obj.offsetHeight; //可以运动的高度
+	obj.style.left=x+document.body.scrollLeft+"px"; //加上页面滚动条滚动的距离
+	obj.style.top=y+document.body.scrollTop+"px";
+	x=x+step*(xin?1:-1);//宽度移动，假如为false，则表示碰撞反向
+	if(x<L){
 	   	xin=true;
-	   	x=L};
-	   if(x>R){
+	   	x=L
+	};
+	if(x>R){
 	   	xin=false;
 	   	x=R
-	   };
-	   y=y+step*(yin?1:-1);
-	   if(y<T){
+	};
+	y=y+step*(yin?1:-1);//高度移动，假如为false，则表示碰撞反向
+	if(y<T){
 	   	yin=true;
 	   	y=T
-	   };
-	   if(y>B){
-	   	yin=false;
-	   	y=B}
-	 }
-	 var itl=setInterval("float()",delay);
-	 obj.onmouseover=function(){
-	 	clearInterval(itl)
-	 };
-	 obj.onmouseout=function(){itl=setInterval("float()",delay)}
+	};
+	if(y>B){
+	   yin=false;
+	   y=B
+	};
+}
+var itl=setInterval("float()",delay); //计时器，自动运行
+obj.onmouseover=function(){ //鼠标浮动停止
+	clearInterval(itl) 
+};
+obj.onmouseout=function(){  //计时器继续
+	itl=setInterval("float()",delay)
+}
  </script>
 </html>

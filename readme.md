@@ -11,7 +11,7 @@
 - 纯css进度条 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/progress-bar)
 - 纯css选择框 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/selectBox)
 - 轮播 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/slider)
-
+- 3d轮播 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/carousel)
 
 ##canvas相关
 - canvas时钟 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/particle-clock)
@@ -25,3 +25,4 @@
 ##js
 - 原型链与继承[连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/prototype-chain)
 - 数组的合并与去重 [连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/array-concat)
+- js练习基础讲解[连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/jsTest)
