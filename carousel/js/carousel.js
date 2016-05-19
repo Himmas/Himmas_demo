@@ -5,7 +5,7 @@
 			// console.log($(this));
 			console.log(self);
 			//保存单个旋转对象
-			this.poster                  = poster;
+			this.poster                = poster;
 			this.posterItemMain = poster.find("ul.poster-list");
 			this.nextBtn               = poster.find("div.poster-next-btn");
 			this.prevBtn               = poster.find("div.poster-prev-btn");
