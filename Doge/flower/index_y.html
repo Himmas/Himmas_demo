@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        canvas{
+            width: 100%;
+            height: 100%;
+            background-color: #d4d4d4;
+        }
+    </style>
+</head>
+<body>
+<canvas width="1920" height="900"></canvas>
+<script>
+    var centerPoint = {
+        x:900,
+        y:400
+    }; 
+    var thisCanvas = document.getElementsByTagName('canvas')[0];
+    var x = thisCanvas.getContext('2d');
+    var R = 200, r = 0;
+    var _w = window.innerWidth;
+    var _h = window.innerHeight;
+    var xr = 0.707*R;
+    x.globalAlpha = 0.5;
+    function draw(i,j){
+        var baseIncrement = Math.PI/j;
+        x.clearRect(0,0,_w,_h)
+        var count = 0;
+        for( i;count<14;i++){
+            x.beginPath();
+             var pointr = {
+            x:r*Math.cos(baseIncrement*i)+centerPoint.x,
+            y:r*Math.sin(baseIncrement*i)+centerPoint.y
+        };
+        var pointR = {
+            x:R*Math.cos(baseIncrement*i)+centerPoint.x,
+            y:R*Math.sin(baseIncrement*i)+centerPoint.y
+        }
+        x.moveTo(pointr.x, pointr.y);
+        var y1 = xr*Math.sin(baseIncrement*i-Math.PI/4)+r*Math.sin(baseIncrement*i)+centerPoint.y;
+        var x1 = xr*Math.cos(baseIncrement*i-Math.PI/4)+r*Math.cos(baseIncrement*i)+centerPoint.x;
+        var y2 =  xr*Math.sin(baseIncrement*i+Math.PI/4)+r*Math.sin(baseIncrement*i)+centerPoint.y;
+        var x2 = xr*Math.cos(baseIncrement*i+Math.PI/4)+r*Math.cos(baseIncrement*i)+centerPoint.x;
+        x.arcTo(x1, y1, pointR.x, pointR.y, xr);
+        x.arcTo(x2, y2,pointr.x,pointr.y, xr);
+            x.closePath();
+            var radial = x.createRadialGradient(x1,y1,100,x1,y1,200); //重合的圆心坐标
+            radial.addColorStop(0.1,'#9E1F63');
+            radial.addColorStop(0.4,'#EDEDE0');
+            x.fillStyle = radial;
+            x.fill();
+            count ++;
+        }
+    }
+    var j=36;
+    setInterval(function(){
+        if(j>7){
+          j-=0.5;
+          draw(1,j);  
+        }
+    },50);
+</script>
+</body>
+</html>
