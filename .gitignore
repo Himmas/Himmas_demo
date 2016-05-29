@@ -38,6 +38,6 @@ node_modules
 # Optional REPL history
 .node_repl_history
 /*.ppk
-/rolling-over/rolling-over/*.project
-/magnifying/*.project
-/selectBox/*.project
+/special-effects/rolling-over/rolling-over/*.project
+/special-effects/magnifiers/*.project
+/special-effects/selectBox/*.project

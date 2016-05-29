@@ -1,0 +1,134 @@
+input[type] {
+	display: none;
+}/*隐藏input的样式*/
+
+
+/*样式一*/
+
+div.One {
+	margin: 10px auto;
+}
+
+input#checkboxOne + label.checkboxOne {
+	display: block;
+	width: 80px;
+	height: 30px;
+	background: ghostwhite;
+	border: 2px solid gainsboro;
+	position: relative;
+	border-radius: 30px;
+	transition: left .3s ease;
+}/*设置label的样式*/
+
+input#checkboxOne + label.checkboxOne:before {
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	background: ghostwhite;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .3);
+	border-radius: 50%;
+	transition: left .3s ease-in-out;
+}/*通过label的：before伪元素来设置按钮*/
+
+input#checkboxOne:checked + label.checkboxOne {
+	background: limegreen;
+	border-color: limegreen;
+}/*选中状态下背景的颜色*/
+
+input#checkboxOne:checked + label.checkboxOne:before {
+	content: "";
+	left: 50px;
+}/*选中之后按钮的位置*/
+
+
+/*样式二*/
+
+div.Two {
+	margin: 10px auto;
+}
+
+input#checkboxTwo + label.checkboxTwo {
+	display: block;
+	width: 80px;
+	height: 30px;
+	background: ghostwhite;
+	border: 2px solid gainsboro;
+	position: relative;
+	border-radius: 30px;
+	transition: left .3s ease;
+}
+
+input#checkboxTwo + label.checkboxTwo:before {
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	background: ghostwhite;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .3);
+	border-radius: 50%;
+	line-height: 30px;
+	transition: left .3s ease-in-out;
+}
+
+input#checkboxTwo + label.checkboxTwo:after {
+	content: "OFF";
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	color: gainsboro;
+	line-height: 30px;
+}
+
+input#checkboxTwo:checked + label.checkboxTwo {
+	background: limegreen;
+	border-color: limegreen;
+}
+
+input#checkboxTwo:checked + label.checkboxTwo:before {
+	content: "";
+	left: 50px;
+}
+
+input#checkboxTwo:checked + label.checkboxTwo:after {
+	content: "ON";
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #F8F8FF;
+	line-height: 30px;
+}
+
+
+/*样式3*/
+
+div.Three {
+	margin: 10px auto;
+}
+
+input#checkboxThree + label.checkboxThree {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 3px;
+	border: 2px solid gainsboro;
+	line-height: 80px;
+	text-align: center;
+	color: gainsboro;
+	position: relative;
+}
+
+input#checkboxThree + label.checkboxThree:hover:before {
+	content: url(../img/jia.png);
+}
+input#checkboxThree:checked + label.checkboxThree{
+	border-color: #32CD32;
+	color: #32CD32;
+}
+input#checkboxThree:checked + label.checkboxThree:before{
+	content: url(../img/dui.png);
+}

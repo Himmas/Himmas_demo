@@ -1,0 +1,229 @@
+/*主体*/
+#content{position:absolute;width:48%;height:60%;overflow:hidden;left:26%;top:22%}
+/*按钮*/
+.btn{height:54px;width:54px;border-radius:100px;position:absolute;-webkit-transition:0.14s;-moz-transition:0.14s;transition:0.14s;background:url(../img/btn.png) repeat center center;}
+.btn_l{top:50%;left:5%;}
+.btn_r{top:50%;right:5%;}
+/*whale-鲸鱼*/
+.whale:nth-child(1) .puzzle{-webkit-clip-path: polygon(9.38% 59.35%, 13.4% 58.95%, 9.28% 61.08%);background-color: #334543;}
+.whale:nth-child(2) .puzzle{-webkit-clip-path: polygon(9.28% 61.08%, 13.25% 58.96%, 11.7% 62.35%);background-color: #111619;}
+.whale:nth-child(3) .puzzle{-webkit-clip-path: polygon(9.389% 59.352%, 14.368% 45.048%, 17.882% 45.693%);background-color: #3c4650;}
+.whale:nth-child(4) .puzzle{-webkit-clip-path: polygon(9.389% 59.352%, 17.882% 45.693%, 14.684% 54.94%);background-color: #0F1622;}
+.whale:nth-child(5) .puzzle{-webkit-clip-path: polygon(9.389% 59.352%, 14.684% 54.94%, 13.25% 58.958%);background-color: #d9eadf;}
+.whale:nth-child(6) .puzzle{-webkit-clip-path: polygon(11.705% 62.346%, 13.25% 58.958%, 32.112% 61.716%);background-color: #d9ebeb;}
+.whale:nth-child(7) .puzzle{-webkit-clip-path: polygon(13.25% 58.958%, 14.684% 54.94%, 17.827% 55.964%);background-color: #333c40;}
+.whale:nth-child(8) .puzzle{-webkit-clip-path: polygon(13.25% 58.958%, 17.827% 55.964%, 15.676% 59.431%);background-color: #1c2529;}
+.whale:nth-child(9) .puzzle{-webkit-clip-path: polygon(14.684% 54.94%, 17.882% 45.693%, 17.827% 55.964%);background-color: #62827f;}
+.whale:nth-child(10) .puzzle{-webkit-clip-path: polygon(15.676% 59.431%, 17.827% 55.964%, 32.112% 61.716%);background-color: #bdd0d0;}
+.whale:nth-child(11) .puzzle{-webkit-clip-path: polygon(14.368% 45.048%, 41.129% 30.988%, 17.882% 45.693%);background-color: #273537;}
+.whale:nth-child(12) .puzzle{-webkit-clip-path: polygon(17.882% 45.693%, 41.047% 30.988%, 58.171% 35.479%);background-color: #384e4d;}
+.whale:nth-child(13) .puzzle{-webkit-clip-path: polygon(17.882% 45.693%, 37.186% 39.103%, 17.827% 55.964%);background-color: #486461;}
+.whale:nth-child(14) .puzzle{-webkit-clip-path: polygon(17.827% 55.964%, 37.131% 39.103%, 33.711% 48.13%);background-color: #62827f;}
+.whale:nth-child(15) .puzzle{-webkit-clip-path: polygon(17.827% 55.964%, 33.766% 48.13%, 32.112% 61.716%);background-color: #aac7c6;}
+.whale:nth-child(16) .puzzle{-webkit-clip-path: polygon(25.99% 61.716%, 32.64% 61.368%, 36.91% 70.146%);background-color: #0d1417;}
+.whale:nth-child(17) .puzzle{-webkit-clip-path: polygon(33.711% 48.13%, 55.276% 61.952%, 32.195% 61.597%);background-color: #d9ebeb;}
+.whale:nth-child(18) .puzzle{-webkit-clip-path: polygon(27.107% 55.964%, 39.318% 59.352%, 40.467% 66.772%);background-color: #334543;}
+.whale:nth-child(19) .puzzle{-webkit-clip-path: polygon(27.107% 55.964%, 40.467% 66.772%, 45.128% 74.085%);background-color: #21282f;}
+.whale:nth-child(20) .puzzle{-webkit-clip-path: polygon(33.711% 48.13%, 37.076% 39.121%, 59.688% 51.237%);background-color: #739998;}
+.whale:nth-child(21) .puzzle{-webkit-clip-path: polygon(36.414% 33.588%, 47.582% 21.06%, 47.044% 34.533%);background-color: #2d3b3b;}
+.whale:nth-child(22) .puzzle{-webkit-clip-path: polygon(33.711% 48.13%, 59.688% 51.237%, 55.276% 61.952%);background-color: #d8e2de;}
+.whale:nth-child(23) .puzzle{-webkit-clip-path: polygon(37.076% 39.121%, 58.171% 35.479%, 55.3% 40.679%);background-color: #415555;}
+.whale:nth-child(24) .puzzle{-webkit-clip-path: polygon(37.076% 39.121%, 55.3% 40.442%, 59.688% 51.237%);background-color: #486461;}
+.whale:nth-child(25) .puzzle{-webkit-clip-path: polygon(55.3% 40.442%, 58.171% 35.479%, 59.688% 51.237%);background-color: #384e4d;}
+.whale:nth-child(26) .puzzle{-webkit-clip-path: polygon(58.171% 35.479%, 75.108% 48.262%, 59.688% 51.237%);background-color: #4b6364;}
+.whale:nth-child(27) .puzzle{-webkit-clip-path: polygon(55.276% 61.952%, 59.688% 51.237%, 75.108% 48.262%);background-color: #c0dbd3;}
+.whale:nth-child(28) .puzzle{-webkit-clip-path: polygon(58.171% 35.479%, 82.907% 41.309%, 75.108% 48.262%);background-color: #2d3b3b;}
+.whale:nth-child(29) .puzzle{-webkit-clip-path: polygon(78.275% 41.979%, 86.099% 38.183%, 96.64% 38.788%);background-color: #365255;}
+.whale:nth-child(30) .puzzle{-webkit-clip-path: polygon(78.275% 41.979%, 96.64% 38.788%, 88.644% 43.784%);background-color: #678781;}
+/*tamarin-绢毛猴*/
+.tamarin:nth-child(1) .puzzle {-webkit-clip-path: polygon(23.45% 28.071%, 25.15% 15.214%, 28.05% 25.929%);background-color: #B95917;}
+.tamarin:nth-child(2) .puzzle {-webkit-clip-path: polygon(23.35% 28.071%, 30.3% 24.786%, 32.05% 39.67%);background-color: #4A1F18;}
+.tamarin:nth-child(3) .puzzle {-webkit-clip-path: polygon(25.15% 15.214%, 27.75% 25.929%, 30.85% 18.214%);background-color: #4A1F18;}
+.tamarin:nth-child(4) .puzzle {-webkit-clip-path: polygon(25.05% 15.214%, 38.65% 12.786%, 30.75% 18.214%);background-color: #E2872D; }
+.tamarin:nth-child(5) .puzzle {-webkit-clip-path: polygon(30% 23%, 43.15% 29.357%, 31.85% 39.5%);background-color: #692410; }
+.tamarin:nth-child(6) .puzzle {-webkit-clip-path: polygon(30.75% 18.071%, 38.7% 12.8%, 33.95% 25.4%);background-color: #9D3E16; }
+.tamarin:nth-child(7) .puzzle {-webkit-clip-path: polygon(28.25% 19.5%, 30.95% 18.1%, 27.75% 25.786%);background-color: #B59280; }
+.tamarin:nth-child(8) .puzzle {-webkit-clip-path: polygon(27.75% 25.643%, 30.75% 18.214%, 30.15% 24.214%);background-color: #A3795E; }
+.tamarin:nth-child(9) .puzzle {-webkit-clip-path: polygon(27.75% 25.7%, 30.15% 24.1%, 30.8% 29.929%);background-color: #301F19; }
+.tamarin:nth-child(10) .puzzle {-webkit-clip-path: polygon(30.75% 18.071%, 34% 25.3%, 30.05% 24.214%);background-color: #825C41; }
+.tamarin:nth-child(11) .puzzle {-webkit-clip-path: polygon(30.15% 24.214%, 34.05% 25.357%, 30.7% 30.071%);background-color: #211A14; }
+.tamarin:nth-child(12) .puzzle {-webkit-clip-path: polygon(30.75% 18.214%, 33.95% 18.786%, 34.05% 25.357%);background-color: #B89276; }
+.tamarin:nth-child(13) .puzzle {-webkit-clip-path: polygon(33.95% 25.214%, 38.65% 12.929%, 42.25% 29.357%);background-color: #7F2D13; }
+.tamarin:nth-child(14) .puzzle {-webkit-clip-path: polygon(31.85% 39.33%, 47.2% 23.4%, 37.23% 45.35%);background-color: #5A2117; }
+.tamarin:nth-child(15) .puzzle {-webkit-clip-path: polygon(23.45% 28.071%, 31.95% 39.357%, 32.05% 52.214%);background-color: #3B201A; }
+.tamarin:nth-child(16) .puzzle {-webkit-clip-path: polygon(38.65% 13.071%, 47.25% 23.357%, 41.8% 29.1%);background-color: #B95917; }
+.tamarin:nth-child(17) .puzzle {-webkit-clip-path: polygon(31.85% 39.214%, 51.9% 61.1%, 31.95% 51.929%);background-color: #301F19; }
+.tamarin:nth-child(18) .puzzle {-webkit-clip-path: polygon(47.15% 23.357%, 52.75% 33.071%, 37.1% 45.4%);background-color: #80330B; }
+.tamarin:nth-child(19) .puzzle {-webkit-clip-path: polygon(37.1% 45.3%, 52.75% 32.9%, 52.55% 52.643%);background-color: #9C3F10; }
+.tamarin:nth-child(20) .puzzle {-webkit-clip-path: polygon(37.15% 45.214%, 52.55% 52.357%, 51.75% 61.071%);background-color: #3B271A; }
+.tamarin:nth-child(21) .puzzle {-webkit-clip-path: polygon(42.45% 56.6%, 45.85% 58.1%, 34.15% 63.071%);background-color: #542B0A; }
+.tamarin:nth-child(22) .puzzle {-webkit-clip-path: polygon(52.2% 56.357%, 51.75% 60.929%, 40.35% 63.5%);background-color: #B45D1C; }
+.tamarin:nth-child(23) .puzzle {-webkit-clip-path: polygon(47.15% 23.357%, 59.45% 26.929%, 52.55% 33.214%);background-color: #F5BD4D; }
+.tamarin:nth-child(24) .puzzle {-webkit-clip-path: polygon(52.65% 33.071%, 58.75% 27.357%, 70.35% 37.214%);background-color: #EBAD41; }
+.tamarin:nth-child(25) .puzzle {-webkit-clip-path: polygon(52.65% 33.071%, 69.05% 36.786%, 52.55% 52.643%);background-color: #DC9022; }
+.tamarin:nth-child(26) .puzzle {-webkit-clip-path: polygon(52.55% 52.643%, 68.95% 36.786%, 69.55% 51.5%);background-color: #D87B1F; }
+.tamarin:nth-child(27) .puzzle {-webkit-clip-path: polygon(52.55% 52.5%, 69.8% 51.4%, 51.55% 61.071%);background-color: #C7691E; }
+.tamarin:nth-child(28) .puzzle {-webkit-clip-path: polygon(51.55% 60.929%, 69.6% 51.4%, 64.25% 62.5%);background-color: #AC551A; }
+.tamarin:nth-child(29) .puzzle {-webkit-clip-path: polygon(58.65% 61.786%, 64.25% 62.5%, 64.55% 84.643%);background-color: #D4932F; }
+.tamarin:nth-child(30) .puzzle {-webkit-clip-path: polygon(64.45% 79.357%, 75.85% 82.643%, 64.55% 84.643%);background-color: #BE731B; }
+.tamarin:nth-child(31) .puzzle {-webkit-clip-path: polygon(35.75% 62.214%, 45.96% 58%, 43.1% 84.8%);background-color: #6A463F; z-index:0;}
+.tamarin:nth-child(32) .puzzle {-webkit-clip-path: polygon(45.95% 57.2%, 54.65% 61.214%, 43% 85%);background-color: #5E382D; z-index:0;}
+.tamarin:nth-child(33) .puzzle {-webkit-clip-path: polygon(43.05% 84.786%, 54.75% 60.214%, 52.75% 84.786%);background-color: #4F3220;z-index:0;}
+/*frog-青蛙*/
+.frog:nth-child(1) .puzzle{-webkit-clip-path: polygon(25.4% 30.6%, 33.5% 32.2%, 25.92% 36.857%);background-color: #FEDD47; }
+.frog:nth-child(2) .puzzle{-webkit-clip-path: polygon(25.85% 36.9%, 35.25% 28.857%, 36.15% 47.714%);background-color: #F1C838; }
+.frog:nth-child(3) .puzzle{-webkit-clip-path: polygon(25.45% 30.714%, 30.35% 28.286%, 32.1% 32.143%);background-color: #FDD24B; }
+.frog:nth-child(4) .puzzle{-webkit-clip-path: polygon(30.3% 28.2%, 35.35% 28.857%, 31.4% 32.2%);background-color: #F3E567; }
+.frog:nth-child(5) .puzzle{-webkit-clip-path: polygon(25.95% 36.857%, 36.25% 47.714%, 27.85% 41.714%);background-color: #CDAA25; }
+.frog:nth-child(6) .puzzle{-webkit-clip-path: polygon(30.25% 28.4%, 35.85% 26%, 39.99% 29.686%);background-color: #FFF88B; }
+.frog:nth-child(7) .puzzle{-webkit-clip-path: polygon(35% 29%, 39.85% 29.429%, 43.5% 39.4%);background-color: #FDD24B; }
+.frog:nth-child(8) .puzzle{-webkit-clip-path: polygon(35.15% 29%, 43.45% 39.2%, 36.04% 47.99%);background-color: #E4BA2D; }
+.frog:nth-child(9) .puzzle{-webkit-clip-path: polygon(31.25% 35.429%, 35.15% 30%, 37.45% 38%);background-color: #F4E281; }
+.frog:nth-child(10) .puzzle{-webkit-clip-path: polygon(31.15% 35.571%, 34.55% 33.714%, 37.35% 38.2%);background-color: #3A393B; }
+.frog:nth-child(11) .puzzle{-webkit-clip-path: polygon(31.15% 35.429%, 37.45% 38.143%, 33.15% 39.714%);background-color: #2B2424; }
+.frog:nth-child(12) .puzzle{-webkit-clip-path: polygon(32.65% 35.286%, 33.55% 34.857%, 33.15% 36%);background-color: #fff; }
+.frog:nth-child(13) .puzzle{-webkit-clip-path: polygon(39.75% 29.4%, 56.15% 41.857%, 43.35% 39.243%);background-color: #F0EA75; }
+.frog:nth-child(14) .puzzle{-webkit-clip-path: polygon(43.35% 39%, 43.65% 51.571%, 36.15% 47.857%);background-color: #FAC932; }
+.frog:nth-child(15) .puzzle{-webkit-clip-path: polygon(43.3% 38.7%, 52.55% 56.857%, 43.45% 58%);background-color: #FED63C; }
+.frog:nth-child(16) .puzzle{-webkit-clip-path: polygon(43.25% 38.857%, 56.15% 41.857%, 52.45% 57%);background-color: #F9E049; }
+.frog:nth-child(17) .puzzle{-webkit-clip-path: polygon(43.45% 57.857%, 52.55% 56.7%, 53.25% 70.286%);background-color: #E6BF2B; }
+.frog:nth-child(18) .puzzle{-webkit-clip-path: polygon(37.45% 50.429%, 53.35% 70.286%, 43.95% 65.143%);background-color: #70540E; }
+.frog:nth-child(19) .puzzle{-webkit-clip-path: polygon(36% 47.6657%, 43.75% 51.429%, 38.45% 55%);background-color: #FBD942; }
+.frog:nth-child(20) .puzzle{-webkit-clip-path: polygon(43.65% 51.429%, 49.35% 63.286%, 38.35% 55%);background-color: #F0EA75; }
+.frog:nth-child(21) .puzzle{-webkit-clip-path: polygon(34.35% 71.571%, 49.35% 73.429%, 41.55% 75.143%);background-color: #2C2924; }
+.frog:nth-child(22) .puzzle{-webkit-clip-path: polygon(45.35% 60.286%, 49.25% 63.143%, 37.85% 73.286%);background-color: #D8C533; }
+.frog:nth-child(23) .puzzle{-webkit-clip-path: polygon(37.65% 73.3%, 49.1% 63.143%, 41.75% 75.43%);background-color: #BDA126; }
+.frog:nth-child(24) .puzzle{-webkit-clip-path: polygon(52.45% 56.9%, 56.05% 41.857%, 67.25% 63.4%);background-color: #FEEC63; }
+.frog:nth-child(25) .puzzle{-webkit-clip-path: polygon(52.45% 56.714%, 67.15% 63.286%, 53.2% 70.3%);background-color: #F3CD37; }
+.frog:nth-child(26) .puzzle{-webkit-clip-path: polygon(61.45% 66.429%, 72.85% 68.143%, 61.65% 75.857%);background-color: #986E19; }
+.frog:nth-child(27) .puzzle{-webkit-clip-path: polygon(53.2% 70.1%, 67.25% 63.1%, 55.25% 81.714%);background-color: #F9DB35; }
+.frog:nth-child(28) .puzzle{-webkit-clip-path: polygon(62.35% 70.571%, 75.15% 72.429%, 55.15% 81.714%);background-color: #FAC62D; }
+.frog:nth-child(29) .puzzle{-webkit-clip-path: polygon(75.15% 72.429%, 65.95% 84.286%, 57.85% 83.571%);background-color: #FDDA54; }
+.frog:nth-child(30) .puzzle{-webkit-clip-path: polygon(58.65% 83%, 65.85% 84.429%, 52.65% 84%);background-color: #180D13; }
+.frog:nth-child(31) .puzzle{-webkit-clip-path: polygon(24.35% 68.143%, 56.65% 67.143%, 79.35% 85.714%);background-color: #3B6F4B; }
+.frog:nth-child(32) .puzzle{-webkit-clip-path: polygon(24.25% 68.143%, 79.35% 85.714%, 50.35% 87.286%);background-color: #4E9F73; }
+.frog:nth-child(33) .puzzle{-webkit-clip-path: polygon(24.35% 68.143%, 29.25% 71.714%, 27.25% 79%);background-color: #1D3246; }
+/*owl-猫头鹰*/
+.owl:nth-child(1) .puzzle{-webkit-clip-path: polygon(43.576% 5.071%, 35.376% 10.5%, 52.676% 9.643%);background-color: #8B7F7A; }
+.owl:nth-child(2) .puzzle{-webkit-clip-path: polygon(35.376% 10.5%, 42.176% 15.071%, 52.676% 9.5%);background-color: #75614B; }
+.owl:nth-child(3) .puzzle{-webkit-clip-path: polygon(35.376% 10.5%, 32.976% 23.357%, 42.176% 15.071%);background-color: #B1A799; }
+.owl:nth-child(4) .puzzle{-webkit-clip-path: polygon(42.176% 15.071%, 52.676% 9.5%, 54.976% 21.071%);background-color: #BCAEA5; }
+.owl:nth-child(5) .puzzle{-webkit-clip-path: polygon(35.976% 11.786%, 41.176% 11.786%, 42.276% 15.071%);background-color: #D3CBC7; }
+.owl:nth-child(6) .puzzle{-webkit-clip-path: polygon(42.176% 15.071%, 43.376% 11.643%, 48.776% 12.5%);background-color: #D3CBC7; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(7) .shard {
+    -webkit-clip-path: polygon(32.976% 23.214%, 42.176% 15.071%, 41.776% 23.5%);
+    background-color: #A09086; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(8) .shard {
+    -webkit-clip-path: polygon(42.176% 15.071%, 41.776% 23.5%, 54.976% 21.071%);
+    background-color: #5B5852; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(9) .shard {
+    -webkit-clip-path: polygon(42.176% 15.214%, 40.476% 19.357%, 41.776% 23.5%);
+    background-color: #D2B253; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(10) .shard {
+    -webkit-clip-path: polygon(42.176% 15.214%, 41.676% 23.357%, 43.876% 19.5%);
+    background-color: #937428; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(11) .shard {
+    -webkit-clip-path: polygon(31.576% 31.929%, 33.576% 28.357%, 35.976% 52.786%);
+    background-color: #B6ACA6; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(12) .shard {
+    -webkit-clip-path: polygon(33.576% 28.357%, 44.976% 31.357%, 35.776% 50.786%);
+    background-color: #C1BAB6; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(13) .shard {
+    -webkit-clip-path: polygon(32.976% 23.214%, 31.676% 31.929%, 37.176% 21.929%);
+    background-color: #685C5B; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(14) .shard {
+    -webkit-clip-path: polygon(33.576% 28.357%, 37.176% 21.929%, 38.176% 31.5%);
+    background-color: #4F4B4C; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(15) .shard {
+    -webkit-clip-path: polygon(37.176% 21.929%, 41.676% 23.5%, 38.076% 31.643%);
+    background-color: #858184; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(16) .shard {
+    -webkit-clip-path: polygon(41.8% 23.2%, 38.05% 31.5%, 45.2% 31.5%);
+    background-color: #4F4B4C; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(17) .shard {
+    -webkit-clip-path: polygon(41.776% 23.5%, 44.976% 31.357%, 48.076% 20.643%);
+    background-color: #858184; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(18) .shard {
+    -webkit-clip-path: polygon(44.976% 31.357%, 35.876% 50.786%, 54.176% 53.643%);
+    background-color: #B5A9A6; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(19) .shard {
+    -webkit-clip-path: polygon(35.876% 50.786%, 58.076% 53.929%, 61.476% 73.5%);
+    background-color: #9F918A; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(20) .shard {
+    -webkit-clip-path: polygon(44.976% 31.357%, 48.1% 20.3%, 48.16% 42.357%);
+    background-color: #696360; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(21) .shard {
+    -webkit-clip-path: polygon(48.076% 20.643%, 48.076% 42.3%, 55% 35.1%);
+    background-color: #414343; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(22) .shard {
+    -webkit-clip-path: polygon(48% 20.643%, 55.03% 20.929%, 54.95% 35.2%);
+    background-color: #4C4B48; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(23) .shard {
+    -webkit-clip-path: polygon(48.1% 42.2%, 57.8% 32.071%, 63.9% 51.3%);
+    background-color: #33312D; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(24) .shard {
+    -webkit-clip-path: polygon(55% 20.929%, 54.9% 35.071%, 63.1% 44.357%);
+    background-color: #393B3D; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(25) .shard {
+    -webkit-clip-path: polygon(55% 20.929%, 63% 44.214%, 61.9% 31.214%);
+    background-color: #282628; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(26) .shard {
+    -webkit-clip-path: polygon(55% 35.071%, 62.1% 45.929%, 60.7% 41.5%);
+    background-color: #241F1B; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(27) .shard {
+    -webkit-clip-path: polygon(48.05% 42.1%, 66.4% 76.214%, 62.9% 50.643%);
+    background-color: #171619; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(28) .shard {
+    -webkit-clip-path: polygon(58.9% 62.357%, 62.9% 80.071%, 64.8% 73.357%);
+    background-color: #494238; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(29) .shard {
+    -webkit-clip-path: polygon(45.1% 58.929%, 41.7% 63.071%, 47.2% 60.786%);
+    background-color: #6C4D34; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(30) .shard {
+    -webkit-clip-path: polygon(47.2% 60.786%, 44.6% 68.214%, 49.4% 62.786%);
+    background-color: #84614A; }
+  #animalchanger.owl .wrap .shard-wrap.peripheral:nth-child(31) .shard {
+    -webkit-clip-path: polygon(23.5% 43.786%, 22.3% 47.5%, 55.8% 69.357%);
+    background-color: #392232; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(32) .shard {
+    -webkit-clip-path: polygon(33% 54.357%, 60.5% 78.643%, 55.8% 69.357%);
+    background-color: #170C02; }
+  #animalchanger.owl .wrap .shard-wrap:nth-child(33) .shard {
+    -webkit-clip-path: polygon(55.8% 69.214%, 62.5% 84.929%, 67.1% 85.071%);
+    background-color: #2E1A1F; }
+
+.puzzle{position:absolute;background:#fff center center repeat;width:100%;height:100%;-webkit-transition:1s cubic-bezier(0.7,0.3,0,1);-moz-transition: 1s cubic-bezier(0.7, 0.3, 0, 1);transition: 1s cubic-bezier(0.7, 0.3, 0, 1);-webkit-clip-path: polygon(90% 90%, 90% 90%, 90% 90%);clip-path:polygon(90% 90%, 90% 90%, 90% 90%);z-index:3;}
+.puzzle{-webkit-transition: 0.6s 0s cubic-bezier(0.7, 0.3, 0, 1);-moz-transition: 0.6s 0s cubic-bezier(0.7, 0.3, 0, 1);transition: 0.6s 0s cubic-bezier(0.7, 0.3, 0, 1);}
+._puzzle{width:100%;height:100%;position:absolute;}
+
+/*基础过渡动画*/
+div:nth-child(1) .puzzle {-webkit-transition: -webkit-clip-path 0.34s 0.22s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.34s 0.02s, -webkit-transform 0.3s, margin 0.3s 0.22s;-moz-transition: -webkit-clip-path 0.34s 0.22s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.34s 0.02s, -webkit-transform 0.3s, margin 0.3s 0.22s;transition: -webkit-clip-path 0.34s 0.22s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.34s 0.02s, -webkit-transform 0.3s, margin 0.3s 0.22s; }
+div:nth-child(2) .puzzle {-webkit-transition: -webkit-clip-path 0.38s 0.24s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.38s 0.04s, -webkit-transform 0.3s, margin 0.3s 0.24s;-moz-transition: -webkit-clip-path 0.38s 0.24s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.38s 0.04s, -webkit-transform 0.3s, margin 0.3s 0.24s;transition: -webkit-clip-path 0.38s 0.24s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.38s 0.04s, -webkit-transform 0.3s, margin 0.3s 0.24s; }
+div:nth-child(3) .puzzle {-webkit-transition: -webkit-clip-path 0.42s 0.26s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.42s 0.06s, -webkit-transform 0.3s, margin 0.3s 0.26s;-moz-transition: -webkit-clip-path 0.42s 0.26s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.42s 0.06s, -webkit-transform 0.3s, margin 0.3s 0.26s;transition: -webkit-clip-path 0.42s 0.26s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.42s 0.06s, -webkit-transform 0.3s, margin 0.3s 0.26s; }
+div:nth-child(4) .puzzle {-webkit-transition: -webkit-clip-path 0.46s 0.28s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.46s 0.08s, -webkit-transform 0.3s, margin 0.3s 0.28s;-moz-transition: -webkit-clip-path 0.46s 0.28s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.46s 0.08s, -webkit-transform 0.3s, margin 0.3s 0.28s;transition: -webkit-clip-path 0.46s 0.28s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.46s 0.08s, -webkit-transform 0.3s, margin 0.3s 0.28s; }
+div:nth-child(5) .puzzle {-webkit-transition: -webkit-clip-path 0.5s 0.3s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.5s 0.1s, -webkit-transform 0.3s, margin 0.3s 0.3s;-moz-transition: -webkit-clip-path 0.5s 0.3s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.5s 0.1s, -webkit-transform 0.3s, margin 0.3s 0.3s;transition: -webkit-clip-path 0.5s 0.3s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.5s 0.1s, -webkit-transform 0.3s, margin 0.3s 0.3s; }
+div:nth-child(6) .puzzle {-webkit-transition: -webkit-clip-path 0.54s 0.32s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.54s 0.12s, -webkit-transform 0.3s, margin 0.3s 0.32s;-moz-transition: -webkit-clip-path 0.54s 0.32s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.54s 0.12s, -webkit-transform 0.3s, margin 0.3s 0.32s;transition: -webkit-clip-path 0.54s 0.32s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.54s 0.12s, -webkit-transform 0.3s, margin 0.3s 0.32s; }
+div:nth-child(7) .puzzle {-webkit-transition: -webkit-clip-path 0.58s 0.34s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.58s 0.14s, -webkit-transform 0.3s, margin 0.3s 0.34s;-moz-transition: -webkit-clip-path 0.58s 0.34s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.58s 0.14s, -webkit-transform 0.3s, margin 0.3s 0.34s;transition: -webkit-clip-path 0.58s 0.34s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.58s 0.14s, -webkit-transform 0.3s, margin 0.3s 0.34s; }
+div:nth-child(8) .puzzle {-webkit-transition: -webkit-clip-path 0.62s 0.36s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.62s 0.16s, -webkit-transform 0.3s, margin 0.3s 0.36s;-moz-transition: -webkit-clip-path 0.62s 0.36s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.62s 0.16s, -webkit-transform 0.3s, margin 0.3s 0.36s;transition: -webkit-clip-path 0.62s 0.36s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.62s 0.16s, -webkit-transform 0.3s, margin 0.3s 0.36s; }
+div:nth-child(9) .puzzle {-webkit-transition: -webkit-clip-path 0.66s 0.38s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.66s 0.18s, -webkit-transform 0.3s, margin 0.3s 0.38s;-moz-transition: -webkit-clip-path 0.66s 0.38s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.66s 0.18s, -webkit-transform 0.3s, margin 0.3s 0.38s;transition: -webkit-clip-path 0.66s 0.38s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.66s 0.18s, -webkit-transform 0.3s, margin 0.3s 0.38s; }
+div:nth-child(10) .puzzle {-webkit-transition: -webkit-clip-path 0.7s 0.4s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.7s 0.2s, -webkit-transform 0.3s, margin 0.3s 0.4s;-moz-transition: -webkit-clip-path 0.7s 0.4s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.7s 0.2s, -webkit-transform 0.3s, margin 0.3s 0.4s;transition: -webkit-clip-path 0.7s 0.4s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.7s 0.2s, -webkit-transform 0.3s, margin 0.3s 0.4s; }
+div:nth-child(11) .puzzle {-webkit-transition: -webkit-clip-path 0.74s 0.42s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.74s 0.22s, -webkit-transform 0.3s, margin 0.3s 0.42s;-moz-transition: -webkit-clip-path 0.74s 0.42s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.74s 0.22s, -webkit-transform 0.3s, margin 0.3s 0.42s;transition: -webkit-clip-path 0.74s 0.42s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.74s 0.22s, -webkit-transform 0.3s, margin 0.3s 0.42s; }
+div:nth-child(12) .puzzle {-webkit-transition: -webkit-clip-path 0.78s 0.44s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.78s 0.24s, -webkit-transform 0.3s, margin 0.3s 0.44s;-moz-transition: -webkit-clip-path 0.78s 0.44s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.78s 0.24s, -webkit-transform 0.3s, margin 0.3s 0.44s;transition: -webkit-clip-path 0.78s 0.44s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.78s 0.24s, -webkit-transform 0.3s, margin 0.3s 0.44s; }
+div:nth-child(13) .puzzle {-webkit-transition: -webkit-clip-path 0.82s 0.46s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.82s 0.26s, -webkit-transform 0.3s, margin 0.3s 0.46s;-moz-transition: -webkit-clip-path 0.82s 0.46s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.82s 0.26s, -webkit-transform 0.3s, margin 0.3s 0.46s;transition: -webkit-clip-path 0.82s 0.46s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.82s 0.26s, -webkit-transform 0.3s, margin 0.3s 0.46s; }
+div:nth-child(14) .puzzle {-webkit-transition: -webkit-clip-path 0.86s 0.48s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.86s 0.28s, -webkit-transform 0.3s, margin 0.3s 0.48s;-moz-transition: -webkit-clip-path 0.86s 0.48s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.86s 0.28s, -webkit-transform 0.3s, margin 0.3s 0.48s;transition: -webkit-clip-path 0.86s 0.48s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.86s 0.28s, -webkit-transform 0.3s, margin 0.3s 0.48s; }
+div:nth-child(15) .puzzle {-webkit-transition: -webkit-clip-path 0.9s 0.5s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.9s 0.3s, -webkit-transform 0.3s, margin 0.3s 0.5s;-moz-transition: -webkit-clip-path 0.9s 0.5s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.9s 0.3s, -webkit-transform 0.3s, margin 0.3s 0.5s;transition: -webkit-clip-path 0.9s 0.5s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.9s 0.3s, -webkit-transform 0.3s, margin 0.3s 0.5s; }
+div:nth-child(16) .puzzle {-webkit-transition: -webkit-clip-path 0.94s 0.52s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.94s 0.32s, -webkit-transform 0.3s, margin 0.3s 0.52s;-moz-transition: -webkit-clip-path 0.94s 0.52s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.94s 0.32s, -webkit-transform 0.3s, margin 0.3s 0.52s;transition: -webkit-clip-path 0.94s 0.52s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.94s 0.32s, -webkit-transform 0.3s, margin 0.3s 0.52s; }
+div:nth-child(17) .puzzle {-webkit-transition: -webkit-clip-path 0.98s 0.54s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.98s 0.34s, -webkit-transform 0.3s, margin 0.3s 0.54s;-moz-transition: -webkit-clip-path 0.98s 0.54s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.98s 0.34s, -webkit-transform 0.3s, margin 0.3s 0.54s;transition: -webkit-clip-path 0.98s 0.54s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.98s 0.34s, -webkit-transform 0.3s, margin 0.3s 0.54s; }
+div:nth-child(18) .puzzle {-webkit-transition: -webkit-clip-path 1.02s 0.56s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.02s 0.36s, -webkit-transform 0.3s, margin 0.3s 0.56s;-moz-transition: -webkit-clip-path 1.02s 0.56s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.02s 0.36s, -webkit-transform 0.3s, margin 0.3s 0.56s;transition: -webkit-clip-path 1.02s 0.56s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.02s 0.36s, -webkit-transform 0.3s, margin 0.3s 0.56s; }
+div:nth-child(19) .puzzle {-webkit-transition: -webkit-clip-path 1.06s 0.58s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.06s 0.38s, -webkit-transform 0.3s, margin 0.3s 0.58s;-moz-transition: -webkit-clip-path 1.06s 0.58s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.06s 0.38s, -webkit-transform 0.3s, margin 0.3s 0.58s;transition: -webkit-clip-path 1.06s 0.58s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.06s 0.38s, -webkit-transform 0.3s, margin 0.3s 0.58s; }
+div:nth-child(20) .puzzle {-webkit-transition: -webkit-clip-path 1.1s 0.6s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.1s 0.4s, -webkit-transform 0.3s, margin 0.3s 0.6s;-moz-transition: -webkit-clip-path 1.1s 0.6s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.1s 0.4s, -webkit-transform 0.3s, margin 0.3s 0.6s;transition: -webkit-clip-path 1.1s 0.6s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.1s 0.4s, -webkit-transform 0.3s, margin 0.3s 0.6s; }
+div:nth-child(21) .puzzle {-webkit-transition: -webkit-clip-path 1.14s 0.62s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.14s 0.42s, -webkit-transform 0.3s, margin 0.3s 0.62s;-moz-transition: -webkit-clip-path 1.14s 0.62s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.14s 0.42s, -webkit-transform 0.3s, margin 0.3s 0.62s;transition: -webkit-clip-path 1.14s 0.62s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.14s 0.42s, -webkit-transform 0.3s, margin 0.3s 0.62s; }
+div:nth-child(22) .puzzle {-webkit-transition: -webkit-clip-path 1.18s 0.64s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.18s 0.44s, -webkit-transform 0.3s, margin 0.3s 0.64s;-moz-transition: -webkit-clip-path 1.18s 0.64s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.18s 0.44s, -webkit-transform 0.3s, margin 0.3s 0.64s;transition: -webkit-clip-path 1.18s 0.64s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.18s 0.44s, -webkit-transform 0.3s, margin 0.3s 0.64s; }
+div:nth-child(23) .puzzle {-webkit-transition: -webkit-clip-path 1.22s 0.66s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.22s 0.46s, -webkit-transform 0.3s, margin 0.3s 0.66s;-moz-transition: -webkit-clip-path 1.22s 0.66s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.22s 0.46s, -webkit-transform 0.3s, margin 0.3s 0.66s;transition: -webkit-clip-path 1.22s 0.66s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.22s 0.46s, -webkit-transform 0.3s, margin 0.3s 0.66s; }
+div:nth-child(24) .puzzle {-webkit-transition: -webkit-clip-path 1.26s 0.68s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.26s 0.48s, -webkit-transform 0.3s, margin 0.3s 0.68s;-moz-transition: -webkit-clip-path 1.26s 0.68s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.26s 0.48s, -webkit-transform 0.3s, margin 0.3s 0.68s;transition: -webkit-clip-path 1.26s 0.68s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.26s 0.48s, -webkit-transform 0.3s, margin 0.3s 0.68s; }
+div:nth-child(25) .puzzle {-webkit-transition: -webkit-clip-path 1.3s 0.7s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.3s 0.5s, -webkit-transform 0.3s, margin 0.3s 0.7s;-moz-transition: -webkit-clip-path 1.3s 0.7s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.3s 0.5s, -webkit-transform 0.3s, margin 0.3s 0.7s;transition: -webkit-clip-path 1.3s 0.7s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.3s 0.5s, -webkit-transform 0.3s, margin 0.3s 0.7s; }
+div:nth-child(26) .puzzle {-webkit-transition: -webkit-clip-path 1.34s 0.72s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.34s 0.52s, -webkit-transform 0.3s, margin 0.3s 0.72s;-moz-transition: -webkit-clip-path 1.34s 0.72s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.34s 0.52s, -webkit-transform 0.3s, margin 0.3s 0.72s;transition: -webkit-clip-path 1.34s 0.72s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.34s 0.52s, -webkit-transform 0.3s, margin 0.3s 0.72s; }
+div:nth-child(27) .puzzle {-webkit-transition: -webkit-clip-path 1.38s 0.74s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.38s 0.54s, -webkit-transform 0.3s, margin 0.3s 0.74s;-moz-transition: -webkit-clip-path 1.38s 0.74s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.38s 0.54s, -webkit-transform 0.3s, margin 0.3s 0.74s;transition: -webkit-clip-path 1.38s 0.74s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.38s 0.54s, -webkit-transform 0.3s, margin 0.3s 0.74s; }
+div:nth-child(28) .puzzle {-webkit-transition: -webkit-clip-path 1.42s 0.76s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.42s 0.56s, -webkit-transform 0.3s, margin 0.3s 0.76s;-moz-transition: -webkit-clip-path 1.42s 0.76s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.42s 0.56s, -webkit-transform 0.3s, margin 0.3s 0.76s;transition: -webkit-clip-path 1.42s 0.76s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.42s 0.56s, -webkit-transform 0.3s, margin 0.3s 0.76s; }
+div:nth-child(29) .puzzle {-webkit-transition: -webkit-clip-path 1.46s 0.78s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.46s 0.58s, -webkit-transform 0.3s, margin 0.3s 0.78s;-moz-transition: -webkit-clip-path 1.46s 0.78s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.46s 0.58s, -webkit-transform 0.3s, margin 0.3s 0.78s;transition: -webkit-clip-path 1.46s 0.78s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.46s 0.58s, -webkit-transform 0.3s, margin 0.3s 0.78s; }
+div:nth-child(30) .puzzle {-webkit-transition: -webkit-clip-path 1.5s 0.8s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.5s 0.6s, -webkit-transform 0.3s, margin 0.3s 0.8s;-moz-transition: -webkit-clip-path 1.5s 0.8s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.5s 0.6s, -webkit-transform 0.3s, margin 0.3s 0.8s;transition: -webkit-clip-path 1.5s 0.8s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.5s 0.6s, -webkit-transform 0.3s, margin 0.3s0.8s; }
