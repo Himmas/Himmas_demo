@@ -14,7 +14,7 @@
   
    2.时间差的部分(全部的自己去看.讲真)
   
-  ```javascript
+```javascript
       function getShowTime(){
       	var test_time=new Date();
       	var ret = test_time.getHours() * 3600 + test_time.getMinutes() * 60 + test_time.getSeconds();
@@ -30,13 +30,13 @@
       var now_hours=parseInt( curShowTimeSeconds / 3600);
       var now_minutes=parseInt( (curShowTimeSeconds - now_hours * 3600)/60 );
       var now_seconds=curShowTimeSeconds % 60;
-    ```
+```
     	
       这应该是更新部分...
     
    3.小球循环部分:
   
- ```javascript
+```javascript
       var balls=[];
       for( var i = 0  ; i < digit[num].length ; i ++ ){
   	    for( var j = 0  ; j < digit[num][i].length ; j ++ ){
@@ -53,7 +53,7 @@
   	        }
   	    }
   	}
-  ```
+```
   	 4.自己看代码注释...
   	
   	 5.[本宝宝的canvas启蒙老师](https://github.com/liuyubobobo)
