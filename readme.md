@@ -17,6 +17,7 @@
 - canvas时钟 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/canvas/particle-clock)
 - canvas彩带 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/canvas/colours-bar)
 - canvas彩色小花 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/canvas/canvas-flower)
+- canvas旋转的星星 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/canvas/star-rotate)
 
 ##DOM相关
 
