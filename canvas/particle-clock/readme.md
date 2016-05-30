@@ -1,3 +1,3 @@
 # 关于demo
->时钟小demo.时间转换的间隔有点卡顿.(求解决)
+>时钟小demo.[Demo](http://himmas.github.io/Himmas_demo/canvas/particle-clock/)
 
