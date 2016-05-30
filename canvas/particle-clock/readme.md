@@ -54,6 +54,6 @@
   	    }
   	}
 ```
-    4.自己看代码注释...
+   4.自己看代码注释...
   	
-    5.[本宝宝的canvas启蒙老师](https://github.com/liuyubobobo)
+   5.[本宝宝的canvas启蒙老师](https://github.com/liuyubobobo)
