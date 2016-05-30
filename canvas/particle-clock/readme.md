@@ -13,6 +13,7 @@
   - 1.点阵我就不贴代码了.(尴尬)
   
   - 2.时间差的部分(全部的自己去看.讲真)
+  
       function getShowTime(){
       	var test_time=new Date();
       	var ret = test_time.getHours() * 3600 + test_time.getMinutes() * 60 + test_time.getSeconds();
@@ -21,17 +22,18 @@
       }
       var newShowTime=getShowTime();
 	
-    	var hours=parseInt( newShowTime / 3600);
-    	var minutes=parseInt( (newShowTime - hours * 3600)/60 );
-    	var seconds=newShowTime % 60;
+      var hours=parseInt( newShowTime / 3600);
+      var minutes=parseInt( (newShowTime - hours * 3600)/60 );
+      var seconds=newShowTime % 60;
+    
+      var now_hours=parseInt( curShowTimeSeconds / 3600);
+      var now_minutes=parseInt( (curShowTimeSeconds - now_hours * 3600)/60 );
+      var now_seconds=curShowTimeSeconds % 60;
     	
-    	var now_hours=parseInt( curShowTimeSeconds / 3600);
-    	var now_minutes=parseInt( (curShowTimeSeconds - now_hours * 3600)/60 );
-    	var now_seconds=curShowTimeSeconds % 60;
-    	
-    	这应该是更新部分...
+      这应该是更新部分...
     	
   - 3.小球循环部分:
+  
       var balls=[];
       for( var i = 0  ; i < digit[num].length ; i ++ ){
   	    for( var j = 0  ; j < digit[num][i].length ; j ++ ){
