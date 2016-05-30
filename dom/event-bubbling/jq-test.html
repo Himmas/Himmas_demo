@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery.js"></script>
+    <style type="text/css">
+        .item {
+            display: table;
+            margin: 100px;
+        }
+
+        #outer {
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        }
+
+        #inner {
+            vertical-align: middle;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+        }
+
+        #core {
+            width: 80px;
+            height: 80px;
+            background-color: red;
+            text-indent: 10px;
+            line-height: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="item" id="outer">
+    <div class="item" id="inner">
+        <div class="item" id="core">
+            点我
+        </div>
+    </div>
+</div>
+<script>
+    $("#outer").on("click","#core", function (e) {
+//        console.log(this);
+        console.log(e,this,e.currentTarget,e.target, e.delegateTarget);
+        console.log(e.originalEvent.currentTarget)
+    })
+//    $("#inner").click(function (e) {
+//        console.log(this);
+//        console.log(e.currentTarget,e.target);
+//    })
+    var $outer = document.getElementById("outer");
+    //添加事件监听事件
+    $outer.addEventListener("click", function (e) {
+        e = e||window.event;
+//        alert("我是蓝盒子的监听事件");
+//        console.log("target:");
+//        console.log(e.target);
+        console.log(e);
+        console.log("currentTarget:");
+        console.log(e.currentTarget);
+//        e.stopPropagation();
+    }, false);
+    //第三个参数为布尔类型 true:在捕获阶段调用 false:在冒泡阶段调用事件处理程序
+</script>
+</body>
+</html>
