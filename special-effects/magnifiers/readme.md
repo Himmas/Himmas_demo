@@ -1,6 +1,6 @@
 ## 关于放大镜效果
 - 所谓放大镜效果其实是由两张图片来完成，一张小图一张大图，鼠标放在小图上移动，从而控制大图来移动，给人一种图片被放大的错觉
-- 展示页 [链接](http://himmas.github.io/Himmas_demo/special-effects/magnifying/index.html)
+- 展示页 [链接](http://himmas.github.io/Himmas_demo/special-effects/magnifiers//index.html)
 
 ## 关于DEMO
 #### html部分
