@@ -1,0 +1,1073 @@
+/*主体*/
+#content{position:absolute;width:48%;height:60%;overflow:hidden;left:26%;top:22%}
+/*按钮*/
+.btn{height:54px;width:54px;border-radius:100px;position:absolute;-webkit-transition:0.14s;-moz-transition:0.14s;transition:0.14s;background:url(../img/btn.png) repeat center center;}
+.btn_l{top:50%;left:5%;}
+.btn_r{top:50%;right:5%;}
+/*whale-鲸鱼*/
+.whale:nth-child(1) .puzzle{-webkit-clip-path: polygon(9.38% 59.35%, 13.4% 58.95%, 9.28% 61.08%);background-color: #334543;}
+.whale:nth-child(2) .puzzle{-webkit-clip-path: polygon(9.28% 61.08%, 13.25% 58.96%, 11.7% 62.35%);background-color: #111619;}
+.whale:nth-child(3) .puzzle{-webkit-clip-path: polygon(9.389% 59.352%, 14.368% 45.048%, 17.882% 45.693%);background-color: #3c4650;}
+.whale:nth-child(4) .puzzle{-webkit-clip-path: polygon(9.389% 59.352%, 17.882% 45.693%, 14.684% 54.94%);background-color: #0F1622;}
+.whale:nth-child(5) .puzzle{-webkit-clip-path: polygon(9.389% 59.352%, 14.684% 54.94%, 13.25% 58.958%);background-color: #d9eadf;}
+.whale:nth-child(6) .puzzle{-webkit-clip-path: polygon(11.705% 62.346%, 13.25% 58.958%, 32.112% 61.716%);background-color: #d9ebeb;}
+.whale:nth-child(7) .puzzle{-webkit-clip-path: polygon(13.25% 58.958%, 14.684% 54.94%, 17.827% 55.964%);background-color: #333c40;}
+.whale:nth-child(8) .puzzle{-webkit-clip-path: polygon(13.25% 58.958%, 17.827% 55.964%, 15.676% 59.431%);background-color: #1c2529;}
+.whale:nth-child(9) .puzzle{-webkit-clip-path: polygon(14.684% 54.94%, 17.882% 45.693%, 17.827% 55.964%);background-color: #62827f;}
+.whale:nth-child(10) .puzzle{-webkit-clip-path: polygon(15.676% 59.431%, 17.827% 55.964%, 32.112% 61.716%);background-color: #bdd0d0;}
+.whale:nth-child(11) .puzzle{-webkit-clip-path: polygon(14.368% 45.048%, 41.129% 30.988%, 17.882% 45.693%);background-color: #273537;}
+.whale:nth-child(12) .puzzle{-webkit-clip-path: polygon(17.882% 45.693%, 41.047% 30.988%, 58.171% 35.479%);background-color: #384e4d;}
+.whale:nth-child(13) .puzzle{-webkit-clip-path: polygon(17.882% 45.693%, 37.186% 39.103%, 17.827% 55.964%);background-color: #486461;}
+.whale:nth-child(14) .puzzle{-webkit-clip-path: polygon(17.827% 55.964%, 37.131% 39.103%, 33.711% 48.13%);background-color: #62827f;}
+.whale:nth-child(15) .puzzle{-webkit-clip-path: polygon(17.827% 55.964%, 33.766% 48.13%, 32.112% 61.716%);background-color: #aac7c6;}
+.whale:nth-child(16) .puzzle{-webkit-clip-path: polygon(25.99% 61.716%, 32.64% 61.368%, 36.91% 70.146%);background-color: #0d1417;}
+.whale:nth-child(17) .puzzle{-webkit-clip-path: polygon(33.711% 48.13%, 55.276% 61.952%, 32.195% 61.597%);background-color: #d9ebeb;}
+.whale:nth-child(18) .puzzle{-webkit-clip-path: polygon(27.107% 55.964%, 39.318% 59.352%, 40.467% 66.772%);background-color: #334543;}
+.whale:nth-child(19) .puzzle{-webkit-clip-path: polygon(27.107% 55.964%, 40.467% 66.772%, 45.128% 74.085%);background-color: #21282f;}
+.whale:nth-child(20) .puzzle{-webkit-clip-path: polygon(33.711% 48.13%, 37.076% 39.121%, 59.688% 51.237%);background-color: #739998;}
+.whale:nth-child(21) .puzzle{-webkit-clip-path: polygon(36.414% 33.588%, 47.582% 21.06%, 47.044% 34.533%);background-color: #2d3b3b;}
+.whale:nth-child(22) .puzzle{-webkit-clip-path: polygon(33.711% 48.13%, 59.688% 51.237%, 55.276% 61.952%);background-color: #d8e2de;}
+.whale:nth-child(23) .puzzle{-webkit-clip-path: polygon(37.076% 39.121%, 58.171% 35.479%, 55.3% 40.679%);background-color: #415555;}
+.whale:nth-child(24) .puzzle{-webkit-clip-path: polygon(37.076% 39.121%, 55.3% 40.442%, 59.688% 51.237%);background-color: #486461;}
+.whale:nth-child(25) .puzzle{-webkit-clip-path: polygon(55.3% 40.442%, 58.171% 35.479%, 59.688% 51.237%);background-color: #384e4d;}
+.whale:nth-child(26) .puzzle{-webkit-clip-path: polygon(58.171% 35.479%, 75.108% 48.262%, 59.688% 51.237%);background-color: #4b6364;}
+.whale:nth-child(27) .puzzle{-webkit-clip-path: polygon(55.276% 61.952%, 59.688% 51.237%, 75.108% 48.262%);background-color: #c0dbd3;}
+.whale:nth-child(28) .puzzle{-webkit-clip-path: polygon(58.171% 35.479%, 82.907% 41.309%, 75.108% 48.262%);background-color: #2d3b3b;}
+.whale:nth-child(29) .puzzle{-webkit-clip-path: polygon(78.275% 41.979%, 86.099% 38.183%, 96.64% 38.788%);background-color: #365255;}
+.whale:nth-child(30) .puzzle{-webkit-clip-path: polygon(78.275% 41.979%, 96.64% 38.788%, 88.644% 43.784%);background-color: #678781;}
+/*tamarin-绢毛猴*/
+.tamarin:nth-child(1) .puzzle{-webkit-clip-path: polygon(23.45% 28.071%, 25.15% 15.214%, 28.05% 25.929%);background-color: #B95917;}
+.tamarin:nth-child(2) .puzzle{-webkit-clip-path: polygon(23.35% 28.071%, 30.3% 24.786%, 32.05% 39.67%);background-color: #4A1F18;}
+.tamarin:nth-child(3) .puzzle{-webkit-clip-path: polygon(25.15% 15.214%, 27.75% 25.929%, 30.85% 18.214%);background-color: #4A1F18;}
+.tamarin:nth-child(4) .puzzle{-webkit-clip-path: polygon(25.05% 15.214%, 38.65% 12.786%, 30.75% 18.214%);background-color: #E2872D; }
+.tamarin:nth-child(5) .puzzle{-webkit-clip-path: polygon(30% 23%, 43.15% 29.357%, 31.85% 39.5%);background-color: #692410; }
+.tamarin:nth-child(6) .puzzle{-webkit-clip-path: polygon(30.75% 18.071%, 38.7% 12.8%, 33.95% 25.4%);background-color: #9D3E16; }
+.tamarin:nth-child(7) .puzzle{-webkit-clip-path: polygon(28.25% 19.5%, 30.95% 18.1%, 27.75% 25.786%);background-color: #B59280; }
+.tamarin:nth-child(8) .puzzle{-webkit-clip-path: polygon(27.75% 25.643%, 30.75% 18.214%, 30.15% 24.214%);background-color: #A3795E; }
+.tamarin:nth-child(9) .puzzle{-webkit-clip-path: polygon(27.75% 25.7%, 30.15% 24.1%, 30.8% 29.929%);background-color: #301F19; }
+.tamarin:nth-child(10) .puzzle{-webkit-clip-path: polygon(30.75% 18.071%, 34% 25.3%, 30.05% 24.214%);background-color: #825C41; }
+.tamarin:nth-child(11) .puzzle{-webkit-clip-path: polygon(30.15% 24.214%, 34.05% 25.357%, 30.7% 30.071%);background-color: #211A14; }
+.tamarin:nth-child(12) .puzzle{-webkit-clip-path: polygon(30.75% 18.214%, 33.95% 18.786%, 34.05% 25.357%);background-color: #B89276; }
+.tamarin:nth-child(13) .puzzle{-webkit-clip-path: polygon(33.95% 25.214%, 38.65% 12.929%, 42.25% 29.357%);background-color: #7F2D13; }
+.tamarin:nth-child(14) .puzzle{-webkit-clip-path: polygon(31.85% 39.33%, 47.2% 23.4%, 37.23% 45.35%);background-color: #5A2117; }
+.tamarin:nth-child(15) .puzzle{-webkit-clip-path: polygon(23.45% 28.071%, 31.95% 39.357%, 32.05% 52.214%);background-color: #3B201A; }
+.tamarin:nth-child(16) .puzzle{-webkit-clip-path: polygon(38.65% 13.071%, 47.25% 23.357%, 41.8% 29.1%);background-color: #B95917; }
+.tamarin:nth-child(17) .puzzle{-webkit-clip-path: polygon(31.85% 39.214%, 51.9% 61.1%, 31.95% 51.929%);background-color: #301F19; }
+.tamarin:nth-child(18) .puzzle{-webkit-clip-path: polygon(47.15% 23.357%, 52.75% 33.071%, 37.1% 45.4%);background-color: #80330B; }
+.tamarin:nth-child(19) .puzzle{-webkit-clip-path: polygon(37.1% 45.3%, 52.75% 32.9%, 52.55% 52.643%);background-color: #9C3F10; }
+.tamarin:nth-child(20) .puzzle{-webkit-clip-path: polygon(37.15% 45.214%, 52.55% 52.357%, 51.75% 61.071%);background-color: #3B271A; }
+.tamarin:nth-child(21) .puzzle{-webkit-clip-path: polygon(42.45% 56.6%, 45.85% 58.1%, 34.15% 63.071%);background-color: #542B0A; }
+.tamarin:nth-child(22) .puzzle{-webkit-clip-path: polygon(52.2% 56.357%, 51.75% 60.929%, 40.35% 63.5%);background-color: #B45D1C; }
+.tamarin:nth-child(23) .puzzle{-webkit-clip-path: polygon(47.15% 23.357%, 59.45% 26.929%, 52.55% 33.214%);background-color: #F5BD4D; }
+.tamarin:nth-child(24) .puzzle{-webkit-clip-path: polygon(52.65% 33.071%, 58.75% 27.357%, 70.35% 37.214%);background-color: #EBAD41; }
+.tamarin:nth-child(25) .puzzle{-webkit-clip-path: polygon(52.65% 33.071%, 69.05% 36.786%, 52.55% 52.643%);background-color: #DC9022; }
+.tamarin:nth-child(26) .puzzle{-webkit-clip-path: polygon(52.55% 52.643%, 68.95% 36.786%, 69.55% 51.5%);background-color: #D87B1F; }
+.tamarin:nth-child(27) .puzzle{-webkit-clip-path: polygon(52.55% 52.5%, 69.8% 51.4%, 51.55% 61.071%);background-color: #C7691E; }
+.tamarin:nth-child(28) .puzzle{-webkit-clip-path: polygon(51.55% 60.929%, 69.6% 51.4%, 64.25% 62.5%);background-color: #AC551A; }
+.tamarin:nth-child(29) .puzzle{-webkit-clip-path: polygon(58.65% 61.786%, 64.25% 62.5%, 64.55% 84.643%);background-color: #D4932F; }
+.tamarin:nth-child(30) .puzzle{-webkit-clip-path: polygon(64.45% 79.357%, 75.85% 82.643%, 64.55% 84.643%);background-color: #BE731B; }
+.tamarin:nth-child(31) .puzzle{-webkit-clip-path: polygon(35.75% 62.214%, 45.96% 58%, 43.1% 84.8%);background-color: #6A463F; z-index:0;}
+.tamarin:nth-child(32) .puzzle{-webkit-clip-path: polygon(45.95% 57.2%, 54.65% 61.214%, 43% 85%);background-color: #5E382D; z-index:0;}
+.tamarin:nth-child(33) .puzzle{-webkit-clip-path: polygon(43.05% 84.786%, 54.75% 60.214%, 52.75% 84.786%);background-color: #4F3220;z-index:0;}
+/*frog-青蛙*/
+.frog:nth-child(1) .puzzle{-webkit-clip-path: polygon(25.4% 30.6%, 33.5% 32.2%, 25.92% 36.857%);background-color: #FEDD47; }
+.frog:nth-child(2) .puzzle{-webkit-clip-path: polygon(25.85% 36.9%, 35.25% 28.857%, 36.15% 47.714%);background-color: #F1C838; }
+.frog:nth-child(3) .puzzle{-webkit-clip-path: polygon(25.45% 30.714%, 30.35% 28.286%, 32.1% 32.143%);background-color: #FDD24B; }
+.frog:nth-child(4) .puzzle{-webkit-clip-path: polygon(30.3% 28.2%, 35.35% 28.857%, 31.4% 32.2%);background-color: #F3E567; }
+.frog:nth-child(5) .puzzle{-webkit-clip-path: polygon(25.95% 36.857%, 36.25% 47.714%, 27.85% 41.714%);background-color: #CDAA25; }
+.frog:nth-child(6) .puzzle{-webkit-clip-path: polygon(30.25% 28.4%, 35.85% 26%, 39.99% 29.686%);background-color: #FFF88B; }
+.frog:nth-child(7) .puzzle{-webkit-clip-path: polygon(35% 29%, 39.85% 29.429%, 43.5% 39.4%);background-color: #FDD24B; }
+.frog:nth-child(8) .puzzle{-webkit-clip-path: polygon(35.15% 29%, 43.45% 39.2%, 36.04% 47.99%);background-color: #E4BA2D; }
+.frog:nth-child(9) .puzzle{-webkit-clip-path: polygon(31.25% 35.429%, 35.15% 30%, 37.45% 38%);background-color: #F4E281; }
+.frog:nth-child(10) .puzzle{-webkit-clip-path: polygon(31.15% 35.571%, 34.55% 33.714%, 37.35% 38.2%);background-color: #3A393B; }
+.frog:nth-child(11) .puzzle{-webkit-clip-path: polygon(31.15% 35.429%, 37.45% 38.143%, 33.15% 39.714%);background-color: #2B2424; }
+.frog:nth-child(12) .puzzle{-webkit-clip-path: polygon(32.65% 35.286%, 33.55% 34.857%, 33.15% 36%);background-color: #fff; }
+.frog:nth-child(13) .puzzle{-webkit-clip-path: polygon(39.75% 29.4%, 56.15% 41.857%, 43.35% 39.243%);background-color: #F0EA75; }
+.frog:nth-child(14) .puzzle{-webkit-clip-path: polygon(43.35% 39%, 43.65% 51.571%, 36.15% 47.857%);background-color: #FAC932; }
+.frog:nth-child(15) .puzzle{-webkit-clip-path: polygon(43.3% 38.7%, 52.55% 56.857%, 43.45% 58%);background-color: #FED63C; }
+.frog:nth-child(16) .puzzle{-webkit-clip-path: polygon(43.25% 38.857%, 56.15% 41.857%, 52.45% 57%);background-color: #F9E049; }
+.frog:nth-child(17) .puzzle{-webkit-clip-path: polygon(43.45% 57.857%, 52.55% 56.7%, 53.25% 70.286%);background-color: #E6BF2B; }
+.frog:nth-child(18) .puzzle{-webkit-clip-path: polygon(37.45% 50.429%, 53.35% 70.286%, 43.95% 65.143%);background-color: #70540E; }
+.frog:nth-child(19) .puzzle{-webkit-clip-path: polygon(36% 47.6657%, 43.75% 51.429%, 38.45% 55%);background-color: #FBD942; }
+.frog:nth-child(20) .puzzle{-webkit-clip-path: polygon(43.65% 51.429%, 49.35% 63.286%, 38.35% 55%);background-color: #F0EA75; }
+.frog:nth-child(21) .puzzle{-webkit-clip-path: polygon(34.35% 71.571%, 49.35% 73.429%, 41.55% 75.143%);background-color: #2C2924; }
+.frog:nth-child(22) .puzzle{-webkit-clip-path: polygon(45.35% 60.286%, 49.25% 63.143%, 37.85% 73.286%);background-color: #D8C533; }
+.frog:nth-child(23) .puzzle{-webkit-clip-path: polygon(37.65% 73.3%, 49.1% 63.143%, 41.75% 75.43%);background-color: #BDA126; }
+.frog:nth-child(24) .puzzle{-webkit-clip-path: polygon(52.45% 56.9%, 56.05% 41.857%, 67.25% 63.4%);background-color: #FEEC63; }
+.frog:nth-child(25) .puzzle{-webkit-clip-path: polygon(52.45% 56.714%, 67.15% 63.286%, 53.2% 70.3%);background-color: #F3CD37; }
+.frog:nth-child(26) .puzzle{-webkit-clip-path: polygon(61.45% 66.429%, 72.85% 68.143%, 61.65% 75.857%);background-color: #986E19; }
+.frog:nth-child(27) .puzzle{-webkit-clip-path: polygon(53.2% 70.1%, 67.25% 63.1%, 55.25% 81.714%);background-color: #F9DB35; }
+.frog:nth-child(28) .puzzle{-webkit-clip-path: polygon(62.35% 70.571%, 75.15% 72.429%, 55.15% 81.714%);background-color: #FAC62D; }
+.frog:nth-child(29) .puzzle{-webkit-clip-path: polygon(75.15% 72.429%, 65.95% 84.286%, 57.85% 83.571%);background-color: #FDDA54; }
+.frog:nth-child(30) .puzzle{-webkit-clip-path: polygon(58.65% 83%, 65.85% 84.429%, 52.65% 84%);background-color: #180D13; }
+.frog:nth-child(31) .puzzle{-webkit-clip-path: polygon(24.35% 68.143%, 56.65% 67.143%, 79.35% 85.714%);background-color: #3B6F4B; }
+.frog:nth-child(32) .puzzle{-webkit-clip-path: polygon(24.25% 68.143%, 79.35% 85.714%, 50.35% 87.286%);background-color: #4E9F73; }
+.frog:nth-child(33) .puzzle{-webkit-clip-path: polygon(24.35% 68.143%, 29.25% 71.714%, 27.25% 79%);background-color: #1D3246; }
+.frog:nth-child(21) .puzzle,.frog:nth-child(22) .puzzle,.frog:nth-child(23) .puzzle,.frog:nth-child(25) .puzzle,.frog:nth-child(27) .puzzle,.frog:nth-child(28) .puzzle,.frog:nth-child(29) .puzzle,.frog:nth-child(30) .puzzle{z-index:4;}
+/*owl-猫头鹰*/
+.owl:nth-child(1) .puzzle{-webkit-clip-path: polygon(43.576% 5.071%, 35.376% 10.5%, 52.676% 9.643%);background-color: #8B7F7A; }
+.owl:nth-child(2) .puzzle{-webkit-clip-path: polygon(35.376% 10.5%, 42.176% 15.071%, 52.676% 9.5%);background-color: #75614B; }
+.owl:nth-child(3) .puzzle{-webkit-clip-path: polygon(35.376% 10.5%, 32.976% 23.357%, 42.176% 15.071%);background-color: #B1A799; }
+.owl:nth-child(4) .puzzle{-webkit-clip-path: polygon(42.176% 15.071%, 52.676% 9.5%, 54.976% 21.071%);background-color: #BCAEA5; }
+.owl:nth-child(5) .puzzle{-webkit-clip-path: polygon(35.976% 11.786%, 41.176% 11.786%, 42.276% 15.071%);background-color: #D3CBC7; }
+.owl:nth-child(6) .puzzle{-webkit-clip-path: polygon(42.176% 15.071%, 43.376% 11.643%, 48.776% 12.5%);background-color: #D3CBC7; }
+.owl:nth-child(7) .puzzle{-webkit-clip-path: polygon(32.976% 23.214%, 42.176% 15.071%, 41.776% 23.5%);background-color: #A09086; }
+.owl:nth-child(8) .puzzle{-webkit-clip-path: polygon(42.176% 15.071%, 41.776% 23.5%, 54.976% 21.071%);background-color: #5B5852; }
+.owl:nth-child(9) .puzzle{-webkit-clip-path: polygon(42.176% 15.214%, 40.476% 19.357%, 41.776% 23.5%);background-color: #D2B253; }
+.owl:nth-child(10) .puzzle{-webkit-clip-path: polygon(42.176% 15.214%, 41.676% 23.357%, 43.876% 19.5%);background-color: #937428; }
+.owl:nth-child(11) .puzzle{-webkit-clip-path: polygon(31.576% 31.929%, 33.576% 28.357%, 35.976% 52.786%);background-color: #B6ACA6; }
+.owl:nth-child(12) .puzzle{-webkit-clip-path: polygon(33.576% 28.357%, 44.976% 31.357%, 35.776% 50.786%);background-color: #C1BAB6; }
+.owl:nth-child(13) .puzzle{-webkit-clip-path: polygon(32.976% 23.214%, 31.676% 31.929%, 37.176% 21.929%);background-color: #685C5B; }
+.owl:nth-child(14) .puzzle{-webkit-clip-path: polygon(33.576% 28.357%, 37.176% 21.929%, 38.176% 31.5%);background-color: #4F4B4C; }
+.owl:nth-child(15) .puzzle{-webkit-clip-path: polygon(37.176% 21.929%, 41.676% 23.5%, 38.076% 31.643%);background-color: #858184; }
+.owl:nth-child(16) .puzzle{-webkit-clip-path: polygon(41.8% 23.2%, 38.05% 31.5%, 45.2% 31.5%);background-color: #4F4B4C; }
+.owl:nth-child(17) .puzzle{-webkit-clip-path: polygon(41.776% 23.5%, 44.976% 31.357%, 48.076% 20.643%);background-color: #858184; }
+.owl:nth-child(18) .puzzle{-webkit-clip-path: polygon(44.976% 31.357%, 35.876% 50.786%, 54.176% 53.643%);background-color: #B5A9A6; }
+.owl:nth-child(19) .puzzle{-webkit-clip-path: polygon(35.876% 50.786%, 58.076% 53.929%, 61.476% 73.5%);background-color: #9F918A; }
+.owl:nth-child(20) .puzzle{-webkit-clip-path: polygon(44.976% 31.357%, 48.1% 20.3%, 48.16% 42.357%);background-color: #696360; }
+.owl:nth-child(21) .puzzle{-webkit-clip-path: polygon(48.076% 20.643%, 48.076% 42.3%, 55% 35.1%);background-color: #414343; }
+.owl:nth-child(22) .puzzle{-webkit-clip-path: polygon(48% 20.643%, 55.03% 20.929%, 54.95% 35.2%);background-color: #4C4B48; }
+.owl:nth-child(23) .puzzle{-webkit-clip-path: polygon(48.1% 42.2%, 57.8% 32.071%, 63.9% 51.3%);background-color: #33312D; }
+.owl:nth-child(24) .puzzle{-webkit-clip-path: polygon(55% 20.929%, 54.9% 35.071%, 63.1% 44.357%);background-color: #393B3D; }
+.owl:nth-child(25) .puzzle{-webkit-clip-path: polygon(55% 20.929%, 63% 44.214%, 61.9% 31.214%);background-color: #282628; }
+.owl:nth-child(26) .puzzle{-webkit-clip-path: polygon(55% 35.071%, 62.1% 45.929%, 60.7% 41.5%);background-color: #241F1B; }
+.owl:nth-child(27) .puzzle{-webkit-clip-path: polygon(48.05% 42.1%, 66.4% 76.214%, 62.9% 50.643%);background-color: #171619; }
+.owl:nth-child(28) .puzzle{-webkit-clip-path: polygon(58.9% 62.357%, 62.9% 80.071%, 64.8% 73.357%);background-color: #494238; }
+.owl:nth-child(29) .puzzle{-webkit-clip-path: polygon(45.1% 58.929%, 41.7% 63.071%, 47.2% 60.786%);background-color: #6C4D34; }
+.owl:nth-child(30) .puzzle{-webkit-clip-path: polygon(47.2% 60.786%, 44.6% 68.214%, 49.4% 62.786%);background-color: #84614A; }
+.owl.peripheral:nth-child(31) .puzzle{-webkit-clip-path: polygon(23.5% 43.786%, 22.3% 47.5%, 55.8% 69.357%);background-color: #392232; }
+.owl:nth-child(32) .puzzle{-webkit-clip-path: polygon(33% 54.357%, 60.5% 78.643%, 55.8% 69.357%);background-color: #170C02; }
+.owl:nth-child(33) .puzzle{-webkit-clip-path: polygon(55.8% 69.214%, 62.5% 84.929%, 67.1% 85.071%);background-color: #2E1A1F; }
+/*crow-乌鸦*/
+.crow:nth-child(1) .puzzle{-webkit-clip-path: polygon(32.8% 58%, 38.4% 61.2%, 12.2% 81.5%);background-color: #eee5d9; }
+.crow:nth-child(2) .puzzle{-webkit-clip-path: polygon(21.9% 67.8%, 33.5% 57.9%, 26% 61.7%);background-color: #32281d; }
+.crow:nth-child(3) .puzzle{-webkit-clip-path: polygon(23.7% 62.9%, 39.2% 42.8%, 50.8% 49.8%);background-color: #3c3329; }
+.crow:nth-child(4) .puzzle{-webkit-clip-path: polygon(33.3% 58.3%, 45.8% 57.1%, 45.3% 66.9%);background-color: #ddd7c9; }
+.crow:nth-child(5) .puzzle{-webkit-clip-path: polygon(38.6% 42.9%, 56.4% 33.8%, 49.9% 50.2%);background-color: #4b413b; }
+.crow:nth-child(6) .puzzle{-webkit-clip-path: polygon(32.3% 58.7%, 50% 49.9%, 61% 55.3%);background-color: #302717; }
+.crow:nth-child(7) .puzzle{-webkit-clip-path: polygon(45.6% 73.6%, 48.6% 70%, 49.3% 71.2%);background-color: #931f00; }
+.crow:nth-child(8) .puzzle{-webkit-clip-path: polygon(52.5% 74.8%, 52.2% 78.4%, 50.7% 72.3%);background-color: #744a0f; }
+.crow:nth-child(9) .puzzle{-webkit-clip-path: polygon(52.5% 74.8%, 47.6% 65.8%, 45.7% 66.9%);background-color: #d65100; }
+.crow:nth-child(10) .puzzle{-webkit-clip-path: polygon(47.5% 65.8%, 49% 64.6%, 54.7% 71.8%);background-color: #ae441c; }
+.crow:nth-child(11) .puzzle{-webkit-clip-path: polygon(52.9% 70.4%, 54.5% 74.8%, 54.5% 71.5%);background-color: #931f00; }
+.crow:nth-child(12) .puzzle{-webkit-clip-path: polygon(45.5% 57.13%, 60.8% 55.3%, 44.5% 68.4%);background-color: #f4fbf3; }
+.crow:nth-child(13) .puzzle{-webkit-clip-path: polygon(60.7% 55.3%, 57.6% 57.7%, 46.6% 56.9%);background-color: #eee5d9; }
+.crow:nth-child(14) .puzzle{-webkit-clip-path: polygon(49.7% 50.5%, 55.7% 34.3%, 68.5% 40.9%);background-color: #564a42; }
+.crow:nth-child(15) .puzzle{-webkit-clip-path: polygon(43.4% 35.7%, 55.8% 34.3%, 36.9% 44.3%);background-color: #564a42; }
+.crow:nth-child(16) .puzzle{-webkit-clip-path: polygon(49.7% 50.1%, 68.4% 40.8%, 61.36% 56.4%);background-color: #4b413b; }
+.crow:nth-child(17) .puzzle{-webkit-clip-path: polygon(55.4% 34.3%, 56.3% 21.7%, 59.9% 36.6%);background-color: #302717; }
+.crow:nth-child(18) .puzzle{-webkit-clip-path: polygon(56.3% 21.7%, 60.3% 19.5%, 59.8% 36.8%);background-color: #4b3225; }
+.crow:nth-child(19) .puzzle{-webkit-clip-path: polygon(57.6% 27.3%, 60.3% 19.2%, 59.9% 36.8%);background-color: #a42613; }
+.crow:nth-child(20) .puzzle{-webkit-clip-path: polygon(60.3% 19.5%, 68.9% 24.8%, 59.85% 36.96%);background-color: #c34a2a; }
+.crow:nth-child(21) .puzzle{-webkit-clip-path: polygon(64.8% 13.2%, 76.85% 14%, 72.5% 27.1%);background-color: #cb4c3a; }
+.crow:nth-child(22) .puzzle{-webkit-clip-path: polygon(55.4% 22.3%, 62.9% 11%, 67.63% 15.7%);background-color: #442c1e; }
+.crow:nth-child(23) .puzzle{-webkit-clip-path: polygon(60% 36.4%, 65.2% 29.8%, 68.5% 41%);background-color: #d26549; }
+.crow:nth-child(24) .puzzle{-webkit-clip-path: polygon(64% 31.4%, 66.2% 28.3%, 68.5% 41%);background-color: #cf7b5b; }
+.crow:nth-child(25) .puzzle{-webkit-clip-path: polygon(60.3% 19.5%, 67.7% 15.5%, 72.6% 27.4%);background-color: #d95032; }
+.crow:nth-child(26) .puzzle{-webkit-clip-path: polygon(66.3% 28.3%, 72.3% 27.2%, 68.9% 24.8%);background-color: #ba3c0a; }
+.crow:nth-child(27) .puzzle{-webkit-clip-path: polygon(68.27% 27.9%, 72.74% 27%, 71.3% 30.4%);background-color: #ca8a5a; }
+.crow:nth-child(28) .puzzle{-webkit-clip-path: polygon(72.5% 27.4%, 76.82% 14.1%, 75.4% 25.14%);background-color: #e3d785; }
+.crow:nth-child(29) .puzzle{-webkit-clip-path: polygon(72.5% 27.2%, 75.4% 24.3%, 80.1% 34.1%);background-color: #dcc878; }
+.crow:nth-child(30) .puzzle{-webkit-clip-path: polygon(72.6% 27.2%, 80.1% 34.05%, 71.3% 30.35%);background-color: #e4b454; }
+.crow:nth-child(31) .puzzle{background-color: #3a2228;-webkit-clip-path: polygon(39% 87.5%, 41.7% 76.4%, 43.4% 78.6%); }
+.crow:nth-child(32) .puzzle{background-color: #4a3042;-webkit-clip-path: polygon(41.5% 76.5%, 60% 63.7%, 43.3% 78.7%); }
+.crow:nth-child(33) .puzzle{background-color: #3a2228;-webkit-clip-path: polygon(75.5% 30.5%, 75.5% 30.5%, 75.5% 30.5%); }
+/*turtle-乌龟*/
+.turtle:nth-child(1) .puzzle{-webkit-clip-path: polygon(20.25% 49.857%, 30.75% 51.286%, 32.55% 58.714%);background-color: #BDC2A3; }
+.turtle:nth-child(2) .puzzle{-webkit-clip-path: polygon(26.35% 55.857%, 32.45% 58.714%, 22.95% 70.571%);background-color: #3C6268; }
+.turtle:nth-child(3) .puzzle{-webkit-clip-path: polygon(22.65% 61%, 26.45% 56.286%, 22.95% 70.429%);background-color: #1B4859; }
+.turtle:nth-child(4) .puzzle{-webkit-clip-path: polygon(10.65% 58.714%, 20.05% 52.143%, 30.85% 51.857%);background-color: #62726F; }
+.turtle:nth-child(5) .puzzle{-webkit-clip-path: polygon(10.55% 58.571%, 30.85% 51.857%, 25.45% 59.143%);background-color: #B7C8C0; }
+.turtle:nth-child(6) .puzzle{-webkit-clip-path: polygon(17.95% 50.143%, 23.5% 45.1%, 31.05% 52%);background-color: #487378; }
+.turtle:nth-child(7) .puzzle{-webkit-clip-path: polygon(23.45% 45.143%, 44.45% 35.571%, 30.85% 52%);background-color: #4F7F86; }
+.turtle:nth-child(8) .puzzle{-webkit-clip-path: polygon(30.75% 51.857%, 40.9% 60.95%, 32.35% 58.571%);background-color: #AEAF95; }
+.turtle:nth-child(9) .puzzle{-webkit-clip-path: polygon(30.75% 51.857%, 42.15% 53.571%, 40.55% 60.714%);background-color: #A2A390; }
+.turtle:nth-child(10) .puzzle{-webkit-clip-path: polygon(40.55% 60.857%, 42.15% 51.286%, 58.4% 58.429%);background-color: #AEB49D; }
+.turtle:nth-child(11) .puzzle{-webkit-clip-path: polygon(40.25% 50.286%, 55.75% 46.571%, 57.85% 58.571%);background-color: #9FAB9E; }
+.turtle:nth-child(12) .puzzle{-webkit-clip-path: polygon(30.85% 51.857%, 44.45% 35.571%, 43.55% 54.429%);background-color: #407177; }
+.turtle:nth-child(13) .puzzle{-webkit-clip-path: polygon(43.45% 54.571%, 44.35% 35.5%, 55.3% 47.714%);background-color: #4C838B; }
+.turtle:nth-child(14) .puzzle{-webkit-clip-path: polygon(44.3% 35.571%, 62.45% 36.714%, 55.15% 47.857%);background-color: #598B91; }
+.turtle:nth-child(15) .puzzle{-webkit-clip-path: polygon(55.15% 47.714%, 62.5% 36.714%, 66.05% 50.714%);background-color: #39676F; }
+.turtle:nth-child(16) .puzzle{-webkit-clip-path: polygon(55.65% 47.857%, 65.95% 50.571%, 57.75% 58.571%);background-color: #BEBEAA; }
+.turtle:nth-child(17) .puzzle{-webkit-clip-path: polygon(57.65% 58.571%, 65.95% 50.571%, 66.85% 55.714%);background-color: #A9AB96; }
+.turtle:nth-child(18) .puzzle{-webkit-clip-path: polygon(66% 50.6%, 64.45% 45%, 75.75% 46.429%);background-color: #377C81; }
+.turtle:nth-child(19) .puzzle{-webkit-clip-path: polygon(64.45% 45.1%, 75.65% 43.714%, 75.65% 46.571%);background-color: #48949F; }
+.turtle:nth-child(20) .puzzle{-webkit-clip-path: polygon(65.85% 50.571%, 75.8% 46.429%, 75.6% 53.99%);background-color: #2B484A; }
+.turtle:nth-child(21) .puzzle{-webkit-clip-path: polygon(65.85% 50.571%, 80.05% 55.286%, 66.75% 55.714%);background-color: #CFCAB7; }
+.turtle:nth-child(22) .puzzle{-webkit-clip-path: polygon(55.05% 51.571%, 58.25% 41.429%, 67.05% 41.714%);background-color: #C2D5D9; }
+.turtle:nth-child(23) .puzzle{-webkit-clip-path: polygon(58.25% 41.571%, 65.85% 21.714%, 67.05% 41.714%);background-color: #ADC4BA; }
+.turtle:nth-child(24) .puzzle{-webkit-clip-path: polygon(58.25% 41.571%, 60.45% 19.429%, 65.95% 21.857%);background-color: #507B7D; }
+.turtle:nth-child(25) .puzzle{-webkit-clip-path: polygon(60.55% 19.714%, 59.95% 10%, 65.95% 22%);background-color: #13302F; }
+.turtle:nth-child(26) .puzzle{-webkit-clip-path: polygon(75.55% 43.714%, 82.55% 49.857%, 75.65% 46.714%);background-color: #80A59F; }
+.turtle:nth-child(27) .puzzle{-webkit-clip-path: polygon(75.65% 46.429%, 82.45% 49.857%, 75.45% 54%);background-color: #4F5B5B; }
+.turtle:nth-child(28) .puzzle{-webkit-clip-path: polygon(75.35% 53.857%, 82.35% 49.857%, 80.75% 54.429%);background-color: #5A696A; }
+.turtle:nth-child(29) .puzzle{-webkit-clip-path: polygon(80.65% 54.286%, 82.45% 49.857%, 82.05% 56%);background-color: #6B7879; }
+.turtle:nth-child(30) .puzzle{-webkit-clip-path: polygon(78.15% 47.714%, 79.55% 48.429%, 79.55% 51.429%);background-color: #1D353A; }
+.turtle:nth-child(32) .puzzle{-webkit-clip-path: polygon(81.67% 9.5%, 82.3% 8.4%, 82.7% 9.7%); }
+.turtle:nth-child(32) .puzzle::before {-webkit-animation-delay: 0.3s;-moz-animation-delay: 0.3s;animation-delay: 0.3s; }
+.turtle:nth-child(33) .puzzle{-webkit-clip-path: polygon(77.75% 35.5%, 79.4% 37%, 79.1% 34.5%); }.turtle:nth-child(33) .puzzle::before {-webkit-animation-delay: 0.6s;-moz-animation-delay: 0.6s;animation-delay: 0.6s; }
+/*oryx-羚羊*/
+.oryx:nth-child(1) .puzzle{-webkit-clip-path: polygon(23.25% 43.286%, 31.25% 33.571%, 46.85% 36.286%);background-color: #EFDCCD; }
+.oryx:nth-child(2) .puzzle{-webkit-clip-path: polygon(32.5% 60%, 36.05% 55%, 41.75% 66.857%);background-color: #7B7362; }
+.oryx:nth-child(3) .puzzle{-webkit-clip-path: polygon(23.35% 43.286%, 34.8% 57.5%, 23.45% 56.143%);background-color: #AE886D; }
+.oryx:nth-child(4) .puzzle{-webkit-clip-path: polygon(23.45% 56.143%, 34.66% 57.3%, 22.45% 71.714%);background-color: #D7C5A4; }
+.oryx:nth-child(5) .puzzle{-webkit-clip-path: polygon(27.85% 65.429%, 33.05% 59.2%, 29.75% 85.857%);background-color: #7F6B5F; }
+.oryx:nth-child(6) .puzzle{-webkit-clip-path: polygon(23.25% 43.286%, 46.85% 36.286%, 35.05% 57.714%);background-color: #DACDBC; }
+.oryx:nth-child(7) .puzzle{-webkit-clip-path: polygon(22.45% 71.714%, 28.3% 64.714%, 24.65% 85.857%);background-color: #F2E1C5; }
+.oryx:nth-child(8) .puzzle{-webkit-clip-path: polygon(36.55% 54.714%, 46.85% 36.286%, 50.65% 52.286%);background-color: #E9DCC4; }
+.oryx:nth-child(9) .puzzle{-webkit-clip-path: polygon(36% 54.857%, 50.65% 52.286%, 41.85% 66.857%);background-color: #CFBA91; }
+.oryx:nth-child(10) .puzzle{-webkit-clip-path: polygon(41.75% 66.857%, 50.65% 52.143%, 56.05% 64.714%);background-color: #BAAE96; }
+.oryx:nth-child(11) .puzzle{-webkit-clip-path: polygon(46.75% 36.429%, 54.35% 33%, 61.25% 36.429%);background-color: #F3EADF; }
+.oryx:nth-child(12) .puzzle{-webkit-clip-path: polygon(46.75% 36.429%, 61.15% 36.286%, 50.65% 52.143%);background-color: #EBE1CB; }
+.oryx:nth-child(13) .puzzle{-webkit-clip-path: polygon(50.4% 52.286%, 61.25% 36.1%, 60.96% 56.143%);background-color: #DDCFB7; }
+.oryx:nth-child(14) .puzzle{-webkit-clip-path: polygon(59.65% 63.286%, 63.65% 61.714%, 61.05% 86%);background-color: #8A7B63; }
+.oryx:nth-child(15) .puzzle{-webkit-clip-path: polygon(50.55% 52.286%, 60.85% 56.143%, 60.55% 75.143%);background-color: #EBE1CB; }
+.oryx:nth-child(16) .puzzle{-webkit-clip-path: polygon(58.15% 69.714%, 60.45% 75%, 58.95% 85.714%);background-color: #A89F92; }
+.oryx:nth-child(17) .puzzle{-webkit-clip-path: polygon(61.25% 36.429%, 66.25% 60.5%, 60.73% 63%);background-color: #78523B; }
+.oryx:nth-child(18) .puzzle{-webkit-clip-path: polygon(61.15% 36.286%, 69.75% 23.429%, 73.75% 35.286%);background-color: #A2785C; }
+.oryx:nth-child(19) .puzzle{-webkit-clip-path: polygon(61.15% 36.2%, 73.7% 35.23%, 66.14% 60.7%);background-color: #825D48; }
+.oryx:nth-child(20) .puzzle{-webkit-clip-path: polygon(73.55% 35.286%, 76.25% 36%, 66.2% 60.429%);background-color: #634C39; }
+.oryx:nth-child(21) .puzzle{-webkit-clip-path: polygon(69.65% 23.429%, 74.15% 22.429%, 73.75% 35.286%);background-color: #B98D5D; }
+.oryx:nth-child(22) .puzzle{-webkit-clip-path: polygon(73.75% 35.286%, 74.15% 20%, 79.55% 28.143%);background-color: #ECE1D5; }
+.oryx:nth-child(23) .puzzle{-webkit-clip-path: polygon(79.45% 28%, 84.55% 34.286%, 75.95% 32.571%);background-color: #D2C9C1; }
+.oryx:nth-child(24) .puzzle{-webkit-clip-path: polygon(75.95% 32.571%, 84.45% 34.143%, 84.15% 38.429%);background-color: #B4ABA0; }
+.oryx:nth-child(25) .puzzle{-webkit-clip-path: polygon(75.95% 32.429%, 83.45% 38%, 73.75% 35.286%);background-color: #AFA491; }
+.oryx:nth-child(26) .puzzle{-webkit-clip-path: polygon(70.65% 23.286%, 69.95% 17.714%, 73.05% 22.857%);background-color: #776244; }
+.oryx:nth-child(27) .puzzle{-webkit-clip-path: polygon(73.05% 22.857%, 67.95% 7.714%, 75.35% 21.714%);background-color: #514C49; }
+.oryx:nth-child(28) .puzzle{-webkit-clip-path: polygon(50.55% 1.714%, 67.99% 7.857%, 68.98% 10.571%);background-color: #312F34; }
+.oryx:nth-child(29) .puzzle{-webkit-clip-path: polygon(39.15% 7.714%, 50.65% 1.714%, 52.95% 2.857%);background-color: #272220; }
+.oryx:nth-child(30) .puzzle{-webkit-clip-path: polygon(72.65% 22.857%, 77.95% 16.286%, 75.35% 22.714%);background-color: #C8C0B9; }
+/*iguana-鬣蜥*/
+.iguana:nth-child(1) .puzzle{-webkit-clip-path: polygon(11.3% 31.5%, 12.8% 27.357%, 13.9% 32.357%);background-color: #F4C264; }
+.iguana:nth-child(2) .puzzle{-webkit-clip-path: polygon(21.4% 35.357%, 21.3% 24.214%, 26.2% 32.071%);background-color: #53A245; }
+.iguana:nth-child(3) .puzzle{-webkit-clip-path: polygon(12.8% 27.214%, 21.4% 24.214%, 22% 28.7%);background-color: #83CA65; }
+.iguana:nth-child(4) .puzzle{-webkit-clip-path: polygon(12.8% 27.214%, 21.9% 28.357%, 13.9% 32.214%);background-color: #70BA58; }
+.iguana:nth-child(5) .puzzle{-webkit-clip-path: polygon(13.6% 32.35%, 22% 28.214%, 21.4% 35.4%);background-color: #3CAE58; }
+.iguana:nth-child(6) .puzzle{-webkit-clip-path: polygon(12.5% 31.786%, 21.4% 35.4%, 17.7% 37.929%);background-color: #A5CFB4; }
+.iguana:nth-child(7) .puzzle{-webkit-clip-path: polygon(17.7% 37.929%, 26.2% 32.071%, 27.4% 34.071%);background-color: #C0D5DA; }
+.iguana:nth-child(8) .puzzle{-webkit-clip-path: polygon(17.7% 37.9%, 27.4% 34%, 27.5% 43.8%);background-color: #439D56; }
+.iguana:nth-child(9) .puzzle{-webkit-clip-path: polygon(21.15% 24.15%, 39.7% 37.214%, 26.1% 31.929%);background-color: #76B548; }
+.iguana:nth-child(10) .puzzle{-webkit-clip-path: polygon(21.3% 24.214%, 34.7% 31.071%, 39.8% 37.357%);background-color: #1D2E1E; }
+.iguana:nth-child(11) .puzzle{-webkit-clip-path: polygon(26.1% 31.929%, 39.8% 37.357%, 27.4% 34.214%);background-color: #E7EEF0; }
+.iguana:nth-child(12) .puzzle{-webkit-clip-path: polygon(27.3% 34.071%, 39.8% 37.357%, 37.7% 47.5%);background-color: #5FBC60; }
+.iguana:nth-child(13) .puzzle{-webkit-clip-path: polygon(27.35% 34.1%, 37.85% 47.5%, 27.5% 51%);background-color: #3CAE58; }
+.iguana:nth-child(14) .puzzle{-webkit-clip-path: polygon(27.5% 50.929%, 37.7% 47.5%, 35.8% 57.357%);background-color: #42A54A; }
+.iguana:nth-child(15) .puzzle{-webkit-clip-path: polygon(14.2% 41.5%, 20.2% 41.5%, 24% 46.929%);background-color: #378E32; }
+.iguana:nth-child(16) .puzzle{-webkit-clip-path: polygon(17.7% 37.929%, 29% 44.643%, 24.7% 48.929%);background-color: #5EC857; }
+.iguana:nth-child(17) .puzzle{-webkit-clip-path: polygon(24.8% 48.929%, 28.9% 44.5%, 34.9% 52.5%);background-color: #63DB7B; }
+.iguana:nth-child(18) .puzzle{-webkit-clip-path: polygon(30.5% 50.929%, 35% 52.643%, 23.4% 54.929%);background-color: #5EC857; }
+.iguana:nth-child(19) .puzzle{-webkit-clip-path: polygon(35.7% 57.357%, 39.8% 37.214%, 38.5% 59.7%);background-color: #C0D5DA; }
+.iguana:nth-child(20) .puzzle{-webkit-clip-path: polygon(39.8% 37.214%, 53.4% 49.929%, 55.5% 57.5%);background-color: #1D2E1E; }
+.iguana:nth-child(21) .puzzle{-webkit-clip-path: polygon(39.8% 37.214%, 51.65% 50.6%, 39.1% 47.786%);background-color: #8AD36D; }
+.iguana:nth-child(22) .puzzle{-webkit-clip-path: polygon(39.15% 47.65%, 51.5% 50.5%, 38.4% 59.643%);background-color: #51C356; }
+.iguana:nth-child(23) .puzzle{-webkit-clip-path: polygon(38.4% 59.643%, 51.5% 50.45%, 47.9% 63.214%);background-color: #36A740; }
+.iguana:nth-child(24) .puzzle{-webkit-clip-path: polygon(47.9% 63.214%, 51.5% 50.357%, 50.7% 63.643%);background-color: #C0D0D1; }
+.iguana:nth-child(25) .puzzle{-webkit-clip-path: polygon(51.4% 50.214%, 63.4% 71.643%, 50.7% 63.643%);background-color: #44AF3C; }
+.iguana:nth-child(26) .puzzle{-webkit-clip-path: polygon(56% 58.5%, 77.2% 70.214%, 84.5% 78.1%);background-color: #1D2E1E; }
+.iguana:nth-child(27) .puzzle{-webkit-clip-path: polygon(55.8% 58.357%, 76.4% 71.5%, 63.45% 71.75%);background-color: #51C356; }
+.iguana:nth-child(28) .puzzle{-webkit-clip-path: polygon(63.4% 71.7%, 76.35% 71.45%, 77.5% 76.9%);background-color: #38973B; }
+.iguana:nth-child(29) .puzzle{-webkit-clip-path: polygon(76.3% 71.5%, 90.7% 82.929%, 77.5% 76.929%);background-color: #39A334; }
+.iguana:nth-child(30) .puzzle{-webkit-clip-path: polygon(86.9% 81.25%, 99.7% 84.214%, 92.6% 84.357%);background-color: #51C356; }
+.iguana:nth-child(31) .puzzle{-webkit-clip-path: polygon(0% 46.3%, 4.85% 36.5%, 46.05% 55.071%);background-color: #453C37; }
+.iguana:nth-child(32) .puzzle{-webkit-clip-path: polygon(-0.05% 46.214%, 46.85% 55.071%, 52.75% 68.071%);background-color: #342D1E; }
+.iguana:nth-child(33) .puzzle{-webkit-clip-path: polygon(73.65% 84.357%, 38.85% 57.071%, 92.75% 84.214%);background-color: #2C2215; }
+/*seahorse-海马*/
+.seahorse:nth-child(1) .puzzle{-webkit-clip-path: polygon(23.96% 44.643%, 21.9% 50.643%, 25.5% 49.357%);background-color: #483448; }
+.seahorse:nth-child(2) .puzzle{-webkit-clip-path: polygon(23.86% 44.643%, 28.6% 36.7%, 25.7% 50.5%);background-color: #39273D; }
+.seahorse:nth-child(3) .puzzle{-webkit-clip-path: polygon(23.3% 39.643%, 28.5% 36.929%, 23.9% 44.643%);background-color: #4F4053; }
+.seahorse:nth-child(4) .puzzle{-webkit-clip-path: polygon(21.3% 35.4%, 28.6% 36.86%, 23.4% 40.214%);background-color: #3A2D3E; }
+.seahorse:nth-child(5) .puzzle{-webkit-clip-path: polygon(18.9% 24.786%, 28.67% 36.99%, 21.3% 35.5%);background-color: #483448; }
+.seahorse:nth-child(6) .puzzle{-webkit-clip-path: polygon(18.9% 24.929%, 26.15% 17.643%, 23% 30.071%);background-color: #574663; }
+.seahorse:nth-child(7) .puzzle{-webkit-clip-path: polygon(22.9% 30%, 26.1% 17.643%, 33.95% 27.786%);background-color: #48364A; }
+.seahorse:nth-child(8) .puzzle{-webkit-clip-path: polygon(23% 29.929%, 33.7% 27.643%, 28.56% 36.95%);background-color: #332437; }
+.seahorse:nth-child(9) .puzzle{-webkit-clip-path: polygon(26.1% 17.7%, 34.3% 14.214%, 33.87% 27.8%);background-color: #554054; }
+.seahorse:nth-child(10) .puzzle{-webkit-clip-path: polygon(33.8% 12.786%, 40.6% 19.929%, 33.9% 27.643%);background-color: #5D4D63; }
+.seahorse:nth-child(11) .puzzle{-webkit-clip-path: polygon(33.8% 27.643%, 40.9% 18.5%, 44.7% 24.214%);background-color: #554054; }
+.seahorse:nth-child(12) .puzzle{-webkit-clip-path: polygon(33.8% 27.643%, 45.2% 22.929%, 48.4% 33.357%);background-color: #4C384D; }
+.seahorse:nth-child(13) .puzzle{-webkit-clip-path: polygon(33.9% 27.643%, 48.6% 32.214%, 40.1% 41.357%);background-color: #443344; }
+.seahorse:nth-child(14) .puzzle{-webkit-clip-path: polygon(33.9% 27.643%, 46.9% 54.8%, 36.3% 41.357%);background-color: #554054; }
+.seahorse:nth-child(15) .puzzle{-webkit-clip-path: polygon(40.2% 41.171%, 48.7% 31.357%, 51.4% 43.214%);background-color: #3F2D42; }
+.seahorse:nth-child(16) .puzzle{-webkit-clip-path: polygon(40.2% 41.071%, 51.8% 42.357%, 44.4% 49.786%);background-color: #39263A; }
+.seahorse:nth-child(17) .puzzle{-webkit-clip-path: polygon(44.4% 49.786%, 51.8% 41.214%, 56.2% 54.071%);background-color: #302035; }
+.seahorse:nth-child(18) .puzzle{-webkit-clip-path: polygon(36.2% 41.071%, 46.7% 54.4%, 39.9% 55.2%);background-color: #604D64; }
+.seahorse:nth-child(19) .puzzle{-webkit-clip-path: polygon(44.4% 49.643%, 56.3% 53.214%, 49.5% 60.929%);background-color: #39273D; }
+.seahorse:nth-child(20) .puzzle{-webkit-clip-path: polygon(50.7% 59.5%, 56.6% 51.929%, 59.7% 59.643%);background-color: #302035; }
+.seahorse:nth-child(21) .puzzle{-webkit-clip-path: polygon(50.6% 59.357%, 60% 58.929%, 56% 65.9%);background-color: #2A192C; }
+.seahorse:nth-child(22) .puzzle{-webkit-clip-path: polygon(56% 65.786%, 59.8% 57.929%, 63.7% 61.357%);background-color: #241723; }
+.seahorse:nth-child(23) .puzzle{-webkit-clip-path: polygon(55.8% 65.8%, 63.7% 61.2%, 61.1% 72%);background-color: #1F1619; }
+.seahorse:nth-child(24) .puzzle{-webkit-clip-path: polygon(39.9% 55.071%, 46.6% 54.357%, 61.1% 72.071%);background-color: #4F4053; }
+.seahorse:nth-child(25) .puzzle{-webkit-clip-path: polygon(61.05% 71.99%, 63.8% 60.214%, 67.5% 64.643%);background-color: #13101F; }
+.seahorse:nth-child(26) .puzzle{-webkit-clip-path: polygon(61.1% 71.929%, 75.7% 53.214%, 67.3% 71.214%);background-color: #41313B; }
+.seahorse:nth-child(27) .puzzle{-webkit-clip-path: polygon(75.6% 53.357%, 81% 63.357%, 73.9% 56.929%);background-color: #41313B; }
+.seahorse:nth-child(28) .puzzle{-webkit-clip-path: polygon(78.5% 61.071%, 81% 63.357%, 77.6% 70.5%);background-color: #342A38; }
+.seahorse:nth-child(29) .puzzle{-webkit-clip-path: polygon(73.5% 67.357%, 78% 65.929%, 77.6% 70.5%);background-color: #493B44; }
+.seahorse:nth-child(30) .puzzle{-webkit-clip-path: polygon(75% 62.214%, 75.5% 66.8%, 73.5% 67.45%);background-color: #0D0A15; }
+.seahorse:nth-child(28),.seahorse:nth-child(29){z-index: 4; }
+#animalchanger.seahorse .wrap .puzzle-wrap.peripheral {z-index: 3; }
+.seahorse:nth-child(31) .puzzle{-webkit-clip-path: polygon(62.1% 17.214%, 64.7% 15.643%, 78.4% 64.071%);background-color: #68602A; }
+.seahorse:nth-child(32) .puzzle{-webkit-clip-path: polygon(67.3% 32.071%, 78.6% 64.214%, 78.1% 71.5%);background-color: #434227; }
+.seahorse:nth-child(33) .puzzle{-webkit-clip-path: polygon(78.4% 64.214%, 80.4% 85.643%, 76.9% 85.786%);background-color: #494221; }
+/*armadillo-犰狳*/
+.armadillo:nth-child(1) .puzzle{-webkit-clip-path: polygon(16.45% 78.8%, 17.1% 72.9%, 22.75% 68.1%);background-color: #624942; }
+.armadillo:nth-child(2) .puzzle{-webkit-clip-path: polygon(16.95% 73.5%, 20.95% 57.357%, 24.55% 57.786%);background-color: #998158; }
+.armadillo:nth-child(3) .puzzle{-webkit-clip-path: polygon(16.95% 73.071%, 24.35% 57.5%, 22.75% 68.214%);background-color: #7A5852; }
+.armadillo:nth-child(4) .puzzle{-webkit-clip-path: polygon(22.65% 68.071%, 24.25% 57.643%, 28.05% 72.786%);background-color: #624942; }
+.armadillo:nth-child(5) .puzzle{-webkit-clip-path: polygon(16.36% 78.8%, 22.7% 68.1%, 28.2% 72.8%);background-color: #463830; }
+.armadillo:nth-child(6) .puzzle{-webkit-clip-path: polygon(17.95% 77.8%, 23.95% 74.929%, 19.65% 79.214%);background-color: #241B02; }
+.armadillo:nth-child(7) .puzzle{-webkit-clip-path: polygon(24.55% 59.071%, 27.75% 51.071%, 28.05% 72.786%);background-color: #3E3730; }
+.armadillo:nth-child(8) .puzzle{-webkit-clip-path: polygon(21.75% 57.214%, 26.45% 49.071%, 24.75% 63.071%);background-color: #BBA376; }
+.armadillo:nth-child(9) .puzzle{-webkit-clip-path: polygon(31.65% 73.071%, 40.25% 73.214%, 26.75% 84.786%);background-color: #594C3F; }
+.armadillo:nth-child(10) .puzzle{-webkit-clip-path: polygon(42.65% 73.071%, 47.25% 69.929%, 46.95% 84.214%);background-color: #6D635A; }
+.armadillo:nth-child(11) .puzzle{-webkit-clip-path: polygon(27.95% 72.786%, 50.05% 67.929%, 44.45% 73.357%);background-color: #E2C87C; }
+.armadillo:nth-child(12) .puzzle{-webkit-clip-path: polygon(27.55% 48.786%, 33.45% 72.3%, 27.9% 72.929%);background-color: #AA9873; }
+.armadillo:nth-child(13) .puzzle{-webkit-clip-path: polygon(27.55% 48.929%, 31.55% 41.643%, 33.45% 72.214%);background-color: #C4B492; }
+.armadillo:nth-child(14) .puzzle{-webkit-clip-path: polygon(31.65% 43.214%, 38.75% 70.929%, 33.35% 72.357%);background-color: #9F8862; }
+.armadillo:nth-child(15) .puzzle{-webkit-clip-path: polygon(31.65% 43.214%, 44.15% 71.071%, 38.55% 70.929%);background-color: #AA9873; }
+.armadillo:nth-child(16) .puzzle{-webkit-clip-path: polygon(31.65% 43.214%, 36.65% 37.357%, 44.1% 71%);background-color: #C3B08D; }
+.armadillo:nth-child(17) .puzzle{-webkit-clip-path: polygon(36.65% 37.357%, 50.05% 67.643%, 44.15% 71.071%);background-color: #9F8862; }
+.armadillo:nth-child(18) .puzzle{-webkit-clip-path: polygon(37.35% 38.929%, 42.05% 33.786%, 49.25% 65.929%);background-color: #917A5B; }
+.armadillo:nth-child(19) .puzzle{-webkit-clip-path: polygon(42.35% 35.357%, 47.45% 31.5%, 49.35% 66.357%);background-color: #AB8D6E; }
+.armadillo:nth-child(20) .puzzle{-webkit-clip-path: polygon(47.5% 33.357%, 51.45% 31.214%, 49.4% 66.7%);background-color: #C2A178; }
+.armadillo:nth-child(21) .puzzle{-webkit-clip-path: polygon(51.25% 33.214%, 56.25% 31.786%, 49.45% 66.643%);background-color: #D0B383; }
+.armadillo:nth-child(22) .puzzle{-webkit-clip-path: polygon(55.75% 33.929%, 62.85% 33.929%, 49.45% 66.5%);background-color: #D8C39B; }
+.armadillo:nth-child(23) .puzzle{-webkit-clip-path: polygon(62.05% 35.5%, 73.45% 41.071%, 50.95% 62.786%);background-color: #D6B781; }
+.armadillo:nth-child(24) .puzzle{-webkit-clip-path: polygon(50.95% 62.643%, 72.75% 41.786%, 80.05% 57.071%);background-color: #C5A47A; }
+.armadillo:nth-child(25) .puzzle{-webkit-clip-path: polygon(51.05% 62.643%, 78.75% 57.214%, 54.75% 67.786%);background-color: #AB8D6E; }
+.armadillo:nth-child(26) .puzzle{-webkit-clip-path: polygon(54.65% 67.786%, 78.65% 57.214%, 80.25% 67.357%);background-color: #9E8762; }
+.armadillo:nth-child(27) .puzzle{-webkit-clip-path: polygon(54.55% 67.786%, 79.05% 67.357%, 79.95% 74.5%);background-color: #7E6B4C; }
+.armadillo:nth-child(28) .puzzle{-webkit-clip-path: polygon(54.65% 67.643%, 78.55% 74.071%, 72.35% 79.643%);background-color: #624B41; }
+.armadillo:nth-child(29) .puzzle{-webkit-clip-path: polygon(56.75% 69.214%, 61.85% 73.071%, 59.35% 83.643%);background-color: #51413A; }
+.armadillo:nth-child(30) .puzzle{-webkit-clip-path: polygon(54.65% 67.643%, 72.85% 79.071%, 72.25% 82.643%);background-color: #C69D5E; }
+/*sloth-树懒*/
+.sloth:nth-child(1) .puzzle{-webkit-clip-path: polygon(32.85% 53.714%, 47.55% 57.714%, 32.05% 70.429%);background-color: #7C5F4B; }
+.sloth:nth-child(2) .puzzle{-webkit-clip-path: polygon(26.45% 49.286%, 34.65% 68.143%, 31.75% 73.143%);background-color: #907B72; }
+.sloth:nth-child(3) .puzzle{-webkit-clip-path: polygon(34.6% 68.03%, 52.3% 75.286%, 31.65% 73.143%);background-color: #1F1D17; }
+.sloth:nth-child(4) .puzzle{-webkit-clip-path: polygon(34.65% 68.143%, 47.45% 57.8%, 50.6% 65.6%);background-color: #52453C; }
+.sloth:nth-child(5) .puzzle{-webkit-clip-path: polygon(34.3% 68.1%, 50.6% 65.5%, 52.35% 75.429%);background-color: #333128; }
+.sloth:nth-child(6) .puzzle{-webkit-clip-path: polygon(32.95% 54.143%, 52.15% 44%, 47.35% 58%);background-color: #8F6A59; }
+.sloth:nth-child(7) .puzzle{-webkit-clip-path: polygon(33.25% 53.857%, 31.65% 30%, 38.95% 47.857%);background-color: #6A5E51; }
+.sloth:nth-child(8) .puzzle{-webkit-clip-path: polygon(31.75% 55%, 42.3% 42.4%, 52.5% 44%);background-color: #9A755B; }
+.sloth:nth-child(9) .puzzle{-webkit-clip-path: polygon(53.55% 39%, 63.25% 54.143%, 47.3% 57.99%);background-color: #866042; }
+.sloth:nth-child(10) .puzzle{-webkit-clip-path: polygon(41.25% 42.286%, 52.2% 36.857%, 57.15% 44.857%);background-color: #79584C; }
+.sloth:nth-child(11) .puzzle{-webkit-clip-path: polygon(47.35% 57.8%, 63.3% 54%, 50.5% 65.714%);background-color: #624C3E; }
+.sloth:nth-child(12) .puzzle{-webkit-clip-path: polygon(50.45% 65.571%, 63.25% 54%, 52.15% 75.429%);background-color: #3B372F; }
+.sloth:nth-child(13) .puzzle{-webkit-clip-path: polygon(63.25% 53.9%, 68.35% 64.429%, 51.5% 76.571%);background-color: #484240; }
+.sloth:nth-child(14) .puzzle{-webkit-clip-path: polygon(63.15% 53.857%, 74.85% 37%, 68.3% 64.4%);background-color: #443930; }
+.sloth:nth-child(15) .puzzle{-webkit-clip-path: polygon(52.05% 36.857%, 60.2% 40.286%, 63.3% 54.3%);background-color: #754C34; }
+.sloth:nth-child(16) .puzzle{-webkit-clip-path: polygon(52.05% 37%, 52.25% 14.429%, 65.15% 42.286%);background-color: #3A2C1A; }
+.sloth:nth-child(17) .puzzle{-webkit-clip-path: polygon(48.35% 17.714%, 52.25% 14.286%, 54.35% 25.143%);background-color: #594F48; }
+.sloth:nth-child(18) .puzzle{-webkit-clip-path: polygon(63.25% 54.143%, 58.15% 31.286%, 68.35% 25.286%);background-color: #8F715A; }
+.sloth:nth-child(19) .puzzle{-webkit-clip-path: polygon(63.15% 54%, 68.35% 25.286%, 74.95% 37.143%);background-color: #6D523A; }
+.sloth:nth-child(20) .puzzle{-webkit-clip-path: polygon(60.75% 34.429%, 67.45% 29.857%, 71.85% 37.429%);background-color: #BFB0A3; }
+.sloth:nth-child(21) .puzzle{-webkit-clip-path: polygon(59.65% 36.571%, 66.45% 35%, 64.15% 49%);background-color: #99867B; }
+.sloth:nth-child(22) .puzzle{-webkit-clip-path: polygon(66.35% 35%, 72.35% 40.286%, 64.05% 48.857%);background-color: #806D5B; }
+.sloth:nth-child(23) .puzzle{-webkit-clip-path: polygon(62.55% 37.429%, 66.45% 35.143%, 69.25% 39.429%);background-color: #5A5D6E; }
+.sloth:nth-child(24) .puzzle{-webkit-clip-path: polygon(62.45% 37.429%, 69.25% 39.429%, 65.45% 40.857%);background-color: #313430; }
+.sloth:nth-child(25) .puzzle{-webkit-clip-path: polygon(59.75% 36.571%, 63.35% 33%, 65.05% 35.429%);background-color: #3A2E22; }
+.sloth:nth-child(26) .puzzle{-webkit-clip-path: polygon(67.65% 36.143%, 70.25% 35.429%, 72.15% 40.143%);background-color: #392D21; }
+.sloth:nth-child(27) .puzzle{-webkit-clip-path: polygon(59.65% 36.571%, 60.85% 31.429%, 64.35% 32%);background-color: #DBAE63; }
+.sloth:nth-child(28) .puzzle{-webkit-clip-path: polygon(69.45% 33.571%, 72.25% 34.429%, 72.25% 40.286%);background-color: #DBAE63; }
+.sloth:nth-child(29) .puzzle{-webkit-clip-path: polygon(63.15% 54%, 80.35% 68.143%, 72.55% 69.4%);background-color: #635552; }
+.sloth:nth-child(30) .puzzle{-webkit-clip-path: polygon(73.35% 69.3%, 81.75% 60.286%, 80.35% 68.143%);background-color: #876C5F; }
+.sloth:nth-child(31) .puzzle{-webkit-clip-path: polygon(19.85% 40%, 21.65% 43.714%, 19.15% 85%);background-color: #4D373D; }
+.sloth:nth-child(32) .puzzle{-webkit-clip-path: polygon(20.3% 41%, 40.25% 29.3%, 21.6% 43.771%);background-color: #1F1D17; }
+.sloth:nth-child(33) .puzzle{-webkit-clip-path: polygon(20.35% 41%, 60.45% 12.714%, 63.45% 15.714%);background-color: #4D373D; }
+/*kakapo-鸮鹦鹉*/
+.kakapo:nth-child(1) .puzzle{-webkit-clip-path: polygon(9.75% 39.337%, 10.65% 33.194%, 21.65% 33.337%);background-color: #e9ddb2; }
+.kakapo:nth-child(2) .puzzle{-webkit-clip-path: polygon(9.75% 39.194%, 21.35% 33.194%, 23.45% 43.194%);background-color: #cebf82; }
+.kakapo:nth-child(3) .puzzle{-webkit-clip-path: polygon(9.75% 39.051%, 23.45% 43.051%, 9.35% 45.48%);background-color: #d2c895; }
+.kakapo:nth-child(4) .puzzle{-webkit-clip-path: polygon(14.95% 40.48%, 17.65% 41.337%, 13.75% 43.051%);background-color: #231f20; }
+.kakapo:nth-child(5) .puzzle{-webkit-clip-path: polygon(9.35% 45.766%, 10.95% 55.051%, 9.25% 51.051%);background-color: #d3eadd; }
+.kakapo:nth-child(6) .puzzle{-webkit-clip-path: polygon(9.35% 45.337%, 12.75% 44.908%, 10.95% 55.051%);background-color: #dbdb60; }
+.kakapo:nth-child(7) .puzzle{-webkit-clip-path: polygon(11.95% 49.766%, 12.75% 45.051%, 20.85% 56.337%); background-color: #9c9c6d; }
+.kakapo:nth-child(8) .puzzle{-webkit-clip-path: polygon(12.7% 44.908%, 23.35% 43.1%, 20.9% 56.194%);background-color: #dbd095; }
+.kakapo:nth-child(9) .puzzle{-webkit-clip-path: polygon(10.65% 33.337%, 34.45% 18.48%, 21.35% 33.337%);background-color: #76b166; }
+.kakapo:nth-child(10) .puzzle{-webkit-clip-path: polygon(21.35% 33.337%, 32.95% 20.051%, 23.45% 43.051%);background-color: #6da13a; }
+.kakapo:nth-child(11) .puzzle{-webkit-clip-path: polygon(20.85% 56.337%, 23.55% 43.051%, 35.15% 63.766%);background-color: #939c42; }
+.kakapo:nth-child(12) .puzzle{-webkit-clip-path: polygon(30.85% 25.051%, 44.65% 23.48%, 59.85% 31.194%);background-color: #7cb949; }
+.kakapo:nth-child(13) .puzzle{-webkit-clip-path: polygon(30.75% 25.194%, 43.25% 41.908%, 23.35% 43.051%);background-color: #85aa48; }
+.kakapo:nth-child(14) .puzzle{-webkit-clip-path: polygon(23.45% 43.1%, 43.33% 41.8%, 39.85% 51.766%);background-color: #699f43; }
+.kakapo:nth-child(15) .puzzle{-webkit-clip-path: polygon(23.45% 43.194%, 39.85% 51.766%, 34.75% 63.48%);background-color: #6c7e4b; }
+.kakapo:nth-child(16) .puzzle{-webkit-clip-path: polygon(33.15% 19.623%, 47.95% 23.623%, 30.85% 25.194%);background-color: #6aa84e; }
+.kakapo:nth-child(17) .puzzle{-webkit-clip-path: polygon(30.7% 25.1%, 57.95% 30.65%, 43.35% 42.051%);background-color: #70aa48; }
+.kakapo:nth-child(18) .puzzle{-webkit-clip-path: polygon(34.75% 63.48%, 39.85% 51.623%, 45.05% 81.766%);background-color: #588025; }
+.kakapo:nth-child(19) .puzzle{-webkit-clip-path: polygon(37.65% 80.48%, 44.15% 83.194%, 41.95% 84.48%);background-color: #6e6255; }
+.kakapo:nth-child(20) .puzzle{-webkit-clip-path: polygon(44.55% 78.051%, 42.55% 88.194%, 45.75% 79.908%);background-color: #6d7161; }
+.kakapo:nth-child(21) .puzzle{-webkit-clip-path: polygon(35.95% 86.48%, 44.15% 83.051%, 43.15% 85.48%);background-color: #4a4b46; }
+.kakapo:nth-child(22) .puzzle{-webkit-clip-path: polygon(42.25% 65.908%, 63.45% 54.051%, 44.75% 81.766%);background-color: #435a2c; }
+.kakapo:nth-child(23) .puzzle{-webkit-clip-path: polygon(39.85% 51.766%, 62.85% 48.48%, 42.45% 66.908%);background-color: #56712b; }
+.kakapo:nth-child(24) .puzzle{-webkit-clip-path: polygon(58.35% 49.051%, 69.05% 43.908%, 63.25% 54.337%);background-color: #458b23; }
+.kakapo:nth-child(25) .puzzle{-webkit-clip-path: polygon(42.45% 66.337%, 59.95% 50.766%, 63.25% 54.337%);background-color: #406c2b; }
+.kakapo:nth-child(26) .puzzle{-webkit-clip-path: polygon(43.35% 41.766%, 58.75% 49.051%, 39.75% 51.908%);background-color: #6aa84e; }
+.kakapo:nth-child(27) .puzzle{-webkit-clip-path: polygon(43.35% 41.766%, 58.15% 30.48%, 58.65% 49.051%);background-color: #57954f; }
+.kakapo:nth-child(28) .puzzle{-webkit-clip-path: polygon(57.95% 30.766%, 70.25% 43.623%, 58.55% 49%);background-color: #519f4b; }
+.kakapo:nth-child(29) .puzzle{-webkit-clip-path: polygon(63.25% 54.337%, 69% 43.95%, 70.95% 51.623%);background-color: #56712b; }
+.kakapo:nth-child(30) .puzzle{-webkit-clip-path: polygon(63.35% 54.337%, 70.75% 51.623%, 88.05% 73.051%);background-color: #2b3108; }
+#animalchanger.kakapo .wrap .puzzle-wrap.peripheral {z-index: 1; }
+#animalchanger.kakapo .wrap .puzzle-wrap.peripheral:nth-child(31) .puzzle{background-color: #fff;-webkit-clip-path: polygon(52.603% 27.924%, 65.003% 27.924%, 57.003% 19.924%); }
+.kakapo:nth-child(33) .puzzle{background-color: #fafafa;-webkit-clip-path: polygon(56.603% 27.924%, 70.003% 27.924%, 63.003% 17%); }
+#animalchanger.kakapo .wrap .puzzle-wrap.peripheral:nth-child(32) .puzzle{background-color: #fff;-webkit-clip-path: polygon(63.603% 27.924%, 75.003% 27.924%, 69.003% 19.924%); }
+/*echidna-针鼹*/
+.echidna:nth-child(1) .puzzle{-webkit-clip-path: polygon(14.4% 77.429%, 22.2% 61.143%, 23.9% 63.429%);background-color: #7C6E69; }
+.echidna:nth-child(2) .puzzle{-webkit-clip-path: polygon(14.4% 77.286%, 20.5% 68.143%, 15.7% 77.429%);background-color: #635B53; }
+.echidna:nth-child(3) .puzzle{-webkit-clip-path: polygon(22.2% 61.286%, 29.9% 46.857%, 23.8% 63.571%);background-color: #5E4648; }
+.echidna:nth-child(4) .puzzle{-webkit-clip-path: polygon(23.5% 63.7%, 30% 46.7%, 33.5% 55.6%);background-color: #3C2628; }
+.echidna:nth-child(5) .puzzle{-webkit-clip-path: polygon(23.6% 63.571%, 33.4% 55.429%, 32.3% 64.286%);background-color: #24181A; }
+.echidna:nth-child(6) .puzzle{-webkit-clip-path: polygon(23.6% 63.429%, 26.9% 63.714%, 19.9% 69.286%);background-color: #131214; }
+.echidna:nth-child(7) .puzzle{-webkit-clip-path: polygon(24.8% 60.571%, 26% 57.429%, 27.2% 58.571%);background-color: #171715; }
+.echidna:nth-child(8) .puzzle{-webkit-clip-path: polygon(29.9% 46.714%, 40.9% 53.857%, 33.3% 55.429%);background-color: #432D32; }
+.echidna:nth-child(9) .puzzle{-webkit-clip-path: polygon(33.2% 55.286%, 40.7% 53.75%, 32.1% 64.143%);background-color: #331F1F; }
+.echidna:nth-child(10) .puzzle{-webkit-clip-path: polygon(29.8% 46.857%, 40.5% 41.857%, 40.7% 53.857%);background-color: #513838; }
+.echidna:nth-child(11) .puzzle{-webkit-clip-path: polygon(49.4% 80.77%, 50.8% 69.05%, 42.1% 68.286%);background-color: #1D1414; }
+.echidna:nth-child(12) .puzzle{-webkit-clip-path: polygon(40.5% 53.714%, 45.2% 69.286%, 31.8% 64.4%);background-color: #402729; }
+.echidna:nth-child(13) .puzzle{-webkit-clip-path: polygon(32.8% 54%, 34.3% 53.571%, 34.1% 57%);background-color: #CBC0B6; }
+.echidna:nth-child(14) .puzzle{-webkit-clip-path: polygon(26% 77.286%, 36% 72%, 29.4% 84.143%);background-color: #24181A; }
+.echidna:nth-child(15) .puzzle{-webkit-clip-path: polygon(32.1% 64.286%, 45.2% 69.286%, 26% 77.429%);background-color: #513838; }
+.echidna:nth-child(16) .puzzle{-webkit-clip-path: polygon(40.4% 53.99%, 54.2% 34%, 55.9% 48.857%);background-color: #543C3E; }
+.echidna:nth-child(17) .puzzle{-webkit-clip-path: polygon(40.4% 54.1%, 40.4% 43.571%, 54.2% 34.1%);background-color: #4A3232; }
+.echidna:nth-child(18) .puzzle{-webkit-clip-path: polygon(40.5% 53.857%, 55.7% 48.571%, 54.6% 61.143%);background-color: #412828; }
+.echidna:nth-child(19) .puzzle{-webkit-clip-path: polygon(40.4% 53.7%, 54.8% 61.1%, 45.1% 69.286%);background-color: #483330; }
+.echidna:nth-child(20) .puzzle{-webkit-clip-path: polygon(45% 69.4%, 54.3% 60.7%, 62.2% 71.1%);background-color: #2B2124; }
+.echidna:nth-child(21) .puzzle{-webkit-clip-path: polygon(55.7% 48.571%, 54.1% 34.143%, 70.1% 42.714%);background-color: #442E2E; }
+.echidna:nth-child(22) .puzzle{-webkit-clip-path: polygon(55.6% 48.429%, 68.1% 57.93%, 54.5% 61.286%);background-color: #362424; }
+.echidna:nth-child(23) .puzzle{-webkit-clip-path: polygon(55.5% 48.5%, 69.4% 42.857%, 67.95% 57.99%);background-color: #3B2524; }
+.echidna:nth-child(24) .puzzle{-webkit-clip-path: polygon(54.5% 61.143%, 67.9% 57.857%, 65.1% 75.3%);background-color: #412828; }
+.echidna:nth-child(25) .puzzle{-webkit-clip-path: polygon(48.7% 66%, 50.6% 67.571%, 47% 67.571%);background-color: #CABFB5; }
+.echidna:nth-child(26) .puzzle{-webkit-clip-path: polygon(60.4% 66.571%, 62.6% 65.857%, 61.2% 68.143%);background-color: #CBC0B6; }
+.echidna:nth-child(27) .puzzle{-webkit-clip-path: polygon(69.3% 42.857%, 77.8% 62.286%, 67.9% 57.714%);background-color: #2B2124; }
+.echidna:nth-child(28) .puzzle{-webkit-clip-path: polygon(67.8% 57.5%, 77.9% 62.186%, 64.9% 75.3%);background-color: #312324; }
+.echidna:nth-child(29) .puzzle{-webkit-clip-path: polygon(64.83% 75.143%, 77.7% 62.286%, 66.6% 84.143%);background-color: #24181A; }
+.echidna:nth-child(30) .puzzle{-webkit-clip-path: polygon(64.9% 75%, 66.7% 84%, 62.6% 84%);background-color: #422A2D; }
+/*penguin-企鹅*/
+.penguin:nth-child(1) .puzzle{-webkit-clip-path: polygon(38.65% 66%, 40.75% 84.429%, 47.85% 70%);background-color: #000; }
+.penguin:nth-child(2) .puzzle{-webkit-clip-path: polygon(38.65% 66.143%, 47.85% 70%, 54.65% 46.286%);background-color: #141414; }
+.penguin:nth-child(3) .puzzle{-webkit-clip-path: polygon(38.15% 57.857%, 33.65% 84.571%, 52.75% 51%);background-color: #2D2D31; }
+.penguin:nth-child(4) .puzzle{-webkit-clip-path: polygon(44.65% 39.571%, 36.85% 59.429%, 52.85% 50.857%);background-color: #37383A; }
+.penguin:nth-child(5) .puzzle{-webkit-clip-path: polygon(45.85% 41.4%, 52.75% 50.857%, 55.2% 38.286%);background-color: #29292E; }
+.penguin:nth-child(6) .puzzle{-webkit-clip-path: polygon(47.55% 27.143%, 41.25% 45.714%, 55.05% 38.429%);background-color: #464649; }
+.penguin:nth-child(7) .puzzle{-webkit-clip-path: polygon(40.75% 84.571%, 52.35% 85%, 49.05% 89.857%);background-color: #1E1D21; }
+.penguin:nth-child(8) .puzzle{-webkit-clip-path: polygon(46.95% 81.714%, 58.95% 81.143%, 55.75% 85.571%);background-color: #1E1D21; }
+.penguin:nth-child(9) .puzzle{-webkit-clip-path: polygon(47.55% 27.143%, 61.15% 21.714%, 55.05% 38.429%);background-color: #D8D8DD; }
+.penguin:nth-child(10) .puzzle{-webkit-clip-path: polygon(47.55% 27.143%, 48.25% 13.143%, 50.55% 25.857%);background-color: #ABABB5; }
+.penguin:nth-child(11) .puzzle{-webkit-clip-path: polygon(48.25% 13.143%, 53.85% 7.857%, 49.05% 17.714%);background-color: #CCCECD; }
+.penguin:nth-child(12) .puzzle{-webkit-clip-path: polygon(49.05% 17.714%, 52.15% 11.286%, 50.55% 25.857%);background-color: #1C1C1E; }
+.penguin:nth-child(13) .puzzle{-webkit-clip-path: polygon(52.15% 11.286%, 53.65% 7.714%, 59.65% 10.571%);background-color: #faf9fa; }
+.penguin:nth-child(14) .puzzle{-webkit-clip-path: polygon(52.1% 11.4%, 59.8% 10.5%, 57.65% 15.7%);background-color: #b580a7; }
+.penguin:nth-child(15) .puzzle{-webkit-clip-path: polygon(52.05% 11.286%, 60.55% 18%, 50.45% 25.857%);background-color: #32323C; }
+.penguin:nth-child(16) .puzzle{-webkit-clip-path: polygon(50.45% 25.857%, 60.45% 17.857%, 61.15% 21.714%);background-color: #141414; }
+.penguin:nth-child(17) .puzzle{-webkit-clip-path: polygon(57.65% 15.714%, 59.75% 10.571%, 66.75% 14.571%);background-color: #3C363E; }
+.penguin:nth-child(18) .puzzle{-webkit-clip-path: polygon(57.5% 15.6%, 66.75% 14.571%, 60.45% 18%);background-color: #000; }
+.penguin:nth-child(19) .puzzle{-webkit-clip-path: polygon(55.25% 41%, 57.05% 74.429%, 47.95% 69.857%);background-color: #a7a6a1; }
+.penguin:nth-child(20) .puzzle{-webkit-clip-path: polygon(61.45% 15.143%, 62.95% 12.429%, 62.65% 15%);background-color: #726672; }
+.penguin:nth-child(21) .puzzle{-webkit-clip-path: polygon(61.45% 15.143%, 62.65% 15%, 62.95% 16.571%);background-color: #4E434B; }
+.penguin:nth-child(22) .puzzle{-webkit-clip-path: polygon(54.95% 38.429%, 61.15% 21.714%, 64.15% 32.429%);background-color: #F2F2F2; }
+.penguin:nth-child(23) .puzzle{-webkit-clip-path: polygon(55.05% 38.286%, 64.05% 32.429%, 53.25% 48.143%);background-color: #141414; }
+.penguin:nth-child(24) .puzzle{-webkit-clip-path: polygon(55.35% 45%, 64% 32.429%, 64% 37.143%);background-color: #3e3c40; }
+.penguin:nth-child(25) .puzzle{-webkit-clip-path: polygon(55.45% 45%, 64.05% 37%, 63.75% 51.286%);background-color: #CCCECD; }
+.penguin:nth-child(26) .puzzle{-webkit-clip-path: polygon(55.45% 44.857%, 63.75% 51.143%, 57.05% 74.429%);background-color: #bfc2c1; }
+.penguin:nth-child(27) .puzzle{-webkit-clip-path: polygon(59.55% 65.714%, 63.05% 53.571%, 65.45% 73.429%);background-color: #000000; }
+.penguin:nth-child(28) .puzzle{-webkit-clip-path: polygon(59.65% 48.143%, 61.05% 49.143%, 59.95% 50.143%);background-color: #29292e; }
+.penguin:nth-child(29) .puzzle{-webkit-clip-path: polygon(40.65% 84.571%, 47.85% 69.714%, 57.2% 74.3%);background-color: #84817d; }
+.penguin:nth-child(30) .puzzle{-webkit-clip-path: polygon(40.85% 84.5%, 57.1% 74.2%, 51.75% 81.857%);background-color: #756e60; }
+/*damselfly-蜻蛉*/
+.damselfly:nth-child(1) .puzzle{-webkit-clip-path: polygon(16.8% 56.143%, 21.4% 54.143%, 19.1% 60%);background-color: #272729; }
+.damselfly:nth-child(2) .puzzle{-webkit-clip-path: polygon(21.4% 54.143%, 24.8% 60.143%, 19% 60%);background-color: #A72A34; }
+.damselfly:nth-child(3) .puzzle{-webkit-clip-path: polygon(21.4% 54.143%, 27.5% 54.857%, 24.7% 60.286%);background-color: #C4334A; }
+.damselfly:nth-child(4) .puzzle{-webkit-clip-path: polygon(24.7% 60.143%, 27.5% 54.9%, 29.4% 59.429%);background-color: #101F1F; }
+.damselfly:nth-child(5) .puzzle{-webkit-clip-path: polygon(27.4% 54.8%, 34.3% 59.6%, 29.3% 59.4%);background-color: #2C292D; }
+.damselfly:nth-child(6) .puzzle{-webkit-clip-path: polygon(27.4% 54.857%, 32% 54.143%, 34.2% 59.8%);background-color: #3C3A42; }
+.damselfly:nth-child(7) .puzzle{-webkit-clip-path: polygon(31.9% 54.143%, 37.8% 54.571%, 34.02% 59.6%);background-color: #272729; }
+.damselfly:nth-child(8) .puzzle{-webkit-clip-path: polygon(34% 59.571%, 37.6% 54.571%, 39.8% 58.857%);background-color: #BA223A; }
+.damselfly:nth-child(9) .puzzle{-webkit-clip-path: polygon(37.5% 54.571%, 43.9% 56.429%, 39.7% 58.857%);background-color: #C4304A; }
+.damselfly:nth-child(10) .puzzle{-webkit-clip-path: polygon(37.5% 54.571%, 48% 54.714%, 43.5% 56.571%);background-color: #DE4C63; }
+.damselfly:nth-child(11) .puzzle{-webkit-clip-path: polygon(39.7% 58.857%, 43.5% 56.429%, 47.5% 59.429%);background-color: #9A2A3C; }
+.damselfly:nth-child(12) .puzzle{-webkit-clip-path: polygon(43.4% 56.429%, 47.99% 54.714%, 50.4% 56.6%);background-color: #BB293A; }
+.damselfly:nth-child(13) .puzzle{-webkit-clip-path: polygon(43.4% 56.286%, 50.4% 56.429%, 47.4% 59.571%);background-color: #C52F49; }
+.damselfly:nth-child(14) .puzzle{-webkit-clip-path: polygon(48% 54.714%, 56.1% 53.857%, 50.3% 56.571%);background-color: #DE4C63; }
+.damselfly:nth-child(15) .puzzle{-webkit-clip-path: polygon(47.4% 59.429%, 50.3% 56.429%, 53.4% 58.714%);background-color: #8D233B; }
+.damselfly:nth-child(16) .puzzle{-webkit-clip-path: polygon(50.3% 56.429%, 56.1% 53.857%, 53.4% 58.857%);background-color: #BC2D40; }
+.damselfly:nth-child(17) .puzzle{-webkit-clip-path: polygon(53.3% 58.7%, 56% 54%, 60.3% 58.714%);background-color: #A72A34; }
+.damselfly:nth-child(18) .puzzle{-webkit-clip-path: polygon(55.8% 54%, 64.3% 54.571%, 60.3% 58.714%);background-color: #DE3C58; }
+.damselfly:nth-child(19) .puzzle{-webkit-clip-path: polygon(60.2% 58.714%, 64.2% 54.571%, 75.5% 59.2%);background-color: #181B1F; }
+.damselfly:nth-child(20) .puzzle{-webkit-clip-path: polygon(64.3% 54.65%, 65.6% 51.429%, 77.5% 54%);background-color: #45424B; }
+.damselfly:nth-child(21) .puzzle{-webkit-clip-path: polygon(64% 54.6%, 78.3% 53.714%, 75.4% 59.26%);background-color: #2D2C35; }
+.damselfly:nth-child(22) .puzzle{-webkit-clip-path: polygon(70.7% 59%, 71.5% 59.143%, 66.5% 71.143%);background-color: #262624; }
+.damselfly:nth-child(23) .puzzle{-webkit-clip-path: polygon(73.6% 59%, 74.9% 59.1%, 71.9% 68.714%);background-color: #333E4E; }
+.damselfly:nth-child(24) .puzzle{-webkit-clip-path: polygon(72.3% 67.429%, 79.4% 78.429%, 71.9% 68.857%);background-color: #1D2124; }
+.damselfly:nth-child(25) .puzzle{-webkit-clip-path: polygon(75.4% 56.286%, 76.4% 51.857%, 79.9% 54.143%);background-color: #812925; }
+.damselfly:nth-child(26) .puzzle{-webkit-clip-path: polygon(75.4% 56.143%, 79.9% 54.143%, 78.4% 58.429%);background-color: #3B0F13; }
+.damselfly:nth-child(27) .puzzle{-webkit-clip-path: polygon(38.6% 19%, 69.5% 53.714%, 41.5% 30.857%);background-color: #6D9B9F; }
+.damselfly:nth-child(28) .puzzle{-webkit-clip-path: polygon(57.4% 28.714%, 69.5% 53.857%, 62.4% 44.286%);background-color: #9ABFC2; }
+.damselfly:nth-child(29) .puzzle{-webkit-clip-path: polygon(44.7% 29%, 51.5% 10%, 62.5% 44.429%);background-color: #80B1B4; }
+.damselfly:nth-child(30) .puzzle{-webkit-clip-path: polygon(44.7% 29%, 40% 9.857%, 51.6% 10.143%);background-color: #9ABFC2; }
+/*bear-熊*/
+.bear:nth-child(1) .puzzle{-webkit-clip-path: polygon(28.35% 15.214%, 31.45% 10.2%, 31.7% 19.5%);background-color: #BAA284; }
+.bear:nth-child(2) .puzzle{-webkit-clip-path: polygon(31.35% 10.214%, 34.25% 17.5%, 31.45% 19.357%);background-color: #9E856B; }
+.bear:nth-child(3) .puzzle{-webkit-clip-path: polygon(31.35% 10.357%, 36.15% 3.357%, 38.95% 12.071%);background-color: #473C32; }
+.bear:nth-child(4) .puzzle{-webkit-clip-path: polygon(31.35% 10.14%, 38.85% 11.929%, 34.05% 17.643%);background-color: #4D4135; }
+.bear:nth-child(5) .puzzle{-webkit-clip-path: polygon(34.05% 17.5%, 38.75% 11.786%, 41.15% 17.643%);background-color: #302922; }
+.bear:nth-child(6) .puzzle{-webkit-clip-path: polygon(36.05% 3.5%, 41.55% 2.357%, 38.85% 12.214%);background-color: #564533; }
+.bear:nth-child(7) .puzzle{-webkit-clip-path: polygon(38.75% 12.071%, 41.25% 2.929%, 50.65% 13.5%);background-color: #403429; }
+.bear:nth-child(8) .puzzle{-webkit-clip-path: polygon(38.75% 11.9%, 49.9% 13.357%, 41.05% 17.643%);background-color: #342A1F; }
+.bear:nth-child(9) .puzzle{-webkit-clip-path: polygon(41.15% 2.929%, 51.55% 8.786%, 49.65% 13.5%);background-color: #4D4135; }
+.bear:nth-child(10) .puzzle{-webkit-clip-path: polygon(41.05% 17.357%, 49.65% 13.357%, 53.35% 42.357%);background-color: #2C2317; }
+.bear:nth-child(11) .puzzle{-webkit-clip-path: polygon(48.65% 18.5%, 50.25% 8.214%, 59.35% 18.214%);background-color: #473C32; }
+.bear:nth-child(12) .puzzle{-webkit-clip-path: polygon(41.1% 17.3%, 53.55% 42.214%, 45.05% 46.643%);background-color: #242017; }
+.bear:nth-child(13) .puzzle{-webkit-clip-path: polygon(41.85% 19.357%, 45.25% 21.357%, 45.75% 28.643%);background-color: #A37431; }
+.bear:nth-child(14) .puzzle{-webkit-clip-path: polygon(45.15% 21.214%, 48.75% 18.5%, 45.65% 28.5%);background-color: #CB9A57; }
+.bear:nth-child(15) .puzzle{-webkit-clip-path: polygon(48.5% 18.5%, 58.65% 18.03%, 61.45% 27.99%);background-color: #4C4237; }
+.bear:nth-child(16) .puzzle{-webkit-clip-path: polygon(58.05% 25.357%, 62.45% 48.4%, 52.35% 62.9%);background-color: #352D25; }
+.bear:nth-child(17) .puzzle{-webkit-clip-path: polygon(48.55% 18.5%, 61.05% 27.5%, 60.55% 42.357%);background-color: #554738; }
+.bear:nth-child(18) .puzzle{-webkit-clip-path: polygon(42.6% 27.929%, 44.4% 41.214%, 38.45% 45.214%);background-color: #262420; }
+.bear:nth-child(19) .puzzle{-webkit-clip-path: polygon(35.05% 44.5%, 40.4% 37.357%, 37.55% 53.214%);background-color: #403429; }
+.bear:nth-child(20) .puzzle{-webkit-clip-path: polygon(45.05% 46.357%, 56.05% 40.786%, 52.55% 62.786%);background-color: #292418; }
+.bear:nth-child(21) .puzzle{-webkit-clip-path: polygon(48.65% 18.643%, 60.25% 41.786%, 53.15% 41.929%);background-color: #483A2E; }
+.bear:nth-child(22) .puzzle{-webkit-clip-path: polygon(45.15% 46.357%, 52.65% 62.643%, 42.68% 61.2%);background-color: #362F20; }
+.bear:nth-child(23) .puzzle{-webkit-clip-path: polygon(46.65% 58.643%, 53.25% 41.643%, 60.35% 41.643%);background-color: #504135; }
+.bear:nth-child(24) .puzzle{-webkit-clip-path: polygon(42.65% 60.929%, 52.65% 62.5%, 45.45% 74.071%);background-color: #302917; }
+.bear:nth-child(25) .puzzle{-webkit-clip-path: polygon(42.75% 60.929%, 48.05% 84.786%, 42.75% 84.786%);background-color: #3A322B; }
+.bear:nth-child(26) .puzzle{-webkit-clip-path: polygon(45.45% 73.786%, 52.55% 62.071%, 53.95% 66.5%);background-color: #29251B; }
+.bear:nth-child(27) .puzzle{-webkit-clip-path: polygon(52.45% 62.643%, 62.45% 48.214%, 60.65% 68.929%);background-color: #4C3E32; }
+.bear:nth-child(28) .puzzle{-webkit-clip-path: polygon(52.55% 62.5%, 60.75% 68.786%, 58.55% 79.929%);background-color: #342C27; }
+.bear:nth-child(29) .puzzle{-webkit-clip-path: polygon(60.65% 68.643%, 60.95% 86.5%, 56.65% 86.5%);background-color: #3A322E; }
+.bear:nth-child(30) .puzzle{-webkit-clip-path: polygon(28.25% 15.214%, 29.05% 14.071%, 29.55% 16.786%);background-color: #4C3E32; }
+.bear:nth-child(31) .puzzle, .bear:nth-child(32) .puzzle, .bear:nth-child(33) .puzzle{-webkit-clip-path: polygon(31.25% 18.214%, 32.05% 17.071%, 30.8% 12.786%);background-color: #F1A9E2; }
+/*parrotfish-鹦嘴鱼*/
+.parrotfish:nth-child(1) .puzzle{-webkit-clip-path: polygon(7.013% 37.714%, 12.812% 34.286%, 26.012% 40%);background-color: #ff9763; }
+.parrotfish:nth-child(2) .puzzle{-webkit-clip-path: polygon(14.313% 38.714%, 12.313% 48.857%, 14.313% 60.714%);background-color: #02ac96; }
+.parrotfish:nth-child(3) .puzzle{-webkit-clip-path: polygon(9.112% 62.286%, 28.813% 54.714%, 16.313% 63.286%);background-color: #d66b5b; }
+.parrotfish:nth-child(4) .puzzle{-webkit-clip-path: polygon(14.313% 38.5%, 22.9% 48.429%, 14.25% 60.6%);background-color: #e58557; }
+.parrotfish:nth-child(5) .puzzle{-webkit-clip-path: polygon(14.213% 38.429%, 25.912% 39.857%, 22.813% 48.429%);background-color: #ed8e5b; }
+.parrotfish:nth-child(6) .puzzle{-webkit-clip-path: polygon(14.313% 60.571%, 22.813% 48.429%, 28.813% 54.857%);background-color: #e37364; }
+.parrotfish:nth-child(7) .puzzle{-webkit-clip-path: polygon(22.712% 48.5%, 25.912% 39.714%, 28.7% 54.77%);background-color: #e58557; }
+.parrotfish:nth-child(8) .puzzle{-webkit-clip-path: polygon(25.912% 39.85%, 47.713% 44.286%, 28.75% 54.9%);background-color: #08da9f; }
+.parrotfish:nth-child(9) .puzzle{-webkit-clip-path: polygon(31.712% 41.2%, 31.813% 30.714%, 52.25% 22.8%);background-color: #a06891; }
+.parrotfish:nth-child(10) .puzzle{-webkit-clip-path: polygon(29.213% 59%, 31.212% 53.4%, 47.713% 62.3%);background-color: #a74876; }
+.parrotfish:nth-child(11) .puzzle{-webkit-clip-path: polygon(31.712% 41.2%, 47.813% 26.286%, 47.713% 44.3%);background-color: #5cefb2; }
+.parrotfish:nth-child(12) .puzzle{-webkit-clip-path: polygon(31.112% 53.429%, 47.813% 44.143%, 47.713% 62.286%);background-color: #00c290; }
+.parrotfish:nth-child(13) .puzzle{-webkit-clip-path: polygon(47.713% 26.429%, 56.112% 35.286%, 47.713% 44.286%);background-color: #30e5aa; }
+.parrotfish:nth-child(14) .puzzle{-webkit-clip-path: polygon(47.713% 44.286%, 56.3% 53.143%, 47.713% 62.35%);background-color: #00c794; }
+.parrotfish:nth-child(15) .puzzle{-webkit-clip-path: polygon(47.713% 44.286%, 56.112% 35.429%, 56.112% 53.286%);background-color: #00cc97; }
+.parrotfish:nth-child(16) .puzzle{-webkit-clip-path: polygon(47.713% 26.35%, 52.22% 22.6%, 66.112% 25.7%);background-color: #ffc86d; }
+.parrotfish:nth-child(17) .puzzle{-webkit-clip-path: polygon(47.6% 26.4%, 66.112% 25.714%, 56.012% 35.4%);background-color: #ffba5b; }
+.parrotfish:nth-child(18) .puzzle{-webkit-clip-path: polygon(56.012% 35.286%, 66.1% 25.714%, 68.212% 48%);background-color: #ffaa5a; }
+.parrotfish:nth-child(19) .puzzle{-webkit-clip-path: polygon(53.15% 38.35%, 56.012% 35.286%, 68.5% 48.3%);background-color: #583c3e; }
+.parrotfish:nth-child(20) .puzzle{-webkit-clip-path: polygon(52.812% 44.6%, 53.212% 38.286%, 68.5% 48.2%);background-color: #3b2e37; }
+.parrotfish:nth-child(21) .puzzle{-webkit-clip-path: polygon(52.812% 44.54%, 68.4% 48%, 56.112% 53.429%);background-color: #744f44; }
+.parrotfish:nth-child(22) .puzzle{-webkit-clip-path: polygon(47.7% 62.286%, 56.15% 53.2%, 65.813% 64.571%);background-color: #f86826; }
+.parrotfish:nth-child(23) .puzzle{-webkit-clip-path: polygon(56.012% 53.143%, 68.212% 48%, 65.712% 64.571%);background-color: #fa7637; }
+.parrotfish:nth-child(24) .puzzle{-webkit-clip-path: polygon(54.012% 70.143%, 57.913% 63.429%, 65.612% 64.5%);background-color: #f4542e; }
+.parrotfish:nth-child(25) .puzzle{-webkit-clip-path: polygon(66.112% 25.857%, 86.513% 43.571%, 68.112% 48.143%);background-color: #ff9658; }
+.parrotfish:nth-child(26) .puzzle{-webkit-clip-path: polygon(68.112% 47.857%, 86.513% 43.429%, 65.6% 64.62%);background-color: #fa8637; }
+.parrotfish:nth-child(27) .puzzle{-webkit-clip-path: polygon(65.712% 64.286%, 82.013% 48%, 85.513% 53.286%);background-color: #ba694b; }
+.parrotfish:nth-child(28) .puzzle{-webkit-clip-path: polygon(75.113% 43.714%, 76.712% 40.857%, 79.813% 42.571%);background-color: #32a4f0; }
+.parrotfish:nth-child(29) .puzzle{-webkit-clip-path: polygon(82% 47.9%, 86.45% 43.5%, 88.413% 47.571%);background-color: #32a4f0; }
+.parrotfish:nth-child(30) .puzzle{-webkit-clip-path: polygon(82% 48%, 87.112% 50.571%, 85.413% 53.286%);background-color: #0078a1; }
+  #animalchanger.parrotfish .wrap .shard-wrap.peripheral .puzzle{
+    background-color: #fff;
+    -webkit-animation: bubbles 1s infinite forwards;
+    -moz-animation: bubbles 1s infinite forwards;
+    animation: bubbles 1s infinite forwards; }
+  #animalchanger.parrotfish .wrap .shard-wrap.peripheral:nth-child(31) .puzzle{
+    -webkit-clip-path: polygon(95% 18.5%, 95.5% 22%, 97% 20%); }
+.parrotfish:nth-child(32) .puzzle{-webkit-clip-path: polygon(91.67% 9.5%, 92.3% 8.4%, 92.7% 9.7%);
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+.parrotfish:nth-child(33) .puzzle{-webkit-clip-path: polygon(87.75% 35.5%, 89.4% 37%, 89.1% 34.5%);
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s; }
+/*camel-骆驼*/
+.camel:nth-child(1) .puzzle{-webkit-clip-path: polygon(21.25% 73%, 22.95% 58.143%, 26.75% 85.286%);background-color: #301A02; }
+.camel:nth-child(2) .puzzle{-webkit-clip-path: polygon(24.45% 65.571%, 29.95% 85.286%, 23.25% 72.571%);background-color: #493106; }
+.camel:nth-child(3) .puzzle{-webkit-clip-path: polygon(23.25% 72.714%, 19.45% 41.857%, 28.85% 51.857%);background-color: #93693C; }
+.camel:nth-child(4) .puzzle{-webkit-clip-path: polygon(19.45% 42%, 23.65% 28%, 28.85% 52%);background-color: #A97D4E; }
+.camel:nth-child(5) .puzzle{-webkit-clip-path: polygon(23.55% 28.286%, 37.45% 35.857%, 28.85% 51.857%);background-color: #BF8D56; }
+.camel:nth-child(6) .puzzle{-webkit-clip-path: polygon(22.45% 27.714%, 30.75% 16.143%, 42.85% 21.286%);background-color: #BC864E; }
+.camel:nth-child(7) .puzzle{-webkit-clip-path: polygon(22.45% 27.571%, 42.85% 21.143%, 48.35% 42.143%);background-color: #A87647; }
+.camel:nth-child(8) .puzzle{-webkit-clip-path: polygon(28.75% 51.857%, 37.35% 35.857%, 42.95% 51.571%);background-color: #966336; }
+.camel:nth-child(9) .puzzle{-webkit-clip-path: polygon(29.95% 16.143%, 36.25% 11%, 42.85% 21.143%);background-color: #BE9E74; }
+.camel:nth-child(10) .puzzle{-webkit-clip-path: polygon(37.15% 35.857%, 48.35% 42%, 42.95% 51.429%);background-color: #6E4829; }
+.camel:nth-child(11) .puzzle{-webkit-clip-path: polygon(42.75% 21.143%, 61.95% 33%, 48.25% 42.143%);background-color: #B27D48; }
+.camel:nth-child(12) .puzzle{-webkit-clip-path: polygon(42.75% 21.143%, 50.85% 16.143%, 61.95% 33%);background-color: #B99566; }
+.camel:nth-child(13) .puzzle{-webkit-clip-path: polygon(42.75% 51.429%, 48.35% 42%, 47.25% 66.714%);background-color: #47322C; }
+.camel:nth-child(14) .puzzle{-webkit-clip-path: polygon(48.25% 42.143%, 54.55% 63.286%, 47.13% 66.857%);background-color: #311E0F; }
+.camel:nth-child(15) .puzzle{-webkit-clip-path: polygon(47.45% 66.571%, 50.65% 65%, 49.05% 85.571%);background-color: #724F38; }
+.camel:nth-child(16) .puzzle{-webkit-clip-path: polygon(51.15% 64.571%, 54.25% 63.143%, 53.05% 85.429%);background-color: #533820; }
+.camel:nth-child(17) .puzzle{-webkit-clip-path: polygon(48% 41.75%, 56.25% 48.7%, 55.05% 65.571%);background-color: #522A10; }
+.camel:nth-child(18) .puzzle{-webkit-clip-path: polygon(48.15% 42%, 61.95% 33%, 61.35% 53.429%);background-color: #64422D; }
+.camel:nth-child(19) .puzzle{-webkit-clip-path: polygon(61.85% 32.857%, 71.75% 42.571%, 60.65% 55.4%);background-color: #7E5130; }
+.camel:nth-child(20) .puzzle{-webkit-clip-path: polygon(61.85% 32.9%, 65.95% 24.286%, 71.15% 29.143%);background-color: #7C5531; }
+.camel:nth-child(21) .puzzle{-webkit-clip-path: polygon(61.85% 32.857%, 70.95% 29%, 71.45% 43.143%);background-color: #664015; }
+.camel:nth-child(22) .puzzle{-webkit-clip-path: polygon(61.35% 54.429%, 71.55% 42.714%, 63.35% 63.857%);background-color: #513A2D; }
+.camel:nth-child(23) .puzzle{-webkit-clip-path: polygon(62.75% 64.429%, 71.35% 42.714%, 72.25% 58.429%);background-color: #61452E; }
+.camel:nth-child(24) .puzzle{-webkit-clip-path: polygon(70.85% 29%, 76.65% 48.143%, 71.85% 60.143%);background-color: #916032; }
+.camel:nth-child(25) .puzzle{-webkit-clip-path: polygon(70.85% 29.143%, 75.85% 32.143%, 77.25% 51.714%);background-color: #A66E40; }
+.camel:nth-child(26) .puzzle{-webkit-clip-path: polygon(65.85% 24.571%, 68.65% 17.571%, 76.15% 23.857%);background-color: #A07555; }
+.camel:nth-child(27) .puzzle{-webkit-clip-path: polygon(70.05% 24.286%, 70.55% 16.571%, 76.15% 24%);background-color: #B38956; }
+.camel:nth-child(28) .puzzle{-webkit-clip-path: polygon(65.75% 24.714%, 79.25% 23.286%, 70.95% 29.286%);background-color: #D6C6AF; }
+.camel:nth-child(29) .puzzle{-webkit-clip-path: polygon(70.85% 29.143%, 79.25% 23.286%, 81.95% 28.286%);background-color: #C3B091; }
+.camel:nth-child(30) .puzzle{-webkit-clip-path: polygon(70.85% 29.143%, 81.15% 28.286%, 75.85% 32.857%);background-color: #876F53; }
+#animalchanger.camel .wrap .shard-wrap.peripheral .puzzle{background-color: #14aa78; }
+.camel:nth-child(31) .puzzle{-webkit-clip-path: polygon(81% 31.5%, 80% 32.5%, 78% 21%); }
+.camel:nth-child(32) .puzzle{-webkit-clip-path: polygon(76% 75.5%, 77% 90%, 75.5% 90%); }
+.camel:nth-child(28), .camel:nth-child(29) {z-index: 3; }
+.camel:nth-child(31) {z-index: 2; } 
+/*butterfly-蝴蝶*/
+.butterfly:nth-child(1) .puzzle{-webkit-clip-path: polygon(19.15% 16.5%, 37.25% 25.643%, 46.55% 47.929%);background-color: #3B2D28; }
+.butterfly:nth-child(2) .puzzle{-webkit-clip-path: polygon(19.15% 16.5%, 26.9% 50.929%, 29.25% 34.3%);background-color: #3B2D28; }
+.butterfly:nth-child(3) .puzzle{-webkit-clip-path: polygon(19.05% 16.5%, 29% 34.3%, 36.4% 27.5%);background-color: #E46E39; }
+.butterfly:nth-child(4) .puzzle{-webkit-clip-path: polygon(29% 34.214%, 36.3% 27.4%, 46.6% 48.2%);background-color: #FB913C; }
+.butterfly:nth-child(5) .puzzle{-webkit-clip-path: polygon(28.9% 34.1%, 46.55% 48.214%, 26.85% 50.929%);background-color: #423C32; }
+.butterfly:nth-child(6) .puzzle{-webkit-clip-path: polygon(26.75% 50.786%, 46.55% 48.071%, 46.05% 52.643%);background-color: #30201D; }
+.butterfly:nth-child(7) .puzzle{-webkit-clip-path: polygon(31.25% 52.5%, 45.95% 52.786%, 32.65% 64.786%);background-color: #EE8548; }
+.butterfly:nth-child(8) .puzzle{-webkit-clip-path: polygon(31.15% 52.5%, 45.95% 52.929%, 38.05% 57.643%);background-color: #EFBA6B; }
+.butterfly:nth-child(9) .puzzle{-webkit-clip-path: polygon(35.45% 60.5%, 36.45% 61.214%, 35.35% 62.071%);background-color: #232626; }
+.butterfly:nth-child(10) .puzzle{-webkit-clip-path: polygon(32.55% 64.643%, 45.85% 52.929%, 38.45% 70.214%);background-color: #CA6532; }
+.butterfly:nth-child(11) .puzzle{-webkit-clip-path: polygon(47.55% 46.786%, 50.15% 44.071%, 43.15% 67.071%);background-color: #3B2D28; }
+.butterfly:nth-child(12) .puzzle{-webkit-clip-path: polygon(50.15% 44.071%, 50.35% 48.643%, 43.25% 66.643%);background-color: #23120C; }
+.butterfly:nth-child(13) .puzzle{-webkit-clip-path: polygon(48.85% 48.071%, 48.25% 52.214%, 47.15% 51.643%);background-color: #DCB050; }
+.butterfly:nth-child(14) .puzzle{-webkit-clip-path: polygon(48.25% 46.214%, 48.25% 44.786%, 50.15% 44.071%);background-color: #62564D; }
+.butterfly:nth-child(15) .puzzle{-webkit-clip-path: polygon(50.15% 44.071%, 51.25% 46.643%, 50.25% 47.786%);background-color: #62564D; }
+.butterfly:nth-child(16) .puzzle{-webkit-clip-path: polygon(49.15% 44.357%, 46.75% 28.643%, 49.85% 44.214%);background-color: #070401; }
+.butterfly:nth-child(17) .puzzle{-webkit-clip-path: polygon(50.45% 44.643%, 62.15% 38.214%, 50.75% 45.357%);background-color: #070401; }
+.butterfly:nth-child(18) .puzzle{-webkit-clip-path: polygon(46.85% 57.357%, 42.95% 75.357%, 38.95% 72.643%);background-color: #E6A15B; }
+.butterfly:nth-child(19) .puzzle{-webkit-clip-path: polygon(38.95% 72.643%, 42.95% 75.357%, 39.75% 77.071%);background-color: #3B2D28; }
+.butterfly:nth-child(20) .puzzle{-webkit-clip-path: polygon(45.45% 56.5%, 46.95% 57.357%, 39.05% 72.643%);background-color: #FCCC67; }
+.butterfly:nth-child(21) .puzzle{-webkit-clip-path: polygon(48.45% 54.214%, 58.95% 69.214%, 51.95% 76.214%);background-color: #E98247; }
+.butterfly:nth-child(22) .puzzle{-webkit-clip-path: polygon(48.35% 54.214%, 58.95% 69.071%, 51.65% 65.786%);background-color: #EEB96B; }
+.butterfly:nth-child(23) .puzzle{-webkit-clip-path: polygon(48.45% 54.214%, 51.95% 76.214%, 45.05% 74.214%);background-color: #CA6532; }
+.butterfly:nth-child(24) .puzzle{-webkit-clip-path: polygon(51.05% 70.071%, 51.85% 70.357%, 51.25% 71.929%);background-color: #232626; }
+.butterfly:nth-child(25) .puzzle{-webkit-clip-path: polygon(48.35% 54.214%, 50.35% 49.929%, 62.75% 72.786%);background-color: #30201D; }
+.butterfly:nth-child(26) .puzzle{-webkit-clip-path: polygon(50.45% 50.071%, 67.85% 42.929%, 86.55% 53.929%);background-color: #392C27; }
+.butterfly:nth-child(27) .puzzle{-webkit-clip-path: polygon(50.45% 50.071%, 67.75% 45.214%, 69.85% 57.5%);background-color: #F78F3B; }
+.butterfly:nth-child(28) .puzzle{-webkit-clip-path: polygon(50.35% 50.071%, 69.85% 57.357%, 62.65% 72.786%);background-color: #3A352C; }
+.butterfly:nth-child(29) .puzzle{-webkit-clip-path: polygon(67.65% 45.357%, 86.55% 53.929%, 69.85% 57.5%);background-color: #E46E39; }
+.butterfly:nth-child(30) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28; }
+/*ostrich-鸵鸟*/
+.ostrich:nth-child(1) .puzzle{-webkit-clip-path: polygon(24.6% 27.143%, 32.8% 33.1%, 25.8% 38.4%);background-color: #f8f1e8; }
+.ostrich:nth-child(2) .puzzle{-webkit-clip-path: polygon(25.8% 38.286%, 32.7% 33.286%, 30.1% 39.429%);background-color: #bcae92; }
+.ostrich:nth-child(3) .puzzle{-webkit-clip-path: polygon(29.9% 39.143%, 32.6% 33%, 33.45% 44.1%);background-color: #0c0d08; }
+.ostrich:nth-child(4) .puzzle{-webkit-clip-path: polygon(32.5% 33%, 43.3% 30.857%, 33.4% 44.15%);background-color: #191919; }
+.ostrich:nth-child(5) .puzzle{-webkit-clip-path: polygon(33.4% 44.1%, 40.3% 34.6%, 53.4% 41.1%);background-color: #222627; }
+.ostrich:nth-child(6) .puzzle{-webkit-clip-path: polygon(40.1% 34.714%, 43.1% 31%, 45.8% 37.714%);background-color: #191919; }
+.ostrich:nth-child(7) .puzzle{-webkit-clip-path: polygon(33.4% 44%, 53.4% 41%, 60.8% 58.429%);background-color: #141414; }
+.ostrich:nth-child(8) .puzzle{-webkit-clip-path: polygon(42% 28.5%, 53.2% 40.857%, 45.6% 37.429%);background-color: #b9bbb0; }
+.ostrich:nth-child(9) .puzzle{-webkit-clip-path: polygon(42.1% 28.571%, 48.7% 27.143%, 53.3% 41.1%);background-color: #f8f1e8; }
+.ostrich:nth-child(10) .puzzle{-webkit-clip-path: polygon(37.5% 60%, 50% 43.1%, 51.7% 51.857%);background-color: #c1bdb4; }
+.ostrich:nth-child(11) .puzzle{-webkit-clip-path: polygon(50% 43.2%, 54.6% 45.429%, 51.6% 52%);background-color: #f8f1e8; }
+.ostrich:nth-child(12) .puzzle{-webkit-clip-path: polygon(37.5% 60%, 50% 43.3%, 46% 46%);background-color: #b4b4aa; }
+.ostrich:nth-child(13) .puzzle{-webkit-clip-path: polygon(37.5% 60%, 39.6% 58.857%, 46.4% 77%);background-color: #918e87; }
+.ostrich:nth-child(14) .puzzle{-webkit-clip-path: polygon(38.5% 61.7%, 46.3% 76.857%, 44.4% 79.286%);background-color: #727272; }
+.ostrich:nth-child(15) .puzzle{-webkit-clip-path: polygon(42.1% 81.429%, 46.3% 77%, 42.7% 89.571%);background-color: #debfab; }
+.ostrich:nth-child(16) .puzzle{-webkit-clip-path: polygon(46.4% 54.571%, 49.8% 52.571%, 45% 70.429%);background-color: #727272; }
+.ostrich:nth-child(17) .puzzle{-webkit-clip-path: polygon(45% 70.286%, 46.5% 64.714%, 48.7% 88.143%);background-color: #87847d; }
+.ostrich:nth-child(18) .puzzle{-webkit-clip-path: polygon(48.7% 27.143%, 66.1% 38.857%, 53.2% 41%);background-color: #222627; }
+.ostrich:nth-child(19) .puzzle{-webkit-clip-path: polygon(48.7% 27.2%, 57% 28.714%, 66.1% 38.97%);background-color: #363837; }
+.ostrich:nth-child(20) .puzzle{-webkit-clip-path: polygon(53.2% 40.857%, 66.15% 38.75%, 60.8% 58.571%);background-color: #1e1e1e; }
+.ostrich:nth-child(21) .puzzle{-webkit-clip-path: polygon(62.7% 51.286%, 66.1% 38.7%, 69.3% 47.286%);background-color: #0c0d08; }
+.ostrich:nth-child(22) .puzzle{-webkit-clip-path: polygon(66.02% 38.67%, 72.5% 40.714%, 69.2% 47.286%);background-color: #060606; }
+.ostrich:nth-child(23) .puzzle{-webkit-clip-path: polygon(66.1% 38.8%, 71.3% 32.714%, 72.5% 40.8%);background-color: #17140d; }
+.ostrich:nth-child(24) .puzzle{-webkit-clip-path: polygon(69.7% 34.429%, 67.3% 25.143%, 71.4% 32.857%);background-color: #c4c0b7; }
+.ostrich:nth-child(25) .puzzle{-webkit-clip-path: polygon(67.3% 25.143%, 68.2% 20.143%, 71.3% 32.714%);background-color: #f8f1e8; }
+.ostrich:nth-child(26) .puzzle{-webkit-clip-path: polygon(67.3% 25.143%, 66.6% 19.714%, 69.2% 15.429%);background-color: #bebebe; }
+.ostrich:nth-child(27) .puzzle{-webkit-clip-path: polygon(66.6% 19.571%, 68% 12.143%, 71.1% 12.857%);background-color: #aaaaaa; }
+.ostrich:nth-child(28) .puzzle{-webkit-clip-path: polygon(66.6% 19.571%, 67.3% 12.286%, 68.4% 12.429%);background-color: #cbbdb0; }
+.ostrich:nth-child(29) .puzzle{-webkit-clip-path: polygon(67.3% 12.571%, 67.6% 11.143%, 71.1% 12.714%);background-color: #c8c8c8; }
+.ostrich:nth-child(30) .puzzle{-webkit-clip-path: polygon(69.2% 15.429%, 71% 12.714%, 73.6% 14.571%);background-color: #d84d50; }
+#animalchanger.ostrich .wrap .shard-wrap.peripheral .puzzle{background-color: #14aa78; }
+.ostrich:nth-child(31) .puzzle{background-color: #0f7c58;-webkit-clip-path: polygon(67% 60.5%, 65% 79%, 63% 79%); }
+.ostrich:nth-child(32) .puzzle{background-color: #14aa78;-webkit-clip-path: polygon(61% 63.5%, 65% 82%, 63% 82%); }
+/*panda-熊猫*/
+.panda:nth-child(1) .puzzle{-webkit-clip-path: polygon(26.4% 36.714%, 40% 31%, 30.6% 44%);background-color: #893926; }
+.panda:nth-child(2) .puzzle{-webkit-clip-path: polygon(30.6% 43.571%, 40% 31%, 41.1% 50.857%);background-color: #370A02; }
+.panda:nth-child(3) .puzzle{-webkit-clip-path: polygon(30.6% 43.286%, 41.1% 50.714%, 27.9% 85%);background-color: #351A16; }
+.panda:nth-child(4) .puzzle{-webkit-clip-path: polygon(15.7% 50.857%, 25.8% 35.143%, 25.3% 48.429%);background-color: #C0684A; }
+.panda:nth-child(5) .puzzle{-webkit-clip-path: polygon(18.6% 46.429%, 16.2% 37.429%, 23.1% 39.429%);background-color: #DAD1BA; }
+.panda:nth-child(6) .puzzle{-webkit-clip-path: polygon(15.6% 50.714%, 25.4% 48.286%, 25.9% 62.143%);background-color: #EBDECD; }
+.panda:nth-child(7) .puzzle{-webkit-clip-path: polygon(22% 49.143%, 25.3% 48.3%, 19.8% 55.286%);background-color: #603122; }
+.panda:nth-child(8) .puzzle{-webkit-clip-path: polygon(25.2% 48.429%, 25.8% 35%, 36.2% 52.143%);background-color: #894338; }
+.panda:nth-child(9) .puzzle{-webkit-clip-path: polygon(25.2% 48.286%, 36.1% 52.143%, 25.8% 62%);background-color: #F9F0E2; }
+.panda:nth-child(10) .puzzle{-webkit-clip-path: polygon(25.2% 48.3%, 28.4% 49.3%, 31.7% 56.429%);background-color: #603122; }
+.panda:nth-child(11) .puzzle{-webkit-clip-path: polygon(25.5% 56.571%, 27.8% 59.857%, 23.9% 60%);background-color: #050505; }
+.panda:nth-child(12) .puzzle{-webkit-clip-path: polygon(28.3% 39.286%, 35.7% 37%, 33.6% 47.714%);background-color: #DAC79D; }
+.panda:nth-child(13) .puzzle{-webkit-clip-path: polygon(29.6% 62.286%, 41% 50.571%, 36.2% 85.429%);background-color: #220B11; }
+.panda:nth-child(14) .puzzle{-webkit-clip-path: polygon(39.9% 31%, 50.9% 46.857%, 41% 50.99%);background-color: #63290D; }
+.panda:nth-child(15) .puzzle{-webkit-clip-path: polygon(40.9% 50.857%, 50.9% 46.857%, 39% 65.143%);background-color: #53170A; }
+.panda:nth-child(16) .puzzle{-webkit-clip-path: polygon(39.9% 31%, 49.9% 30.143%, 50.8% 47%);background-color: #94431F; }
+.panda:nth-child(17) .puzzle{-webkit-clip-path: polygon(38.9% 65%, 50.9% 46.6%, 61.1% 66.143%);background-color: #3D0F08; }
+.panda:nth-child(18) .puzzle{-webkit-clip-path: polygon(38.9% 65.143%, 44.4% 56.7%, 50.5% 65.714%);background-color: #190F0D; }
+.panda:nth-child(19) .puzzle{-webkit-clip-path: polygon(50.4% 65.6%, 56.2% 57.143%, 61% 66.4%);background-color: #190F0D; }
+.panda:nth-child(20) .puzzle{-webkit-clip-path: polygon(50.8% 47%, 49.7% 30.143%, 63.8% 37%);background-color: #7C300F; }
+.panda:nth-child(21) .puzzle{-webkit-clip-path: polygon(49.6% 30.143%, 63.7% 37%, 60.5% 39.571%);background-color: #A6462B; }
+.panda:nth-child(22) .puzzle{-webkit-clip-path: polygon(50.8% 46.857%, 63.7% 36.857%, 68.2% 51.8%);background-color: #68210C; }
+.panda:nth-child(23) .puzzle{-webkit-clip-path: polygon(50.9% 46.714%, 68.1% 51.714%, 61.1% 66.286%);background-color: #722B12; }
+.panda:nth-child(24) .puzzle{-webkit-clip-path: polygon(50.5% 65.571%, 61% 66.286%, 53.1% 87.286%);background-color: #2E1616; }
+.panda:nth-child(25) .puzzle{-webkit-clip-path: polygon(54.5% 83.429%, 59.6% 69.857%, 59.6% 83.714%);background-color: #0A0A0D; }
+.panda:nth-child(26) .puzzle{-webkit-clip-path: polygon(61.1% 66.143%, 68.1% 51.714%, 71.4% 63.143%);background-color: #4F1904; }
+.panda:nth-child(27) .puzzle{-webkit-clip-path: polygon(64.9% 40.857%, 81.6% 57.286%, 71.3% 63.286%);background-color: #621B15; }
+.panda:nth-child(28) .puzzle{-webkit-clip-path: polygon(71.3% 63.143%, 81.5% 57.143%, 84.7% 69.857%);background-color: #621B15; }
+.panda:nth-child(29) .puzzle{-webkit-clip-path: polygon(71.4% 63%, 84.7% 69.714%, 78.4% 75.429%);background-color: #1B1517; }
+.panda:nth-child(30) .puzzle{-webkit-clip-path: polygon(71.4% 78.571%, 84.7% 69.857%, 79.3% 81.571%);background-color: #2D2022; }
+/*tapir-貘*/
+.tapir:nth-child(1) .puzzle{-webkit-clip-path: polygon(11.1% 81.286%, 13.9% 80.286%, 13.9% 74.429%);background-color: #262327; }
+.tapir:nth-child(2) .puzzle{-webkit-clip-path: polygon(9.6% 71.3%, 11.2% 81.2%, 13.95% 74.571%);background-color: #3C3642; }
+.tapir:nth-child(3) .puzzle{-webkit-clip-path: polygon(9.6% 71.6%, 13.8% 74.571%, 18% 65.7%);background-color: #262327; }
+.tapir:nth-child(4) .puzzle{-webkit-clip-path: polygon(9.55% 71.8%, 17.9% 65.857%, 11.7% 56.286%);background-color: #2E2C31; }
+.tapir:nth-child(5) .puzzle{-webkit-clip-path: polygon(11.7% 56.5%, 17.9% 66%, 16.5% 46.143%);background-color: #37343E; }
+.tapir:nth-child(6) .puzzle{-webkit-clip-path: polygon(17.8% 65.7%, 15.6% 70.714%, 26.2% 61.286%);background-color: #17171A; }
+.tapir:nth-child(7) .puzzle{-webkit-clip-path: polygon(16.44% 45.8%, 17.7% 65.857%, 26.4% 61.429%);background-color: #262327; }
+.tapir:nth-child(8) .puzzle{-webkit-clip-path: polygon(16.4% 46.143%, 26.2% 61.429%, 26.4% 36%);background-color: #1B1B1E; }
+.tapir:nth-child(9) .puzzle{-webkit-clip-path: polygon(13.8% 41.857%, 16.5% 41%, 17.4% 47.429%);background-color: #131215; }
+.tapir:nth-child(10) .puzzle{-webkit-clip-path: polygon(26.3% 36%, 26.1% 61.429%, 34.3% 63.4%);background-color: #262327; }
+.tapir:nth-child(11) .puzzle{-webkit-clip-path: polygon(26.2% 36.05%, 45.7% 40.29%, 34% 63.429%);background-color: #2F2B36; }
+.tapir:nth-child(12) .puzzle{-webkit-clip-path: polygon(26.3% 36.143%, 42.8% 27%, 44.8% 40.429%);background-color: #262529; }
+.tapir:nth-child(13) .puzzle{-webkit-clip-path: polygon(44.7% 40.429%, 33.9% 63.429%, 47.9% 61.429%)background-color: #171619; }
+.tapir:nth-child(14) .puzzle{-webkit-clip-path: polygon(33.9% 63.286%, 30.2% 78%, 48% 61.2%);background-color: #29282C; }
+.tapir:nth-child(15) .puzzle{-webkit-clip-path: polygon(30.2% 77.857%, 35.6% 72.7%, 32.6% 88%);background-color: #131215; }
+.tapir:nth-child(16) .puzzle{-webkit-clip-path: polygon(40.5% 68.143%, 47.9% 61.286%, 46.1% 77.857%);background-color: #040808; }
+.tapir:nth-child(17) .puzzle{-webkit-clip-path: polygon(40.5% 68%, 43.4% 84.857%, 46.1% 77.6%);background-color: #262327; }
+.tapir:nth-child(18) .puzzle{-webkit-clip-path: polygon(42.25% 77.714%, 37.6% 85.286%, 43.45% 84.714%);background-color: #131215; }
+.tapir:nth-child(19) .puzzle{-webkit-clip-path: polygon(42.7% 27%, 47.8% 61.429%, 59.2% 41.571%);background-color: #C6CFDD; }
+.tapir:nth-child(20) .puzzle{-webkit-clip-path: polygon(42.7% 27%, 59.1% 41.571%, 71.5% 25.857%);background-color: #DCE6F0; }
+.tapir:nth-child(21) .puzzle{-webkit-clip-path: polygon(59.1% 41.429%, 49.3% 58.571%, 65% 62.143%);background-color: #BCC2CD; }
+.tapir:nth-child(22) .puzzle{-webkit-clip-path: polygon(49.5% 58.429%, 47.9% 61.429%, 64.9% 62.143%);background-color: #29282C; }
+.tapir:nth-child(23) .puzzle{-webkit-clip-path: polygon(59.1% 41.3%, 71.5% 25.857%, 64.9% 62.143%);background-color: #CED7E5; }
+.tapir:nth-child(24) .puzzle{-webkit-clip-path: polygon(71.5% 25.857%, 64.9% 62.143%, 89.3% 43.429%);background-color: #DCE6F0; }
+.tapir:nth-child(25) .puzzle{-webkit-clip-path: polygon(83.9% 63.571%, 82.4% 86.286%, 86.5% 86.286%);background-color: #302B2B; }
+.tapir:nth-child(26) .puzzle{-webkit-clip-path: polygon(74.4% 57.714%, 85.6% 77.857%, 83.1% 57%);background-color: #000000; }
+.tapir:nth-child(27) .puzzle{-webkit-clip-path: polygon(64.9% 62.143%, 89.3% 43.286%, 86.2% 56.286%);background-color: #1B1B1E; }
+.tapir:nth-child(28) .puzzle{-webkit-clip-path: polygon(70.7% 60.4%, 79.8% 77.8%, 79.8% 57.8%);background-color: #29282C; }
+.tapir:nth-child(29) .puzzle{-webkit-clip-path: polygon(76.1% 70.6%, 73% 86.6%, 79.88% 77.6%);background-color: #19191B; }
+.tapir:nth-child(30) .puzzle{-webkit-clip-path: polygon(88.8% 44.643%, 87.6% 50.071%, 92.7% 47.5%);background-color: #2F2F32; }
+/*sifaka-狐猴*/
+.sifaka:nth-child(1) .puzzle{-webkit-clip-path: polygon(32.4% 36.857%, 51.6% 26.857%, 47.2% 46.429%);background-color: #52505A; }
+.sifaka:nth-child(2) .puzzle{-webkit-clip-path: polygon(32.4% 36.857%, 31.1% 27%, 39.1% 38.143%);background-color: #D4D6CE; }
+.sifaka:nth-child(3) .puzzle{-webkit-clip-path: polygon(31.1% 27.143%, 41.6% 23%, 39.1% 38.143%);background-color: #4D4F5C; }
+.sifaka:nth-child(4) .puzzle{-webkit-clip-path: polygon(31% 27.143%, 34.2% 15.429%, 47.1% 20.857%);background-color: #E3E1D4; }
+.sifaka:nth-child(5) .puzzle{-webkit-clip-path: polygon(31.2% 27.143%, 35.3% 19.429%, 41.8% 23.143%);background-color: #CCD1D0; }
+.sifaka:nth-child(6) .puzzle{-webkit-clip-path: polygon(33.5% 35%, 36.4% 25%, 36.9% 32.857%);background-color: #7E7F8A; }
+.sifaka:nth-child(7) .puzzle{-webkit-clip-path: polygon(33.4% 34.714%, 36.8% 32.714%, 39.1% 38.286%);background-color: #3A3C48; }
+.sifaka:nth-child(8) .puzzle{-webkit-clip-path: polygon(39.1% 38.143%, 41.5% 23%, 43.1% 30.286%);background-color: #2F303A; }
+.sifaka:nth-child(9) .puzzle{-webkit-clip-path: polygon(41.5% 22.857%, 47.1% 20.857%, 43% 30.286%);background-color: #CCCFCC; }
+.sifaka:nth-child(10) .puzzle{-webkit-clip-path: polygon(39.1% 38%, 47% 20.714%, 48.4% 30.857%);background-color: #B5B6B5; }
+.sifaka:nth-child(11) .puzzle{-webkit-clip-path: polygon(34.2% 15.429%, 41.3% 12.429%, 47% 20.714%);background-color: #5A5658; }
+.sifaka:nth-child(13) .puzzle{-webkit-clip-path: polygon(47.3% 23.143%, 62.1% 13.714%, 48.4% 30.714%);background-color: #E3E1D4; }
+.sifaka:nth-child(12) .puzzle{-webkit-clip-path: polygon(49.1% 24.786%, 64.1% 13.643%, 56% 32.357%);background-color: #B39C71; }
+.sifaka:nth-child(14) .puzzle{-webkit-clip-path: polygon(20% 67.5%, 35.4% 38.786%, 39.7% 52.5%);background-color: #D0C2A1; }
+.sifaka:nth-child(15) .puzzle{-webkit-clip-path: polygon(20% 67.357%, 39.7% 52.357%, 23.4% 71.929%);background-color: #A78B73; }
+.sifaka:nth-child(16) .puzzle{-webkit-clip-path: polygon(23.3% 71.929%, 39.5% 52.214%, 44.9% 57.5%);background-color: #A27757; }
+.sifaka:nth-child(17) .puzzle{-webkit-clip-path: polygon(35.4% 38.643%, 47.1% 45.929%, 40.6% 55.5%);background-color: #DDDAD0; }
+.sifaka:nth-child(18) .puzzle{-webkit-clip-path: polygon(12.5% 65.929%, 20.1% 67.357%, 18.1% 69.786%);background-color: #242F3A; }
+.sifaka:nth-child(19) .puzzle{-webkit-clip-path: polygon(12.6% 77.071%, 19.9% 67.214%, 23.6% 72.071%);background-color: #3C3C3C; }
+.sifaka:nth-child(20) .puzzle{-webkit-clip-path: polygon(40.6% 55.5%, 47% 45.786%, 62.6% 67.357%);background-color: #B4B4A9; }
+.sifaka:nth-child(21) .puzzle{-webkit-clip-path: polygon(51.5% 26.786%, 65.6% 43.214%, 61.8% 67.214%);background-color: #7E7774; }
+.sifaka:nth-child(22) .puzzle{-webkit-clip-path: polygon(46.9% 45.929%, 51.5% 27.071%, 58.4% 46.643%);background-color: #A7A19C; }
+.sifaka:nth-child(23) .puzzle{-webkit-clip-path: polygon(47% 45.929%, 58.3% 46.357%, 61.9% 67.214%);background-color: #95928C; }
+.sifaka:nth-child(24) .puzzle{-webkit-clip-path: polygon(51.1% 49.643%, 56.4% 54.786%, 49.1% 64.5%);background-color: #A7916F; }
+.sifaka:nth-child(25) .puzzle{-webkit-clip-path: polygon(49.1% 64.357%, 56.2% 54.643%, 51% 74.5%);background-color: #9E7F51; }
+.sifaka:nth-child(26) .puzzle{-webkit-clip-path: polygon(51% 74.214%, 56.2% 54.5%, 59.5% 69.786%);background-color: #92703C; }
+.sifaka:nth-child(27) .puzzle{z-index: 3;-webkit-clip-path: polygon(58.2% 64.357%, 64.4% 62.214%, 59.5% 69.786%);background-color: #2E2B30; }
+.sifaka:nth-child(28) .puzzle{-webkit-clip-path: polygon(65.1% 33.929%, 70.2% 39.929%, 65.8% 56.214%);background-color: #AE9B75; }
+.sifaka:nth-child(29) .puzzle{-webkit-clip-path: polygon(65.8% 47.643%, 68.5% 51.5%, 66.2% 57.357%);background-color: #322F35; }
+.sifaka:nth-child(30) .puzzle{z-index: 3;-webkit-clip-path: polygon(63% 8.786%, 66% 11.643%, 64.5% 18.643%);background-color: #322828; }
+#animalchanger.sifaka .wrap .shard-wrap.peripheral .puzzle{z-index: 2; }
+.sifaka:nth-child(31) .puzzle{-webkit-clip-path: polygon(56.6% 84%, 66.5% 63.143%, 65% 84%);background-color: #5A4331; }
+.sifaka:nth-child(32) .puzzle{-webkit-clip-path: polygon(61.5% 74%, 61.2% 22.714%, 66.4% 63.286%);background-color: #45392F; }
+.sifaka:nth-child(33) .puzzle{-webkit-clip-path: polygon(66.4% 63.286%, 64.2% 4.571%, 58.8% 5.286%);background-color: #5F4E47; }
+/*lynx-猞猁*/
+.lynx:nth-child(1) .puzzle{-webkit-clip-path: polygon(29.3% 35.214%, 38.4% 57.3%, 28.6% 54.357%);background-color: #ADA391; }
+.lynx:nth-child(2) .puzzle{-webkit-clip-path: polygon(28.6% 34.643%, 49.4% 40.357%, 38.3% 57.214%);background-color: #948876; }
+.lynx:nth-child(3) .puzzle{-webkit-clip-path: polygon(37.4% 27.643%, 48.9% 40.643%, 29.4% 35.071%);background-color: #A18F73; }
+.lynx:nth-child(4) .puzzle{-webkit-clip-path: polygon(37.5% 27.929%, 63.9% 42.214%, 48.8% 40.786%);background-color: #AD9E86; }
+.lynx:nth-child(5) .puzzle{-webkit-clip-path: polygon(25.7% 25.214%, 31.6% 32.786%, 30.1% 43.071%);background-color: #D6D8D6; }
+.lynx:nth-child(6) .puzzle{-webkit-clip-path: polygon(22.7% 26.929%, 25.7% 25.214%, 30% 43.071%);background-color: #75736C; }
+.lynx:nth-child(7) .puzzle{-webkit-clip-path: polygon(25.6% 25.214%, 32.8% 15.643%, 32.9% 34.643%);background-color: #A3978B; }
+.lynx:nth-child(8) .puzzle{-webkit-clip-path: polygon(32.8% 15.643%, 39.9% 25.214%, 32.7% 34.786%);background-color: #B2A394; }
+.lynx:nth-child(9) .puzzle{-webkit-clip-path: polygon(26.9% 23.5%, 26% 13.643%, 31.2% 17.929%);background-color: #776356; }
+.lynx:nth-child(10) .puzzle{-webkit-clip-path: polygon(23.2% 9.5%, 31.2% 17.929%, 25.9% 14.357%);background-color: #282821; }
+.lynx:nth-child(11) .puzzle{-webkit-clip-path: polygon(34.5% 17.929%, 42.3% 9.786%, 39.6% 14.5%);background-color: #282821; }
+.lynx:nth-child(12) .puzzle{-webkit-clip-path: polygon(34.4% 18.071%, 39.7% 14.214%, 38.6% 23.5%);background-color: #776356; }
+.lynx:nth-child(13) .puzzle{-webkit-clip-path: polygon(33.9% 31.929%, 39.9% 25.357%, 35.6% 43.071%);background-color: #D6D8D6; }
+.lynx:nth-child(14) .puzzle{-webkit-clip-path: polygon(39.9% 25.214%, 42.9% 27.071%, 35.6% 42.929%);background-color: #75736C; }
+.lynx:nth-child(15) .puzzle{-webkit-clip-path: polygon(28.2% 33.5%, 32.8% 24.786%, 37.3% 33.5%);background-color: #BAAFA1; }
+.lynx:nth-child(16) .puzzle{-webkit-clip-path: polygon(28.2% 33.5%, 37.3% 33.5%, 32.7% 37.643%);background-color: #E4DCD8; }
+.lynx:nth-child(17) .puzzle{-webkit-clip-path: polygon(30.4% 32.214%, 35.1% 32.214%, 32.8% 35.214%);background-color: #7C5D65; }
+.lynx:nth-child(18) .puzzle{-webkit-clip-path: polygon(29.3% 54.357%, 35.5% 56.357%, 33.8% 84.357%);background-color: #867A68; }
+.lynx:nth-child(19) .puzzle{-webkit-clip-path: polygon(32.3% 73.5%, 34.2% 85.357%, 29.3% 85.357%);background-color: #998B77; }
+.lynx:nth-child(20) .puzzle{-webkit-clip-path: polygon(48.9% 40.643%, 44.5% 85.643%, 39.7% 85.643%);background-color: #AD9E8C; }
+.lynx:nth-child(21) .puzzle{-webkit-clip-path: polygon(38.2% 57.071%, 49% 40.5%, 46.6% 62.357%);background-color: #887D6E; }
+.lynx:nth-child(22) .puzzle{-webkit-clip-path: polygon(48.9% 40.5%, 62.3% 41.929%, 60% 62.357%);background-color: #8F8373; }
+.lynx:nth-child(23) .puzzle{-webkit-clip-path: polygon(48.9% 40.5%, 60.1% 61.786%, 46.6% 62.214%);background-color: #807465; }
+.lynx:nth-child(24) .puzzle{-webkit-clip-path: polygon(46.6% 62.1%, 60.1% 61.5%, 59.6% 78.643%);background-color: #776B5D; }
+.lynx:nth-child(25) .puzzle{-webkit-clip-path: polygon(62.2% 42.214%, 76.9% 70.357%, 59.9% 62.5%);background-color: #948876; }
+.lynx:nth-child(26) .puzzle{-webkit-clip-path: polygon(56.9% 60.071%, 75.9% 69.643%, 77.6% 84.214%);background-color: #AD9E8C; }
+.lynx:nth-child(27) .puzzle{-webkit-clip-path: polygon(57% 59.929%, 77.7% 84.414%, 60.3% 83.786%);background-color: #948876; }
+.lynx:nth-child(28) .puzzle{-webkit-clip-path: polygon(59.1% 74.929%, 63.5% 85.643%, 55.6% 85.643%);background-color: #A89A89; }
+.lynx:nth-child(29) .puzzle{-webkit-clip-path: polygon(76.9% 77.929%, 84.3% 76.214%, 77.6% 83.214%);background-color: #8F7E6A; }
+.lynx:nth-child(30) .puzzle{-webkit-clip-path: polygon(82.2% 76.786%, 85.1% 69.929%, 84.3% 76.357%);background-color: #6D6148; }
+/*rhino-犀牛*/
+.rhino:nth-child(1) .puzzle{-webkit-clip-path: polygon(15.1% 69.071%, 18% 56.929%, 20% 74.5%);background-color: #473F34; }
+.rhino:nth-child(2) .puzzle{-webkit-clip-path: polygon(17.9% 56.929%, 36.4% 52.071%, 20% 74.5%);background-color: #786E5B; }
+.rhino:nth-child(3) .puzzle{-webkit-clip-path: polygon(15.2% 57.5%, 18% 56.786%, 16.4% 63.643%);background-color: #8F8574; }
+.rhino:nth-child(4) .puzzle{-webkit-clip-path: polygon(17.9% 56.786%, 18.4% 61.214%, 16.4% 63.5%);background-color: #8F8574; }
+.rhino:nth-child(5) .puzzle{-webkit-clip-path: polygon(17.8% 57.214%, 18.9% 36.786%, 30.7% 41.786%);background-color: #B4A696; }
+.rhino:nth-child(6) .puzzle{-webkit-clip-path: polygon(17.8% 57.071%, 30.5% 41.786%, 36.3% 52.071%);background-color: #8F8574; }
+.rhino:nth-child(7) .puzzle{-webkit-clip-path: polygon(22.6% 55.786%, 27.5% 53.071%, 26.7% 58.214%);background-color: #ACA191; }
+.rhino:nth-child(8) .puzzle{-webkit-clip-path: polygon(18.7% 41.643%, 13.7% 33.929%, 20.5% 37.357%);background-color: #8F8574; }
+.rhino:nth-child(9) .puzzle{-webkit-clip-path: polygon(28.6% 62.5%, 36.2% 51.929%, 40.6% 59.357%);background-color: #463E33; }
+.rhino:nth-child(10) .puzzle{-webkit-clip-path: polygon(28.6% 62.5%, 37.2% 60.071%, 24.4% 79.786%);background-color: #312720; }
+.rhino:nth-child(11) .puzzle{-webkit-clip-path: polygon(24.3% 79.786%, 31.9% 68.071%, 29.7% 82.071%);background-color: #473F34; }
+.rhino:nth-child(12) .puzzle{-webkit-clip-path: polygon(20.4% 37.5%, 36.5% 20.643%, 49.5% 21.786%);background-color: #B3A595; }
+.rhino:nth-child(13) .puzzle{-webkit-clip-path: polygon(20.4% 37.357%, 49.4% 21.643%, 44.4% 48.071%);background-color: #8F8574; }
+.rhino:nth-child(14) .puzzle{-webkit-clip-path: polygon(30.4% 41.786%, 44.6% 47.786%, 40.4% 59.5%);background-color: #776D5A; }
+.rhino:nth-child(15) .puzzle{-webkit-clip-path: polygon(26.1% 39.786%, 34.6% 36.786%, 29% 43.643%);background-color: #615844; }
+.rhino:nth-child(16) .puzzle{-webkit-clip-path: polygon(44.3% 47.786%, 49.4% 21.5%, 72% 45.357%);background-color: #978C7F; }
+.rhino:nth-child(17) .puzzle{-webkit-clip-path: polygon(44.4% 47.643%, 71.8% 44.929%, 49.8% 60.5%);background-color: #787161; }
+.rhino:nth-child(18) .puzzle{-webkit-clip-path: polygon(40.4% 59.214%, 44.5% 47.786%, 50% 60.357%);background-color: #675D49; }
+.rhino:nth-child(19) .puzzle{-webkit-clip-path: polygon(40.3% 59.214%, 49.9% 60.214%, 49.5% 85.357%);background-color: #454133; }
+.rhino:nth-child(20) .puzzle{-webkit-clip-path: polygon(44.2% 70.357%, 49.5% 85.357%, 41.9% 85.214%);background-color: #32302D; }
+.rhino:nth-child(21) .puzzle{-webkit-clip-path: polygon(49.3% 21.643%, 72.9% 17.214%, 71.8% 45.5%);background-color: #B1A394; }
+.rhino:nth-child(22) .puzzle{-webkit-clip-path: polygon(49.7% 60.071%, 71.8% 44.9%, 71.5% 65.7%);background-color: #595041; }
+.rhino:nth-child(23) .puzzle{-webkit-clip-path: polygon(49.7% 60.071%, 71.4% 65.4%, 59.2% 67.071%);background-color: #473F34; }
+.rhino:nth-child(24) .puzzle{-webkit-clip-path: polygon(71.6% 45.214%, 72.8% 17.214%, 85% 31.214%);background-color: #8F8574; }
+.rhino:nth-child(25) .puzzle{-webkit-clip-path: polygon(71.5% 45.071%, 85.2% 31.071%, 77.7% 54.929%);background-color: #615844; }
+.rhino:nth-child(26) .puzzle{-webkit-clip-path: polygon(77.4% 54.643%, 85.1% 31.214%, 79.6% 58.071%);background-color: #473F34; }
+.rhino:nth-child(27) .puzzle{-webkit-clip-path: polygon(71.3% 65.5%, 71.6% 45.071%, 79.6% 57.929%);background-color: #373020; }
+.rhino:nth-child(28) .puzzle{-webkit-clip-path: polygon(71.2% 65.357%, 79.6% 57.786%, 72.7% 79.214%);background-color: #473F34; }
+.rhino:nth-child(29) .puzzle{-webkit-clip-path: polygon(70.8% 84.357%, 77.2% 64.929%, 79.7% 84.214%);background-color: #32302D; }
+.rhino:nth-child(30) .puzzle{-webkit-clip-path: polygon(83.7% 37.786%, 85% 31.214%, 89.3% 51.786%);background-color: #292216; }
+#animalchanger.rhino .wrap .shard-wrap.peripheral .puzzle{background-color: #14aa78; }
+.rhino:nth-child(31) .puzzle{background-color: #0f7c58;-webkit-clip-path: polygon(24% 73.5%, 23% 74.5%, 13% 66%); }
+.rhino:nth-child(32) .puzzle{-webkit-clip-path: polygon(23% 76.5%, 14% 65.5%, 15% 64%); }
+.rhino:nth-child(33){z-index: 2; }
+.rhino:nth-child(33) .puzzle{-webkit-clip-path: polygon(26% 75.5%, 27% 90%, 25.5% 90%); }
+/*peccary-野猪*/
+.peccary:nth-child(1) .puzzle{-webkit-clip-path: polygon(16.95% 79.214%, 15.95% 80.929%, 23.25% 79.929%);background-color: #DDABBC; }
+.peccary:nth-child(2) .puzzle{-webkit-clip-path: polygon(17.85% 58.786%, 22.05% 58.5%, 17.05% 79.214%);background-color: #83695A; }
+.peccary:nth-child(3) .puzzle{-webkit-clip-path: polygon(16.95% 79.214%, 21.95% 58.214%, 23.5% 79.929%);background-color: #7D6252; }
+.peccary:nth-child(4) .puzzle{-webkit-clip-path: polygon(21.95% 58.643%, 26.85% 58.357%, 23.35% 79.929%);background-color: #695240; }
+.peccary:nth-child(5) .puzzle{-webkit-clip-path: polygon(21.95% 58.5%, 26.85% 58.357%, 22.15% 61.214%);background-color: #4F4440; }
+.peccary:nth-child(6) .puzzle{-webkit-clip-path: polygon(16.25% 59.214%, 19.55% 43.786%, 21.15% 49.786%);background-color: #83695A; }
+.peccary:nth-child(7) .puzzle{-webkit-clip-path: polygon(16.15% 59.071%, 24.35% 41.786%, 26.85% 58.5%);background-color: #8E7566; }
+.peccary:nth-child(8) .puzzle{-webkit-clip-path: polygon(26.75% 59.5%, 24.35% 43.214%, 33.05% 55.071%);background-color: #7B6354; }
+.peccary:nth-child(9) .puzzle{-webkit-clip-path: polygon(26.75% 58.5%, 29.8% 79.8%, 23.75% 77.071%);background-color: #856B5C; }
+.peccary:nth-child(10) .puzzle{-webkit-clip-path: polygon(20.55% 58.929%, 27.45% 55.5%, 27.25% 58.643%);background-color: #a2877a; }
+.peccary:nth-child(11) .puzzle{-webkit-clip-path: polygon(26.7% 58.3%, 36.05% 71.929%, 29.55% 78.643%);background-color: #796357; }
+.peccary:nth-child(12) .puzzle{-webkit-clip-path: polygon(24.35% 43.357%, 31.45% 32.643%, 33.2% 55.5%);background-color: #695649; }
+.peccary:nth-child(13) .puzzle{-webkit-clip-path: polygon(31.4% 35.214%, 47.05% 21.929%, 42.7% 49.929%);background-color: #6A5644; }
+.peccary:nth-child(14) .puzzle{-webkit-clip-path: polygon(46.25% 26.786%, 65.85% 19.5%, 42.65% 49.929%);background-color: #4B3E32; }
+.peccary:nth-child(15) .puzzle{-webkit-clip-path: polygon(42.15% 50.071%, 65.25% 20.214%, 62.05% 40.929%);background-color: #423225; }
+.peccary:nth-child(16) .puzzle{-webkit-clip-path: polygon(41.6% 50.071%, 61.95% 40.86%, 67.75% 55.471%);background-color: #483827; }
+.peccary:nth-child(17) .puzzle{-webkit-clip-path: polygon(41.85% 50.071%, 67.5% 55.171%, 49.75% 62.071%);background-color: #3B312A; }
+.peccary:nth-child(18) .puzzle{-webkit-clip-path: polygon(33.05% 55.271%, 31.55% 35.357%, 44.35% 48.929%);background-color: #725E4C; }
+.peccary:nth-child(19) .puzzle{-webkit-clip-path: polygon(26.75% 58.5%, 44.25% 48.929%, 35.45% 71.214%);background-color: #866E63; }
+.peccary:nth-child(20) .puzzle{-webkit-clip-path: polygon(35.45% 71.071%, 43.25% 51.43%, 43.99% 70.071%);background-color: #624E43; }
+.peccary:nth-child(21) .puzzle{-webkit-clip-path: polygon(43.15% 51.643%, 49.85% 61.929%, 43.85% 70.071%);background-color: #6E5C4A; }
+.peccary:nth-child(22) .puzzle{-webkit-clip-path: polygon(38.35% 70.6%, 43.75% 69.929%, 37.85% 84.5%);background-color: #3E362C; }
+.peccary:nth-child(23) .puzzle{-webkit-clip-path: polygon(43.75% 69.929%, 48.55% 63.5%, 44.85% 84.786%);background-color: #4C4137; }
+.peccary:nth-child(24) .puzzle{-webkit-clip-path: polygon(49.65% 61.929%, 67.45% 55.071%, 61.15% 62.643%);background-color: #302C24; }
+.peccary:nth-child(25) .puzzle{-webkit-clip-path: polygon(61.95% 40.9%, 65.2% 20.214%, 80.15% 43.271%);background-color: #4D3B2D; }
+.peccary:nth-child(26) .puzzle{-webkit-clip-path: polygon(61.85% 40.786%, 80.15% 43.071%, 67.35% 55.071%);background-color: #534030; }
+.peccary:nth-child(27) .puzzle{-webkit-clip-path: polygon(67.35% 54.9%, 80% 43%, 76.65% 76.94%);background-color: #4D3A29; }
+.peccary:nth-child(28) .puzzle{-webkit-clip-path: polygon(65.1% 20.214%, 74.95% 23.929%, 80.75% 44.929%);background-color: #3E352E; }
+.peccary:nth-child(29) .puzzle{-webkit-clip-path: polygon(77.2% 70.8%, 79.85% 43.786%, 78.95% 84.786%);background-color: #3A3021; }
+.peccary:nth-child(30) .puzzle{-webkit-clip-path: polygon(73.45% 69.3%, 76.15% 75.643%, 73.45% 84.786%);background-color: #3E352E; }
+#animalchanger.peccary .wrap .shard-wrap.peripheral .puzzle{background-color: #14aa78; }
+.peccary:nth-child(31) .puzzle{background-color: #0f7c58;-webkit-clip-path: polygon(87% 70.5%, 85% 89%, 83% 89%); }
+.peccary:nth-child(32) .puzzle{background-color: #14aa78;-webkit-clip-path: polygon(81% 73.5%, 85% 92%, 83% 92%); }
+/*okapi-霍加狓*/
+.okapi:nth-child(1) .puzzle{-webkit-clip-path: polygon(26.8% 72.714%, 28.9% 37.714%, 33.5% 54.286%);background-color: #C5C2BF; }
+.okapi:nth-child(2) .puzzle{-webkit-clip-path: polygon(26.8% 72.714%, 30.7% 61.571%, 27.8% 85%);background-color: #F5F7ED; }
+.okapi:nth-child(3) .puzzle{-webkit-clip-path: polygon(28.9% 37.714%, 33.1% 29%, 30.5% 44.5%);background-color: #662424; }
+.okapi:nth-child(4) .puzzle{-webkit-clip-path: polygon(30.4% 44.143%, 33.1% 28.857%, 43.3% 38%);background-color: #321D21; }
+.okapi:nth-child(5) .puzzle{-webkit-clip-path: polygon(30.4% 44%, 43.3% 37.714%, 33.3% 54.857%);background-color: #3C2832; }
+.okapi:nth-child(6) .puzzle{-webkit-clip-path: polygon(33.2% 54.714%, 42.9% 37.857%, 38.1% 60.143%);background-color: #6B4243; }
+.okapi:nth-child(7) .puzzle{-webkit-clip-path: polygon(33.2% 54.571%, 38.1% 59.857%, 33.4% 75.429%);background-color: #CDCAC3; }
+.okapi:nth-child(8) .puzzle{-webkit-clip-path: polygon(33.4% 75.286%, 35.6% 68%, 37.2% 84.143%);background-color: #F8F8F8; }
+.okapi:nth-child(9) .puzzle{-webkit-clip-path: polygon(33.1% 29%, 45.2% 27.714%, 43% 38%);background-color: #50272D; }
+.okapi:nth-child(10) .puzzle{-webkit-clip-path: polygon(45.2% 27.714%, 55.7% 46%, 38.6% 57.286%);background-color: #543539; }
+.okapi:nth-child(11) .puzzle{-webkit-clip-path: polygon(45.1% 27.857%, 57.7% 24.429%, 55.5% 46%);background-color: #321D27; }
+.okapi:nth-child(12) .puzzle{-webkit-clip-path: polygon(38.6% 57.286%, 55.5% 45.857%, 56% 56%);background-color: #271E28; }
+.okapi:nth-child(13) .puzzle{-webkit-clip-path: polygon(55.4% 45.857%, 57.7% 24.429%, 63.4% 35%);background-color: #180F14; }
+.okapi:nth-child(14) .puzzle{-webkit-clip-path: polygon(55.4% 45.857%, 63.4% 34.857%, 59.3% 59.714%);background-color: #1E1E26; }
+.okapi:nth-child(15) .puzzle{-webkit-clip-path: polygon(55.4% 45.714%, 59.3% 59.571%, 55.9% 58%);background-color: #1C1616; }
+.okapi:nth-child(16) .puzzle{-webkit-clip-path: polygon(51.6% 56.429%, 55.8% 56.143%, 53.2% 69.571%);background-color: #C5C2BF; }
+.okapi:nth-child(17) .puzzle{-webkit-clip-path: polygon(52.3% 61.857%, 54.9% 81.714%, 51.4% 81.857%);background-color: #F2F2F2; }
+.okapi:nth-child(18) .puzzle{-webkit-clip-path: polygon(55.9% 58%, 59.4% 59.286%, 58.7% 83.714%);background-color: #F2F2F2; }
+.okapi:nth-child(19) .puzzle{-webkit-clip-path: polygon(57.6% 24.571%, 69.1% 18.143%, 68.8% 24.714%);background-color: #533438; }
+.okapi:nth-child(20) .puzzle{-webkit-clip-path: polygon(57.6% 24.429%, 74.9% 24.714%, 63.4% 35.143%);background-color: #362127; }
+.okapi:nth-child(21) .puzzle{-webkit-clip-path: polygon(63.3% 35%, 71.8% 27%, 61.8% 44.429%);background-color: #0A0C0C; }
+.okapi:nth-child(22) .puzzle{-webkit-clip-path: polygon(68.8% 24.714%, 69.2% 18.143%, 74.1% 32%);background-color: #C5C2BF; }
+.okapi:nth-child(23) .puzzle{-webkit-clip-path: polygon(69.1% 18%, 72.6% 14%, 74.1% 31.857%);background-color: #D6D2D4; }
+.okapi:nth-child(24) .puzzle{-webkit-clip-path: polygon(73.4% 16.286%, 77.5% 11%, 76.6% 17.429%);background-color: #5A3F44; }
+.okapi:nth-child(25) .puzzle{-webkit-clip-path: polygon(71.4% 20%, 72.6% 14%, 76.7% 20%);background-color: #8F4847; }
+.okapi:nth-child(26) .puzzle{-webkit-clip-path: polygon(71.5% 19.857%, 76.7% 20%, 77.1% 27.857%);background-color: #47292B; }
+.okapi:nth-child(27) .puzzle{-webkit-clip-path: polygon(71.45% 19.8%, 73.3% 22.4%, 71.6% 23%);background-color: #020621; }
+.okapi:nth-child(28) .puzzle{-webkit-clip-path: polygon(73.3% 22.571%, 77.1% 28%, 74.1% 32.143%);background-color: #E3E3E3; }
+.okapi:nth-child(29) .puzzle{-webkit-clip-path: polygon(74% 32%, 77.1% 27.857%, 77.3% 32%);background-color: #292E46; }
+.okapi:nth-child(30) .puzzle{-webkit-clip-path: polygon(69.1% 18.286%, 68.6% 10.429%, 71.9% 15%);background-color: #321D21; }
+/*loris-懒猴*/
+.loris:nth-child(1) .puzzle{-webkit-clip-path: polygon(26.45% 38.071%, 37.65% 37.929%, 26.15% 53.5%);background-color: #DDD9D8; }
+.loris:nth-child(2) .puzzle{-webkit-clip-path: polygon(25.65% 38.357%, 41.45% 24.357%, 37.55% 38.071%);background-color: #D2CCC6; }
+.loris:nth-child(3) .puzzle{-webkit-clip-path: polygon(26.55% 52.643%, 37.45% 37.929%, 41.25% 62.357%);background-color: #D3CCC6; }
+.loris:nth-child(4) .puzzle{-webkit-clip-path: polygon(26.65% 52.786%, 36.55% 59.214%, 34.65% 65.786%);background-color: #7F7576; }
+.loris:nth-child(5) .puzzle{-webkit-clip-path: polygon(36.25% 59.214%, 41.25% 62.214%, 33.75% 69.643%);background-color: #A9A19C; }
+.loris:nth-child(6) .puzzle{-webkit-clip-path: polygon(33.85% 69.5%, 41.15% 62.214%, 40.15% 72.214%);background-color: #BEB6B9; }
+.loris:nth-child(7) .puzzle{-webkit-clip-path: polygon(37.35% 38.071%, 41.15% 24.643%, 48.35% 33.071%);background-color: #DAD2CD; }
+.loris:nth-child(8) .puzzle{-webkit-clip-path: polygon(37.25% 38.071%, 48.25% 32.786%, 39.75% 54.071%);background-color: #CEC2B8; }
+.loris:nth-child(9) .puzzle{-webkit-clip-path: polygon(40.35% 24.071%, 50.75% 18.214%, 48.25% 32.929%);background-color: #DDD9D8; }
+.loris:nth-child(10) .puzzle{-webkit-clip-path: polygon(48.15% 32.643%, 51.75% 49.929%, 40.65% 47.929%);background-color: #BEB6B9; }
+.loris:nth-child(11) .puzzle{-webkit-clip-path: polygon(40.75% 47.786%, 51.75% 49.643%, 53.85% 71.214%);background-color: #A69C9D; }
+.loris:nth-child(12) .puzzle{-webkit-clip-path: polygon(48.15% 32.786%, 50.85% 18.214%, 53.15% 28.5%);background-color: #B19986; }
+.loris:nth-child(13) .puzzle{-webkit-clip-path: polygon(48.15% 33.071%, 53.05% 28.214%, 54.45% 32.929%);background-color: #5D4633; }
+.loris:nth-child(14) .puzzle{-webkit-clip-path: polygon(48.25% 32.786%, 55.75% 32.5%, 51.65% 49.929%);background-color: #6A5042; }
+.loris:nth-child(15) .puzzle{-webkit-clip-path: polygon(55.65% 32.643%, 59.95% 38.643%, 51.65% 49.929%);background-color: #483710; }
+.loris:nth-child(16) .puzzle{-webkit-clip-path: polygon(50.55% 17.643%, 60.25% 13.643%, 53.25% 29.643%);background-color: #8F6D5D; }
+.loris:nth-child(17) .puzzle{-webkit-clip-path: polygon(60.05% 13.5%, 69.15% 18.5%, 66.95% 29.786%);background-color: #8F6D5D; }
+.loris:nth-child(18) .puzzle{-webkit-clip-path: polygon(51.85% 31.5%, 60.15% 13.643%, 60.05% 38.786%);background-color: #979599; }
+.loris:nth-child(19) .puzzle{-webkit-clip-path: polygon(60.15% 13.643%, 68.55% 31.5%, 60.05% 38.929%);background-color: #DDD2CC; }
+.loris:nth-child(20) .puzzle{-webkit-clip-path: polygon(54.05% 30.357%, 56.75% 30.357%, 57.65% 35.214%);background-color: #1B1D20; }
+.loris:nth-child(21) .puzzle{-webkit-clip-path: polygon(54.05% 30.214%, 58.35% 17.643%, 60.15% 32.357%);background-color: #3D383F; }
+.loris:nth-child(22) .puzzle{-webkit-clip-path: polygon(63.25% 30.786%, 66.35% 30.214%, 62.65% 35.071%);background-color: #1B1D20; }
+.loris:nth-child(23) .puzzle{-webkit-clip-path: polygon(59.95% 32.214%, 61.85% 17.643%, 66.45% 30.357%);background-color: #3D383F; }
+.loris:nth-child(24) .puzzle{-webkit-clip-path: polygon(58.65% 35.786%, 60.15% 32.214%, 61.45% 35.786%);background-color: #524449; }
+.loris:nth-child(25) .puzzle{-webkit-clip-path: polygon(58.75% 35.786%, 61.45% 35.786%, 60.05% 37.929%);background-color: #16120D; }
+.loris:nth-child(26) .puzzle{-webkit-clip-path: polygon(50.55% 17.643%, 52.75% 20.071%, 51.55% 22.071%);background-color: #69544A; }
+.loris:nth-child(27) .puzzle{-webkit-clip-path: polygon(66.95% 20.929%, 69.05% 18.5%, 68.25% 23.071%);background-color: #69544A; }
+.loris:nth-child(28) .puzzle{-webkit-clip-path: polygon(60.15% 38.929%, 67.55% 32.357%, 65.55% 51.929%);background-color: #C6B2AB; }
+.loris:nth-child(29) .puzzle{-webkit-clip-path: polygon(60.25% 38.929%, 65.65% 51.786%, 60.65% 56.071%);background-color: #A79690; }
+.loris:nth-child(30) .puzzle{-webkit-clip-path: polygon(60.65% 55.643%, 65.65% 51.643%, 66.25% 70.5%);background-color: #D7D3D2; }
+.loris:nth-child(31) .puzzle{-webkit-clip-path: polygon(23.25% 62.071%, 69.15% 68.786%, 24.85% 65.929%);background-color: #6A5042; }
+.loris:nth-child(32) .puzzle{-webkit-clip-path: polygon(24.85% 65.786%, 68.95% 68.786%, 69.85% 71.643%);background-color: #4D2E21; }
+.loris:nth-child(33) .puzzle{-webkit-clip-path: polygon(69.05% 68.929%, 74.35% 83.214%, 71.95% 83.214%);background-color: #4B2D20; }
+/*hirola-羚羊*/
+.hirola:nth-child(1) .puzzle{-webkit-clip-path: polygon(20.35% 45.429%, 22.8% 35.571%, 28.95% 39.286%);background-color: #8F6B4E; }
+.hirola:nth-child(2) .puzzle{-webkit-clip-path: polygon(20.35% 45.429%, 26.45% 41%, 23.65% 47.429%);background-color: #684B2D; }
+.hirola:nth-child(3) .puzzle{-webkit-clip-path: polygon(22.8% 35.714%, 22.75% 27.857%, 30.05% 29%);background-color: #B89076; }
+.hirola:nth-child(4) .puzzle{-webkit-clip-path: polygon(25.4% 28.357%, 29.7% 28.929%, 22.8% 35.643%);background-color: #c6a188; }
+.hirola:nth-child(5) .puzzle{-webkit-clip-path: polygon(22.8% 35.714%, 30% 28.857%, 27.95% 40.4%);background-color: #AA8269; }
+.hirola:nth-child(6) .puzzle{-webkit-clip-path: polygon(22.85% 29.143%, 19.35% 24.857%, 22.65% 26.286%);background-color: #DEC9BF; }
+.hirola:nth-child(7) .puzzle{-webkit-clip-path: polygon(22.75% 27.857%, 25.85% 25.571%, 30.05% 29.286%);background-color: #A2725D; }
+.hirola:nth-child(8) .puzzle{-webkit-clip-path: polygon(29.85% 29%, 34.35% 26.286%, 32.75% 31.143%);background-color: #DEC9BF; }
+.hirola:nth-child(9) .puzzle{-webkit-clip-path: polygon(23.45% 27.286%, 21.65% 16.143%, 24.95% 26.429%);background-color: #634C42; }
+.hirola:nth-child(10) .puzzle{-webkit-clip-path: polygon(26.05% 25.857%, 30.15% 19.714%, 28.05% 27.571%);background-color: #634C42; }
+.hirola:nth-child(11) .puzzle{-webkit-clip-path: polygon(21.75% 16%, 24.95% 4.429%, 22.25% 17.857%);background-color: #312B34; }
+.hirola:nth-child(12) .puzzle{-webkit-clip-path: polygon(30.05% 19.714%, 34.05% 15.571%, 28.85% 24.429%);background-color: #312B34; }
+.hirola:nth-child(13) .puzzle{-webkit-clip-path: polygon(33.15% 16.571%, 33.15% 4.429%, 33.95% 15.571%);background-color: #413430; }
+.hirola:nth-child(14) .puzzle{-webkit-clip-path: polygon(29.95% 29.143%, 37.15% 42.571%, 27.85% 40%);background-color: #A3785C; }
+.hirola:nth-child(15) .puzzle{-webkit-clip-path: polygon(27.75% 40%, 37.15% 42.429%, 33.8% 53.4%);background-color: #835D48; }
+.hirola:nth-child(16) .puzzle{-webkit-clip-path: polygon(33.45% 35.857%, 52.05% 38.2%, 37.05% 42.714%);background-color: #835D48; }
+.hirola:nth-child(17) .puzzle{-webkit-clip-path: polygon(37.2% 42.1%, 38.85% 58.714%, 33.75% 53.429%);background-color: #896444; }
+.hirola:nth-child(18) .puzzle{-webkit-clip-path: polygon(37.05% 42.429%, 47.85% 60.714%, 38.75% 58.714%);background-color: #A3785C; }
+.hirola:nth-child(19) .puzzle{-webkit-clip-path: polygon(37.05% 42.571%, 52.05% 38.143%, 47.85% 60.714%);background-color: #996E50; }
+.hirola:nth-child(20) .puzzle{-webkit-clip-path: polygon(38.85% 58.571%, 43.45% 59.571%, 36.65% 76.286%);background-color: #9E765B; }
+.hirola:nth-child(21) .puzzle{-webkit-clip-path: polygon(38.55% 71.571%, 41.95% 85.429%, 36.65% 75.714%);background-color: #76563A; }
+.hirola:nth-child(22) .puzzle{-webkit-clip-path: polygon(43.85% 59.571%, 47.85% 60.571%, 46.35% 85.714%);background-color: #AC805E; }
+.hirola:nth-child(23) .puzzle{-webkit-clip-path: polygon(47.75% 60.571%, 52% 38.143%, 61.95% 58.143%);background-color: #91694E; }
+.hirola:nth-child(24) .puzzle{-webkit-clip-path: polygon(51.85% 38.286%, 67.15% 35.714%, 73.65% 47.571%);background-color: #906754; }
+.hirola:nth-child(25) .puzzle{-webkit-clip-path: polygon(52.05% 38.286%, 73.65% 47.429%, 61.85% 58.286%);background-color: #A2785C; }
+.hirola:nth-child(26) .puzzle{-webkit-clip-path: polygon(65.85% 59.143%, 70.85% 52.286%, 73.65% 74.143%);background-color: #654E45; }
+.hirola:nth-child(27) .puzzle{-webkit-clip-path: polygon(61.85% 58.143%, 73.55% 47.429%, 68.35% 59.143%);background-color: #AF896D; }
+.hirola:nth-child(28) .puzzle{-webkit-clip-path: polygon(61.85% 58%, 68.35% 59.143%, 68.35% 72.286%);background-color: #BF9C87; }
+.hirola:nth-child(30) .puzzle{-webkit-clip-path: polygon(66.45% 68.143%, 68.25% 72.143%, 62.05% 86.143%);background-color: #7E5C3F; }
+.hirola:nth-child(29) .puzzle{-webkit-clip-path: polygon(71.45% 69.714%, 73.55% 73.857%, 71.35% 85.429%);background-color: #B48461; }
+/*drill-鬼狒*/
+.drill:nth-child(1) .puzzle{-webkit-clip-path: polygon(46.7% 81.357%, 30.3% 44.071%, 39.6% 36.643%);background-color: #2C2C26; }
+.drill:nth-child(2) .puzzle{-webkit-clip-path: polygon(45.9% 77.214%, 39.6% 37.214%, 47.9% 46.071%);background-color: #13170D; }
+.drill:nth-child(3) .puzzle{-webkit-clip-path: polygon(39.3% 36.929%, 54.2% 16.786%, 47.9% 46.214%);background-color: #3A3B2E; }
+.drill:nth-child(4) .puzzle{-webkit-clip-path: polygon(39.6% 41.071%, 47.1% 26.357%, 41.3% 45.929%);background-color: #D4E6D5; }
+.drill:nth-child(5) .puzzle{-webkit-clip-path: polygon(24.4% 26.357%, 35.7% 6.5%, 35.7% 17.5%);background-color: #87896d; }
+.drill:nth-child(6) .puzzle{-webkit-clip-path: polygon(43.3% 34.5%, 47.3% 26.357%, 35.7% 17.5%);background-color: #B7C3AD; }
+.drill:nth-child(7) .puzzle{-webkit-clip-path: polygon(24.3% 26.357%, 35.7% 17.5%, 28.3% 34.214%);background-color: #AAB4A1; }
+.drill:nth-child(8) .puzzle{-webkit-clip-path: polygon(24.3% 26.357%, 31.9% 40.929%, 30.3% 45.214%);background-color: #A0A499; }
+.drill:nth-child(9) .puzzle{-webkit-clip-path: polygon(28.3% 34.071%, 35.7% 17.5%, 35.8% 48.929%);background-color: #161919; }
+.drill:nth-child(10) .puzzle{-webkit-clip-path: polygon(35.7% 17.5%, 43.3% 34.357%, 35.8% 48.643%);background-color: #282A27; }
+.drill:nth-child(11) .puzzle{-webkit-clip-path: polygon(30.2% 45.357%, 35.7% 29.071%, 35.8% 48.786%);background-color: #B4BCA1; }
+.drill:nth-child(12) .puzzle{-webkit-clip-path: polygon(35.7% 29.071%, 41.4% 45.929%, 35.7% 48.786%);background-color: #C1D3BB; }
+.drill:nth-child(13) .puzzle{-webkit-clip-path: polygon(31.7% 40.786%, 39.4% 41.214%, 35.7% 44.071%);background-color: #7E5C68; }
+.drill:nth-child(14) .puzzle{-webkit-clip-path: polygon(30.7% 40.929%, 35.8% 28.8%, 35.95% 42.929%);background-color: #505453; }
+.drill:nth-child(15) .puzzle{-webkit-clip-path: polygon(35.7% 29.071%, 40.8% 40.786%, 35.8% 42.929%);background-color: #404445; }
+.drill:nth-child(16) .puzzle{-webkit-clip-path: polygon(31.8% 25.786%, 35.7% 23.929%, 40% 25.786%);background-color: #44473D; }
+.drill:nth-child(17) .puzzle{-webkit-clip-path: polygon(31.8% 25.786%, 39.9% 25.786%, 35.7% 29.071%);background-color: #000000; }
+.drill:nth-child(18) .puzzle{-webkit-clip-path: polygon(35.6% 17.357%, 35.7% 6.2%, 47.2% 26.357%);background-color: #6E6F51; }
+.drill:nth-child(19) .puzzle{-webkit-clip-path: polygon(35.8% 6.5%, 54.7% 16.071%, 47.2% 26.357%);background-color: #5E5C40; }
+.drill:nth-child(20) .puzzle{-webkit-clip-path: polygon(47.8% 46.2%, 54.23% 16.43%, 58.9% 38.929%);background-color: #5B573A; }
+.drill:nth-child(21) .puzzle{-webkit-clip-path: polygon(47.9% 45.7%, 52.5% 86.071%, 45% 86.071%);background-color: #3B3825; }
+.drill:nth-child(22) .puzzle{-webkit-clip-path: polygon(47.8% 46.071%, 58.7% 38.929%, 51.5% 78.5%);background-color: #504D31; }
+.drill:nth-child(23) .puzzle{-webkit-clip-path: polygon(65% 14.214%, 74.1% 35.5%, 67.9% 41.5%);background-color: #92917D; }
+.drill:nth-child(24) .puzzle{-webkit-clip-path: polygon(54.3% 16.786%, 67.4% 23.643%, 58.7% 39.071%);background-color: #545135; }
+.drill:nth-child(25) .puzzle{-webkit-clip-path: polygon(58.6% 38.786%, 67.4% 23.643%, 68% 41.643%);background-color: #474735; }
+.drill:nth-child(26) .puzzle{-webkit-clip-path: polygon(58.6% 38.7%, 68% 41.5%, 55.2% 57.643%);background-color: #383828; }
+.drill:nth-child(27) .puzzle{-webkit-clip-path: polygon(59.2% 54.786%, 62.4% 70.643%, 60.2% 84.071%);background-color: #13170D; }
+.drill:nth-child(28) .puzzle{-webkit-clip-path: polygon(58.7% 53.071%, 67.97% 41.4%, 60.96% 69.3%);background-color: #252A1E; }
+.drill:nth-child(29) .puzzle{-webkit-clip-path: polygon(67.8% 41.5%, 74.1% 35.5%, 66.8% 62.214%);background-color: #5B573A; }
+.drill:nth-child(30) .puzzle{-webkit-clip-path: polygon(60.9% 69.1%, 67.9% 41.2%, 65.9% 84.357%);background-color: #2E3018; }
+/*太阳花*/
+/*.sun:nth-child(1) .puzzle{-webkit-clip-path: polygon(5% 1%, 5% 10%, 10% 15%);background-color: #3B2D28;}
+.sun:nth-child(2) .puzzle{-webkit-clip-path: polygon(5% 1%, 11% 9%, 10% 15%);background-color: #3B2D28;}
+.sun:nth-child(3) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(4) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(5) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(6) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(7) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(8) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(9) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(10) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(11) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(12) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(13) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(14) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(15) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(16) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(17) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(18) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(19) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(20) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(21) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(22) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(23) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(24) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(25) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(26) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(27) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(28) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(29) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}
+.sun:nth-child(30) .puzzle{-webkit-clip-path: polygon(69.75% 57.357%, 86.65% 53.929%, 62.65% 72.786%);background-color: #3B2D28;}*/
+
+.puzzle{position:absolute;background:#fff center center repeat;width:100%;height:100%;-webkit-transition:1s cubic-bezier(0.7,0.3,0,1);-moz-transition: 1s cubic-bezier(0.7, 0.3, 0, 1);transition: 1s cubic-bezier(0.7, 0.3, 0, 1);-webkit-clip-path: polygon(90% 90%, 90% 90%, 90% 90%);clip-path:polygon(90% 90%, 90% 90%, 90% 90%);z-index:3;}
+.puzzle{-webkit-transition: 0.6s 0s cubic-bezier(0.7, 0.3, 0, 1);-moz-transition: 0.6s 0s cubic-bezier(0.7, 0.3, 0, 1);transition: 0.6s 0s cubic-bezier(0.7, 0.3, 0, 1);}
+._puzzle{width:100%;height:100%;position:absolute;}
+
+/*基础过渡动画*/
+div:nth-child(1) .puzzle{-webkit-transition: -webkit-clip-path 0.34s 0.22s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.34s 0.02s, -webkit-transform 0.3s, margin 0.3s 0.22s;-moz-transition: -webkit-clip-path 0.34s 0.22s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.34s 0.02s, -webkit-transform 0.3s, margin 0.3s 0.22s;transition: -webkit-clip-path 0.34s 0.22s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.34s 0.02s, -webkit-transform 0.3s, margin 0.3s 0.22s; }
+div:nth-child(2) .puzzle{-webkit-transition: -webkit-clip-path 0.38s 0.24s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.38s 0.04s, -webkit-transform 0.3s, margin 0.3s 0.24s;-moz-transition: -webkit-clip-path 0.38s 0.24s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.38s 0.04s, -webkit-transform 0.3s, margin 0.3s 0.24s;transition: -webkit-clip-path 0.38s 0.24s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.38s 0.04s, -webkit-transform 0.3s, margin 0.3s 0.24s; }
+div:nth-child(3) .puzzle{-webkit-transition: -webkit-clip-path 0.42s 0.26s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.42s 0.06s, -webkit-transform 0.3s, margin 0.3s 0.26s;-moz-transition: -webkit-clip-path 0.42s 0.26s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.42s 0.06s, -webkit-transform 0.3s, margin 0.3s 0.26s;transition: -webkit-clip-path 0.42s 0.26s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.42s 0.06s, -webkit-transform 0.3s, margin 0.3s 0.26s; }
+div:nth-child(4) .puzzle{-webkit-transition: -webkit-clip-path 0.46s 0.28s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.46s 0.08s, -webkit-transform 0.3s, margin 0.3s 0.28s;-moz-transition: -webkit-clip-path 0.46s 0.28s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.46s 0.08s, -webkit-transform 0.3s, margin 0.3s 0.28s;transition: -webkit-clip-path 0.46s 0.28s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.46s 0.08s, -webkit-transform 0.3s, margin 0.3s 0.28s; }
+div:nth-child(5) .puzzle{-webkit-transition: -webkit-clip-path 0.5s 0.3s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.5s 0.1s, -webkit-transform 0.3s, margin 0.3s 0.3s;-moz-transition: -webkit-clip-path 0.5s 0.3s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.5s 0.1s, -webkit-transform 0.3s, margin 0.3s 0.3s;transition: -webkit-clip-path 0.5s 0.3s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.5s 0.1s, -webkit-transform 0.3s, margin 0.3s 0.3s; }
+div:nth-child(6) .puzzle{-webkit-transition: -webkit-clip-path 0.54s 0.32s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.54s 0.12s, -webkit-transform 0.3s, margin 0.3s 0.32s;-moz-transition: -webkit-clip-path 0.54s 0.32s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.54s 0.12s, -webkit-transform 0.3s, margin 0.3s 0.32s;transition: -webkit-clip-path 0.54s 0.32s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.54s 0.12s, -webkit-transform 0.3s, margin 0.3s 0.32s; }
+div:nth-child(7) .puzzle{-webkit-transition: -webkit-clip-path 0.58s 0.34s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.58s 0.14s, -webkit-transform 0.3s, margin 0.3s 0.34s;-moz-transition: -webkit-clip-path 0.58s 0.34s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.58s 0.14s, -webkit-transform 0.3s, margin 0.3s 0.34s;transition: -webkit-clip-path 0.58s 0.34s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.58s 0.14s, -webkit-transform 0.3s, margin 0.3s 0.34s; }
+div:nth-child(8) .puzzle{-webkit-transition: -webkit-clip-path 0.62s 0.36s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.62s 0.16s, -webkit-transform 0.3s, margin 0.3s 0.36s;-moz-transition: -webkit-clip-path 0.62s 0.36s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.62s 0.16s, -webkit-transform 0.3s, margin 0.3s 0.36s;transition: -webkit-clip-path 0.62s 0.36s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.62s 0.16s, -webkit-transform 0.3s, margin 0.3s 0.36s; }
+div:nth-child(9) .puzzle{-webkit-transition: -webkit-clip-path 0.66s 0.38s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.66s 0.18s, -webkit-transform 0.3s, margin 0.3s 0.38s;-moz-transition: -webkit-clip-path 0.66s 0.38s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.66s 0.18s, -webkit-transform 0.3s, margin 0.3s 0.38s;transition: -webkit-clip-path 0.66s 0.38s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.66s 0.18s, -webkit-transform 0.3s, margin 0.3s 0.38s; }
+div:nth-child(10) .puzzle{-webkit-transition: -webkit-clip-path 0.7s 0.4s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.7s 0.2s, -webkit-transform 0.3s, margin 0.3s 0.4s;-moz-transition: -webkit-clip-path 0.7s 0.4s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.7s 0.2s, -webkit-transform 0.3s, margin 0.3s 0.4s;transition: -webkit-clip-path 0.7s 0.4s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.7s 0.2s, -webkit-transform 0.3s, margin 0.3s 0.4s; }
+div:nth-child(11) .puzzle{-webkit-transition: -webkit-clip-path 0.74s 0.42s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.74s 0.22s, -webkit-transform 0.3s, margin 0.3s 0.42s;-moz-transition: -webkit-clip-path 0.74s 0.42s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.74s 0.22s, -webkit-transform 0.3s, margin 0.3s 0.42s;transition: -webkit-clip-path 0.74s 0.42s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.74s 0.22s, -webkit-transform 0.3s, margin 0.3s 0.42s; }
+div:nth-child(12) .puzzle{-webkit-transition: -webkit-clip-path 0.78s 0.44s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.78s 0.24s, -webkit-transform 0.3s, margin 0.3s 0.44s;-moz-transition: -webkit-clip-path 0.78s 0.44s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.78s 0.24s, -webkit-transform 0.3s, margin 0.3s 0.44s;transition: -webkit-clip-path 0.78s 0.44s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.78s 0.24s, -webkit-transform 0.3s, margin 0.3s 0.44s; }
+div:nth-child(13) .puzzle{-webkit-transition: -webkit-clip-path 0.82s 0.46s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.82s 0.26s, -webkit-transform 0.3s, margin 0.3s 0.46s;-moz-transition: -webkit-clip-path 0.82s 0.46s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.82s 0.26s, -webkit-transform 0.3s, margin 0.3s 0.46s;transition: -webkit-clip-path 0.82s 0.46s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.82s 0.26s, -webkit-transform 0.3s, margin 0.3s 0.46s; }
+div:nth-child(14) .puzzle{-webkit-transition: -webkit-clip-path 0.86s 0.48s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.86s 0.28s, -webkit-transform 0.3s, margin 0.3s 0.48s;-moz-transition: -webkit-clip-path 0.86s 0.48s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.86s 0.28s, -webkit-transform 0.3s, margin 0.3s 0.48s;transition: -webkit-clip-path 0.86s 0.48s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.86s 0.28s, -webkit-transform 0.3s, margin 0.3s 0.48s; }
+div:nth-child(15) .puzzle{-webkit-transition: -webkit-clip-path 0.9s 0.5s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.9s 0.3s, -webkit-transform 0.3s, margin 0.3s 0.5s;-moz-transition: -webkit-clip-path 0.9s 0.5s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.9s 0.3s, -webkit-transform 0.3s, margin 0.3s 0.5s;transition: -webkit-clip-path 0.9s 0.5s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.9s 0.3s, -webkit-transform 0.3s, margin 0.3s 0.5s; }
+div:nth-child(16) .puzzle{-webkit-transition: -webkit-clip-path 0.94s 0.52s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.94s 0.32s, -webkit-transform 0.3s, margin 0.3s 0.52s;-moz-transition: -webkit-clip-path 0.94s 0.52s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.94s 0.32s, -webkit-transform 0.3s, margin 0.3s 0.52s;transition: -webkit-clip-path 0.94s 0.52s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.94s 0.32s, -webkit-transform 0.3s, margin 0.3s 0.52s; }
+div:nth-child(17) .puzzle{-webkit-transition: -webkit-clip-path 0.98s 0.54s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.98s 0.34s, -webkit-transform 0.3s, margin 0.3s 0.54s;-moz-transition: -webkit-clip-path 0.98s 0.54s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.98s 0.34s, -webkit-transform 0.3s, margin 0.3s 0.54s;transition: -webkit-clip-path 0.98s 0.54s cubic-bezier(0.7, 0.3, 0, 1), background-color 0.98s 0.34s, -webkit-transform 0.3s, margin 0.3s 0.54s; }
+div:nth-child(18) .puzzle{-webkit-transition: -webkit-clip-path 1.02s 0.56s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.02s 0.36s, -webkit-transform 0.3s, margin 0.3s 0.56s;-moz-transition: -webkit-clip-path 1.02s 0.56s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.02s 0.36s, -webkit-transform 0.3s, margin 0.3s 0.56s;transition: -webkit-clip-path 1.02s 0.56s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.02s 0.36s, -webkit-transform 0.3s, margin 0.3s 0.56s; }
+div:nth-child(19) .puzzle{-webkit-transition: -webkit-clip-path 1.06s 0.58s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.06s 0.38s, -webkit-transform 0.3s, margin 0.3s 0.58s;-moz-transition: -webkit-clip-path 1.06s 0.58s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.06s 0.38s, -webkit-transform 0.3s, margin 0.3s 0.58s;transition: -webkit-clip-path 1.06s 0.58s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.06s 0.38s, -webkit-transform 0.3s, margin 0.3s 0.58s; }
+div:nth-child(20) .puzzle{-webkit-transition: -webkit-clip-path 1.1s 0.6s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.1s 0.4s, -webkit-transform 0.3s, margin 0.3s 0.6s;-moz-transition: -webkit-clip-path 1.1s 0.6s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.1s 0.4s, -webkit-transform 0.3s, margin 0.3s 0.6s;transition: -webkit-clip-path 1.1s 0.6s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.1s 0.4s, -webkit-transform 0.3s, margin 0.3s 0.6s; }
+div:nth-child(21) .puzzle{-webkit-transition: -webkit-clip-path 1.14s 0.62s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.14s 0.42s, -webkit-transform 0.3s, margin 0.3s 0.62s;-moz-transition: -webkit-clip-path 1.14s 0.62s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.14s 0.42s, -webkit-transform 0.3s, margin 0.3s 0.62s;transition: -webkit-clip-path 1.14s 0.62s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.14s 0.42s, -webkit-transform 0.3s, margin 0.3s 0.62s; }
+div:nth-child(22) .puzzle{-webkit-transition: -webkit-clip-path 1.18s 0.64s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.18s 0.44s, -webkit-transform 0.3s, margin 0.3s 0.64s;-moz-transition: -webkit-clip-path 1.18s 0.64s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.18s 0.44s, -webkit-transform 0.3s, margin 0.3s 0.64s;transition: -webkit-clip-path 1.18s 0.64s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.18s 0.44s, -webkit-transform 0.3s, margin 0.3s 0.64s; }
+div:nth-child(23) .puzzle{-webkit-transition: -webkit-clip-path 1.22s 0.66s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.22s 0.46s, -webkit-transform 0.3s, margin 0.3s 0.66s;-moz-transition: -webkit-clip-path 1.22s 0.66s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.22s 0.46s, -webkit-transform 0.3s, margin 0.3s 0.66s;transition: -webkit-clip-path 1.22s 0.66s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.22s 0.46s, -webkit-transform 0.3s, margin 0.3s 0.66s; }
+div:nth-child(24) .puzzle{-webkit-transition: -webkit-clip-path 1.26s 0.68s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.26s 0.48s, -webkit-transform 0.3s, margin 0.3s 0.68s;-moz-transition: -webkit-clip-path 1.26s 0.68s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.26s 0.48s, -webkit-transform 0.3s, margin 0.3s 0.68s;transition: -webkit-clip-path 1.26s 0.68s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.26s 0.48s, -webkit-transform 0.3s, margin 0.3s 0.68s; }
+div:nth-child(25) .puzzle{-webkit-transition: -webkit-clip-path 1.3s 0.7s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.3s 0.5s, -webkit-transform 0.3s, margin 0.3s 0.7s;-moz-transition: -webkit-clip-path 1.3s 0.7s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.3s 0.5s, -webkit-transform 0.3s, margin 0.3s 0.7s;transition: -webkit-clip-path 1.3s 0.7s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.3s 0.5s, -webkit-transform 0.3s, margin 0.3s 0.7s; }
+div:nth-child(26) .puzzle{-webkit-transition: -webkit-clip-path 1.34s 0.72s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.34s 0.52s, -webkit-transform 0.3s, margin 0.3s 0.72s;-moz-transition: -webkit-clip-path 1.34s 0.72s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.34s 0.52s, -webkit-transform 0.3s, margin 0.3s 0.72s;transition: -webkit-clip-path 1.34s 0.72s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.34s 0.52s, -webkit-transform 0.3s, margin 0.3s 0.72s; }
+div:nth-child(27) .puzzle{-webkit-transition: -webkit-clip-path 1.38s 0.74s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.38s 0.54s, -webkit-transform 0.3s, margin 0.3s 0.74s;-moz-transition: -webkit-clip-path 1.38s 0.74s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.38s 0.54s, -webkit-transform 0.3s, margin 0.3s 0.74s;transition: -webkit-clip-path 1.38s 0.74s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.38s 0.54s, -webkit-transform 0.3s, margin 0.3s 0.74s; }
+div:nth-child(28) .puzzle{-webkit-transition: -webkit-clip-path 1.42s 0.76s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.42s 0.56s, -webkit-transform 0.3s, margin 0.3s 0.76s;-moz-transition: -webkit-clip-path 1.42s 0.76s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.42s 0.56s, -webkit-transform 0.3s, margin 0.3s 0.76s;transition: -webkit-clip-path 1.42s 0.76s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.42s 0.56s, -webkit-transform 0.3s, margin 0.3s 0.76s; }
+div:nth-child(29) .puzzle{-webkit-transition: -webkit-clip-path 1.46s 0.78s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.46s 0.58s, -webkit-transform 0.3s, margin 0.3s 0.78s;-moz-transition: -webkit-clip-path 1.46s 0.78s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.46s 0.58s, -webkit-transform 0.3s, margin 0.3s 0.78s;transition: -webkit-clip-path 1.46s 0.78s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.46s 0.58s, -webkit-transform 0.3s, margin 0.3s 0.78s; }
+div:nth-child(30) .puzzle{-webkit-transition: -webkit-clip-path 1.5s 0.8s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.5s 0.6s, -webkit-transform 0.3s, margin 0.3s 0.8s;-moz-transition: -webkit-clip-path 1.5s 0.8s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.5s 0.6s, -webkit-transform 0.3s, margin 0.3s 0.8s;transition: -webkit-clip-path 1.5s 0.8s cubic-bezier(0.7, 0.3, 0, 1), background-color 1.5s 0.6s, -webkit-transform 0.3s, margin 0.3s0.8s; }
