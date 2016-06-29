@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var book = {
+        x:0,
+        y:0
+    }
+    console.log(book) //以对象直接量创建的对象的原型对象都为Object.prototype
+    console.log(book.__proto__)
+    console.log(Object.prototype)
+    function Books(name) {
+        this.name = name;
+    }
+    var books = new Books('yezi');
+    console.log(books);
+    function cssBook(name) {
+        this.name = name;
+    }
+    cssBook.prototype = new Books('cssBook');
+    var css = new cssBook('cssA');
+    console.log(css);//通过关键字new和构造函数调用创建的对象的原型就是构造函数的prototype属性的值。这里构造函数cssBook的prototype值指向Books
+    console.log(css instanceof cssBook);//true
+    console.log(css instanceof Books);//true
+    console.log(css instanceof Object);//true
+
+    var obj = Object.create(book);//创建以book为原型的对象
+    console.log(obj);
+    console.log(obj.x);
+</script>
+</body>
+</html>
