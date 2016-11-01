@@ -21,6 +21,7 @@
     function cssBook(name) {
         this.name = name;
     }
+
     cssBook.prototype = new Books('cssBook');
     var css = new cssBook('cssA');
     console.log(css);//通过关键字new和构造函数调用创建的对象的原型就是构造函数的prototype属性的值。这里构造函数cssBook的prototype值指向Books

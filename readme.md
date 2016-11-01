@@ -27,3 +27,6 @@
 - 原型链与继承[连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/js/prototype-chain)
 - 数组的合并与去重 [连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/js/array-concat)
 - js练习基础讲解[连接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/js/js-exercises)
+
+##linux
+- 使用mac在远程linux上安装node [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/linux/linux-node)
