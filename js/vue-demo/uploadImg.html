@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue图片上传实现预览</title>
+	<script type="text/javascript" src="http://cdn.bootcss.com/vue/1.0.24/vue.min.js"></script>
+	<style type="text/css">
+		.container{
+			width: 100%;
+			overflow: hidden;
+		}
+		.preImg{
+			width: 100px;
+			height: 120px;
+			float: left;
+			margin-right: 20px;
+			position: relative;
+		}
+		.img{
+			width: 100px;
+			height: 100px;
+			background-size: 100% 100%;
+		}
+		.imgName{
+			width: 100px;
+			position: absolute;
+			bottom: 0
+		}
+		.selectBtn{
+			margin-top: 20px;
+			width: 80px;
+			height: 30px;
+			border: 1px solid #ccc;
+			background:#8fd360;
+			border-radius: 5px;
+			text-align: center;
+			line-height: 30px;
+		}
+		input{
+			display: block;
+			margin-top: -30px;
+			opacity: 0;
+			height: 100%;
+			width: 100%;
+		}
+	</style>	
+</head>
+<body>
+<div id="fileUpload">
+	<div class="container">
+		<template v-for="item in items">
+		<div class="preImg">
+			<div class="img" style="background-image:url({{item.url}})">
+			</div>
+			<div class="imgName">{{item.name}}</div>
+		</div>
+		</template>
+	</div>
+	<div class="selectBtn">
+		<span>选择文件</span>
+		<input type="file" id="file" v-on:change="mychange()" accept="image/*" >
+	</div>
+</div>
+	<script type="text/javascript">
+		var vue = new Vue({
+			el: '#fileUpload',
+			data: {
+				files: [],//最后需要上传的文件
+				items:[] //用于界面展示
+			},
+			methods: {
+				mychange: function() {
+					vue.files = document.getElementById("file").files;
+					for(var i = 0; i < vue.files.length; i++){
+						var simpleFile = vue.files[i];
+						var reader = new FileReader();
+						reader.readAsDataURL(simpleFile);
+						reader.onload = function(e){
+							vue.items.push({
+								url:this.result,
+								name:simpleFile.name
+							});
+						}
+					}
+				}
+			}
+		})
+	</script>
+</body>
+</html>
