@@ -32,7 +32,7 @@ root@himmas:~# wget https://nodejs.org/dist/v6.2.0/node-v6.2.0.tar.gz
 若下载速度较慢,可以在本地下载后传给远程服务器
 
 ```bash
-scp /some/directory/node-v6.2.0.tar.gz root@115.20.39.163:/some/remote/directory
+$ scp /some/directory/node-v6.2.0.tar.gz root@115.20.39.163:/some/remote/directory
 ```
 
 #解压并安装
