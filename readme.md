@@ -30,3 +30,4 @@
 
 ##linux
 - 使用mac在远程linux上安装node [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/linux/linux-node)
+- 常用命令集合 [链接](https://github.com/Himmas/Himmas_demo/tree/gh-pages/linux/linux-command.md)
